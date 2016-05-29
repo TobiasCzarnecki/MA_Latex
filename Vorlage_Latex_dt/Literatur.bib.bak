@@ -1,81 +1,286 @@
-% This file was created with JabRef 2.8.1.
-% Encoding: UTF8
+% Encoding: UTF-8
 
-@STRING{IJHMT = {International Journal of Heat and Mass Transfer}}
-
-@PHDTHESIS{rst2010,
-  author = {Dr.-Ing. Rita Streblow},
-  title = {Thermal Sensation and ComfortModel for Inhomogeneous Indoor Environments},
-  school = {RWTH Aachen University},
-  year = {2010},
-  owner = {rst-cdo},
-  timestamp = {2014.02.06}
+@Book{Aschendorf2014,
+  title =     {Energiemanagement durch Gebäudeautomation - Grundlagen - Technologien - Anwendungen},
+  publisher = {Springer-Verlag},
+  year =      {2014},
+  author =    {Aschendorf, Bernd},
+  address =   {Berlin Heidelberg New York},
+  edition =   {2014. Aufl.},
+  isbn =      {978-3-834-82032-7}
 }
 
-@comment{jabref-meta: selector_Year:2006;}
+@Book{Baehr2013,
+  title =     {Thermodynamik - Grundlagen und technische Anwendungen},
+  publisher = {Springer-Verlag},
+  year =      {2013},
+  author =    {Baehr, Hans Dieter},
+  address =   {Berlin Heidelberg New York},
+  isbn =      {978-3-662-10518-4}
+}
 
-@comment{jabref-meta: fileDirectory:W:\\EBC_Public\\Literatur;}
+@Article{Becker2006-2007,
+  author =    {M. Becker},
+  title =     {Energieeffiziente Kältetechnik-Stellenwert der Automatisierungstechnik für einen energieeffizienten Betrieb sowie optimierte Betriebsführung von Kälteanlagen},
+  year =      {2006-2007},
+  url =       {http://www.ihks-fachjournal.de/fachartikel/download.php?title=energieeffiziente-kaeltetechnik},
+  journal =   {Fach.Journal Klima-/Kältetechnik},
+  timestamp = {2016-05-22}
+}
 
-@comment{jabref-meta: selector_keywords:Demand Side Management;DSM;EBC
--Eigen;GOET;}
+@Conference{Becker2009,
+  author = {M. Becker},
+  title =  {Energieeinsparung bei Kälteanlagen durch verbesserte Regelung und optimierte Betriebsführung},
+  year =   {2009},
+  month =  nov
+}
+
+@Article{BMWi2010,
+  author = {{Bundesministerium für Wirtschaft und Technologie (BMWi)}},
+  title =  {Energiekonzept für eine umweltschonende, zuverlässige und bezahlbare Energieversorgung},
+  year =   {2010},
+  date =   {28.September},
+  url =    {https://www.bmwi.de/BMWi/Redaktion/PDF/E/energiekonzept-2010,property=pdf,bereich=bmwi2012,sprache=de,rwb=true.pdf}
+}
+
+@Booklet{Danfoss2006,
+  author =    {{Danfoss GmbH}},
+  title =     {Kältetechnik-Einführung in die Grundlagen},
+  year =      {2006},
+  url =       {http://www.danfoss.com/NR/rdonlyres/EC23F2C0-8831-4187-843F-580012B3E0BE/0/PF000F103.pdf},
+  address =   {http://www.danfoss.com/NR/rdonlyres/EC23F2C0-8831-4187-843F-580012B3E0BE/0/PF000F103.pdf},
+  comment =   {Besucht am 22.05.2016},
+  month =     jun,
+  timestamp = {2016-04-22}
+}
+
+@Article{Davies2014,
+  author =  {T.Davies},
+  title =   {A novel low energy defrost process for thefrozen food chain},
+  year =    {2014},
+  month =   apr,
+  url =     {http://www.ior.org.uk/app/images/downloads/Davies3rdApril2014London.pdf},
+  journal = {THE INSTITUTE OF REFRIGERATION}
+}
+
+@TechReport{Ehrbar2002,
+  author =      {M. Ehrbar},
+  title =       {Verbesserung des Abtauens bei luftbeaufschlagten Verdampfer},
+  institution = {Interstaatliche Hochschule für Technik Buchs Labor für Thermodynamik und Kältetechnik},
+  year =        {2002},
+  month =       nov,
+  url =         {http://www.bfe.admin.ch/php/modules/enet/streamfile.php?file=000000007564.pdf}
+}
+
+@Article{EnergieAgenturNRW2010,
+  author = {{EnergieAgentur.NRW}},
+  title =  {Kälteerzeugung Potenziale zur Energieeinsparung},
+  year =   {2010},
+  url =    {http://www.energieagentur.nrw/content/anlagen/qb_kaelteerzeugung_final.pdf}
+}
+
+@Conference{Freitag2015,
+  author = {H. Freitag},
+  title =  {Experimentelle Kältetechnik am EBC: Der Abtau-Prüfstand},
+  year =   {2015},
+  date =   {06.11.2015}
+}
+
+@Booklet{Grote2014,
+  author =    {Grote, Karl-Heinrich AND Feldhusen, Jörg},
+  title =     {Dubbel - Taschenbuch für den Maschinenbau},
+  year =      {2014},
+  chapter =   {Kältetechnische Verfahren},
+  pages =     {M7-M15},
+  address =   {Berlin Heidelberg New York},
+  edition =   {24. Aufl.},
+  isbn =      {978-3-642-38891-0},
+  publisher = {Springer-Verlag}
+}
+
+@Article{H.D.Baehr1994,
+  author =  {H.D. Baehr, R. Tillner-Roth},
+  title =   {An international standard formulation of the thermodynamic properties of 1,1,1,2-tetrafluoroethane (HFC-134a) covering temperatures from 170 K to 455 K at pressures up to 70 MPa},
+  journal = {J Phys Chem Ref Data},
+  year =    {1994},
+  volume =  {23},
+  number =  {5},
+  pages =   {657-729},
+  month =   mar
+}
+
+@TechReport{Heinrich2014,
+  author =      {C. Heinrich, S. Wittig, P. Albring, L. Richter, M. Safarik, U. Böhm, A. Hantsch},
+  title =       {Nachhaltige Kälteversorgung in Deutschland an den Beispielen Gebäudeklimatisierung und Industrie},
+  institution = {Institut für Luft- und Kältetechnik Dresden gGmbH},
+  year =        {2014},
+  number =      {25},
+  month =       jan,
+  timestamp =   {2016-05-22}
+}
+
+@MastersThesis{Helmlinger2015,
+  author = {Michael Helmlinger},
+  title =  {Untersuchung von Energieeffizienz steigernden Maßnahmen bei der Abtauung von Luftkühlern mithilfe eines selbstentwickelten Messsystems},
+  year =   {2015},
+  month =  nov,
+  school = {Institute for Energy Efficient Buildings and Indoor Climate, RWTH Aachen University}
+}@article{Huang20091697,
+title = "Comparison between hot-gas bypass defrosting and reverse-cycle defrosting methods on an air-to-water heat pump ",
+journal = "Applied Energy ",
+volume = "86",
+number = "9",
+pages = "1697 - 1703",
+year = "2009",
+note = "",
+issn = "0306-2619",
+doi = "http://dx.doi.org/10.1016/j.apenergy.2008.11.023",
+url = "http://www.sciencedirect.com/science/article/pii/S0306261908003012",
+author = "Dong Huang and Quanxu Li and Xiuling Yuan",
+keywords = "Heat pump",
+keywords = "Hot-gas bypass defrosting",
+keywords = "Reverse-cycle defrosting ",
+abstract = "Frost build-up blocks the gap between fins and decreases the airflow rate, and the heating capacity and \{COP\} of air-source heat pump become lower. The reverse-cycle defrosting (RCD) and hot-gas bypass defrosting \{HGBD\} are the two common methods of frost removal. The comparison between the \{RCD\} and \{HGBD\} methods on one heat pump were not found by authors up to now. This paper compared the dynamic characteristics during the \{RCD\} and \{HGBD\} periods on one medium air-to-water heat pump of 55 kW. The feasibility of the \{HGBD\} method without heat provided to evaporate the liquid refrigerant after melting frost, which was supposed in the danger of the compressor liquid slugging, was especially discussed. The results showed the liquid refrigerant leaving the air cooled coils for the \{HGBD\} method was trapped in the suction accumulator and flashed into the saturated gas by the compressor pumping action, and no compressor liquid slugging happened in our tests. The \{HGBD\} time was much longer than the \{RCD\} time. The amenity for the \{HGBD\} method was better than that for the \{RCD\} method, due to lower refrigerant noise, smaller indoor temperature fluctuation, and no cold blowing. The suction superheat and discharge superheat for the \{HGBD\} method were lower than those for the \{RCD\} method. The \{HGBD\} could overcome the main disadvantages of the \{RCD\} method and deserved the further investigation. "
+}
+
+@TechReport{Kosowski2009,
+  author =      {K. Kosowski, W. Tegethoff, L. Kühl},
+  title =       {CO2- Wärmepumpe für Passivhäuser},
+  institution = {Institut für Thermodynamik, TU Braunschweig},
+  year =        {2009},
+  month =       feb,
+  school =      {Technische Universität Braunschweig}
+}
+
+@Book{Lemmon2016,
+  author =    {E.W. Lemmon, M.O. McLinden, D.G. Friend},
+  title =     {Thermophysical Properties of Fluid Systems},
+  year =      {2016},
+  editor =    {P.J. Linstrom, W.G. Mallard},
+  series =    {NIST Chemistry WebBook, NIST Standard Reference Database Number 69},
+  publisher = {NIST Chemistry WebBook, NIST Standard Reference Database Number 69},
+  url =       {http://webbook.nist.gov},
+  journal =   {NIST Chemistry WebBook, NIST Standard Reference Database Number 69},
+  month =     may,
+  timestamp = {2016-05-22}
+}
+
+@Report{M.Stoeckner2012,
+  author =      {M.Stöckner},
+  title =       {Hochschule Karlsruhe – Technik und Wirtschaft . Forschung aktuell 2012},
+  institution = {Hochschule Karlsruhe Technik und Wirtschaft},
+  year =        {2012},
+  chapter =     {Kältetechnologien in Deutschland – Energetische, ökologische Analysen sowie Potenziale der Entwicklung},
+  pages =       {48-50},
+  url =         {https://www.klimaschutz.de/sites/default/files/page/downloads/hs_karlsruhe_forschung_aktuell_2012.pdf}
+}
+
+@Report{Pehnt2011,
+  author =   {{Pehnt et al.}},
+  title =    {Kurzzusammenfassung Energieeffi zienz: Potenziale, volkswirtschaftliche Effekte und innovative Handlungs- und Förderfelder für die Nationale Klimaschutzinitiative},
+  year =     {2011},
+  location = {Heidelberg, Karlsruhe, Berlin, Osnabrück, Freiburg,}
+}
+
+@MastersThesis{Peter2001,
+  author = {T. Peter},
+  title =  {Konzeption und Realisierung einer aktiven Kranpendeldämpfung an einem Labormodell auf der Basis einer PC-basierten IEC 61131 – programmierbaren SPS-Steuerung},
+  year =   {2001},
+  school = {FH SWF Meschede}
+}
+
+@Booklet{Preuss2011,
+  author =   {G. Preuß},
+  editor =   {VDMA},
+  title =    {Energiebedarf für Kältetechnik in Deutsch- land: Eine Abschätzung des Energiebedarfs von Kältetechnik in Deutschland nach Einsatzgebieten},
+  year =     {2011},
+  date =     {04.04.2011},
+  location = {Tab. S.6.}
+}
+
+@Article{Refrigeration2000,
+  author =  {{Institute of Refrigeration}},
+  title =   {DEFROSTING},
+  year =    {2000},
+  month =   oct,
+  url =     {http://www.ior.org.uk/ior_/images/pdf/se/Bulletin%203%20-%20Defrost.pdf},
+  journal = {SES Technical Bulletin No 3}
+}
+
+@Book{Schleicher2005,
+  title =     {Digitale Schnittstellen und Bussysteme - Grundlagen und praktische Hinweise zur Anbindung von Feldgeräten an Modbus, PROFIBUS-DP, ETHERNET, CANopen und HART},
+  publisher = {JUMO},
+  year =      {2005},
+  author =    {Schleicher, Manfred},
+  address =   {Fulda},
+  isbn =      {978-3-935-74202-3}
+}
+
+@PhdThesis{Schydlo2010,
+  author = {A. Schydlo},
+  title =  {Reifbildung und -wachstum auf gekühlten Rohroberflächen},
+  year =   {2010},
+  month =  mar,
+  url =    {http://tuprints.ulb.tu-darmstadt.de/2191/1/080610_Schydlo_PhD.pdf},
+  school = {Technischen Universität Darmstadt}
+}
+
+@Booklet{Siemens2007,
+  author =    {{Siemens Schweiz AG}},
+  title =     {Kältetechnik},
+  year =      {2007},
+  url =       {https://www.downloads.siemens.com/download-center/Download.aspx?pos=download&fct=getasset&id1=8358},
+  file =      {Kältetechnik_Siemens:set-filename.pdf:PDF},
+  month =     jan,
+  timestamp = {2016-05-22}
+}
+
+@Booklet{Siemens2007a,
+  author =    {{Siemens Schweiz AG}},
+  title =     {Regeltechnik},
+  year =      {2007},
+  url =       {https://www.downloads.siemens.com/download-center/Download.aspx?pos=download&fct=getasset&id1=8360},
+  urldate =   {2016-04-21},
+  month =     jan,
+  timestamp = {2016-04-21}
+}
+
+@Article{Xia2006,
+  author =  {{Y. Xia et al.}},
+  title =   {Frost, defrost, and refrost and its impact on theair-side thermal-hydraulic performance of louvered-ﬁn, ﬂat-tube heat exchangers},
+  year =    {2006},
+  month =   jun,
+  pages =   {1066-1079},
+  journal = {International Journal of Refrigeration 29}
+}
+
+@Article{Yin2012,
+  author =  {{H.-J. Yin et al.}},
+  title =   {Experimental research on a novel cold storage defrost method based on air bypass circulation and electric heater},
+  year =    {2012},
+  month =   jan,
+  pages =   {623-631},
+  journal = {Energy 37}
+}
+
+@Article{Zhu2015,
+  author =  {{J.H. Zhu et al.}},
+  title =   {Developing a new frosting map to guide defrosting control for air-source heat pump units},
+  year =    {2015},
+  month =   jul,
+  pages =   {782-791},
+  journal = {Applied Thermal Engineering 90}
+}
 
 @comment{jabref-meta: groupsversion:3;}
 
 @comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
-1 ExplicitGroup:NumSim\;0\;;
-2 ExplicitGroup:CFD\;0\;;
-3 ExplicitGroup:Ansys\;0\;;
-3 ExplicitGroup:OpenFOAM\;0\;;
-2 ExplicitGroup:ThermischeSimulation\;0\;;
-3 ExplicitGroup:Modelica\;0\;;
-1 ExplicitGroup:Wärmetechnik\;0\;;
-1 ExplicitGroup:Waermepumpen\;0\;;
-2 ExplicitGroup:Kältemittel\;0\;;
-2 ExplicitGroup:Einflussfaktoren auf COP und JAZ\;0\;;
-2 ExplicitGroup:Sole-Wärmepumpe\;0\;;
-2 ExplicitGroup:Luft-Wärmepumpe\;0\;;
-2 ExplicitGroup:Erdkollektor-Wärmepumpe\;0\;;
-2 ExplicitGroup:Feldversuch\;0\;;
-1 ExplicitGroup:Lüftung\;2\;;
-2 ExplicitGroup:dezentrale Lüftung\;0\;;
-2 ExplicitGroup:Fensterlüftung\;0\;;
-2 ExplicitGroup:maschinelle Lüftung\;0\;;
-2 ExplicitGroup:hybride Lüftung\;0\;;
-2 ExplicitGroup:Schullüftung\;0\;;
-2 ExplicitGroup:Regelung\;0\;;
-2 ExplicitGroup:Schall\;0\;;
-2 ExplicitGroup:Zukunftsraum Schule\;0\;;
+1 ExplicitGroup:Einleitung\;0\;Aschendorf2014\;Grote2014\;M.Stoeckner2012\;Pehnt2011\;;
+1 ExplicitGroup:Kältetechnik\;0\;Baehr2013\;EnergieAgenturNRW2010\;Pehnt2011\;;
+1 ExplicitGroup:Reifbildung\;0\;;
+1 ExplicitGroup:Stand der Technik\;0\;Huang20091697\;;
 1 ExplicitGroup:Regelungstechnik\;0\;;
-1 ExplicitGroup:Akustik\;0\;;
-2 ExplicitGroup:Psychoakustik\;0\;;
-1 ExplicitGroup:Behaglichkeit/Komfort\;0\;;
-1 ExplicitGroup:Mathematik\;0\;;
-2 ExplicitGroup:Matlab\;0\;;
-1 ExplicitGroup:Nutzerprofile\;0\;;
-1 SearchGroup:Michaels DB\;0\;(owner==mad)  OR keywords=mad\;0\;0\;;
-1 ExplicitGroup:Normen\;0\;;
-1 ExplicitGroup:Spurengase\;0\;;
-1 ExplicitGroup:Strömung\;0\;;
-1 KeywordGroup:Eigenveröffentlichungen\;2\;keywords\;EBC-Eigen\;0\;0\;
-;
-2 SearchGroup:Eigenveröffentlichungen2006\;0\;keywords=EBC-Eigen AND y
-ear=2006\;0\;0\;;
-2 SearchGroup:Eigenveröffentlichungen2007\;0\;keywords=EBC-Eigen AND y
-ear=2007\;0\;0\;;
-2 SearchGroup:Eigenveröffentlichungen2008\;0\;keywords=EBC-Eigen AND y
-ear=2008\;0\;0\;;
-2 SearchGroup:Eigenveröffentlichungen2009\;0\;keywords=EBC-Eigen AND y
-ear=2009\;0\;0\;;
-2 SearchGroup:Eigenveröffentlichungen2010\;0\;keywords=EBC-Eigen AND y
-ear=2010\;0\;0\;;
-2 SearchGroup:Eigenveröffentlichungen2011\;0\;keywords=EBC-Eigen AND y
-ear=2011\;0\;0\;;
-2 SearchGroup:Eigenveröffentlichungen2012\;0\;keywords=EBC-Eigen AND y
-ear=2012\;0\;0\;;
-2 SearchGroup:Eigenveröffentlichungen2013\;0\;keywords=EBC-Eigen AND y
-ear=2013\;0\;0\;;
-1 ExplicitGroup:Kessel\;0\;;
-1 ExplicitGroup:DSM\;0\;;
+1 ExplicitGroup:Automation\;0\;Aschendorf2014\;;
 }
 

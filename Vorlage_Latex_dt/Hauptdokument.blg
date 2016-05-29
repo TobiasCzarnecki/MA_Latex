@@ -3,3 +3,9 @@ A level-1 auxiliary file: Chapters/Abkuerzungen.aux
 The style file: natdin.bst
 A level-1 auxiliary file: bu.aux
 Database file #1: Literatur.bib
+Warning--entry type for "M.Stoeckner2012" isn't style-file defined
+--line 168 of file Literatur.bib
+Warning--entry type for "Pehnt2011" isn't style-file defined
+--line 178 of file Literatur.bib
+Warning--empty booktitle in Freitag2015
+(There were 3 warnings)

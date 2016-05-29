@@ -1,0 +1,234 @@
+% Encoding: UTF-8
+
+@Book{Aschendorf2014,
+  title =     {Energiemanagement durch Gebäudeautomation - Grundlagen - Technologien - Anwendungen},
+  publisher = {Springer-Verlag},
+  year =      {2014},
+  author =    {Aschendorf, Bernd},
+  address =   {Berlin Heidelberg New York},
+  edition =   {2014. Aufl.},
+  isbn =      {978-3-834-82032-7}
+}
+
+@Book{Baehr2013,
+  title =     {Thermodynamik - Grundlagen und technische Anwendungen},
+  publisher = {Springer-Verlag},
+  year =      {2013},
+  author =    {Baehr, Hans Dieter},
+  address =   {Berlin Heidelberg New York},
+  isbn =      {978-3-662-10518-4}
+}
+
+@Article{H.D.Baehr1994,
+  author =  {H.D. Baehr, R. Tillner-Roth},
+  title =   {An international standard formulation of the thermodynamic properties of 1,1,1,2-tetrafluoroethane (HFC-134a) covering temperatures from 170 K to 455 K at pressures up to 70 MPa},
+  journal = {J Phys Chem Ref Data},
+  year =    {1994},
+  volume =  {23},
+  number =  {5},
+  pages =   {657-729},
+  month =   mar
+}@article{Huang20091697,
+title = "Comparison between hot-gas bypass defrosting and reverse-cycle defrosting methods on an air-to-water heat pump ",
+journal = "Applied Energy ",
+volume = "86",
+number = "9",
+pages = "1697 - 1703",
+year = "2009",
+note = "",
+issn = "0306-2619",
+doi = "http://dx.doi.org/10.1016/j.apenergy.2008.11.023",
+url = "http://www.sciencedirect.com/science/article/pii/S0306261908003012",
+author = "Dong Huang and Quanxu Li and Xiuling Yuan",
+keywords = "Heat pump",
+keywords = "Hot-gas bypass defrosting",
+keywords = "Reverse-cycle defrosting ",
+abstract = "Frost build-up blocks the gap between fins and decreases the airflow rate, and the heating capacity and \{COP\} of air-source heat pump become lower. The reverse-cycle defrosting (RCD) and hot-gas bypass defrosting \{HGBD\} are the two common methods of frost removal. The comparison between the \{RCD\} and \{HGBD\} methods on one heat pump were not found by authors up to now. This paper compared the dynamic characteristics during the \{RCD\} and \{HGBD\} periods on one medium air-to-water heat pump of 55 kW. The feasibility of the \{HGBD\} method without heat provided to evaporate the liquid refrigerant after melting frost, which was supposed in the danger of the compressor liquid slugging, was especially discussed. The results showed the liquid refrigerant leaving the air cooled coils for the \{HGBD\} method was trapped in the suction accumulator and flashed into the saturated gas by the compressor pumping action, and no compressor liquid slugging happened in our tests. The \{HGBD\} time was much longer than the \{RCD\} time. The amenity for the \{HGBD\} method was better than that for the \{RCD\} method, due to lower refrigerant noise, smaller indoor temperature fluctuation, and no cold blowing. The suction superheat and discharge superheat for the \{HGBD\} method were lower than those for the \{RCD\} method. The \{HGBD\} could overcome the main disadvantages of the \{RCD\} method and deserved the further investigation. "
+}
+
+@Book{Schleicher2005,
+  title =     {Digitale Schnittstellen und Bussysteme - Grundlagen und praktische Hinweise zur Anbindung von Feldgeräten an Modbus, PROFIBUS-DP, ETHERNET, CANopen und HART},
+  publisher = {JUMO},
+  year =      {2005},
+  author =    {Schleicher, Manfred},
+  address =   {Fulda},
+  isbn =      {978-3-935-74202-3}
+}
+
+@Article{,
+  author =  {H.-J. Yin et al.},
+  title =   {Experimental research on a novel cold storage defrost method based on air bypass circulation and electric heater},
+  journal = {Energy 37},
+  year =    {2012},
+  pages =   {623-631},
+  month =   jan
+}
+
+@Article{,
+  author =  {H.-J. Yin et al.},
+  title =   {Experimental research on a novel cold storage defrost method based on air bypass circulation and electric heater},
+  journal = {Energy 37},
+  year =    {2012},
+  pages =   {623-631},
+  month =   nov
+}
+
+@Article{,
+  author =  {J.H. Zhu et al.},
+  title =   {Developing a new frosting map to guide defrosting control for air-source heat pump units},
+  journal = {Applied Thermal Engineering 90},
+  year =    {2015},
+  pages =   {782-791},
+  month =   jul
+}
+
+@Article{,
+  author =  {Y. Xia et al.},
+  title =   {Frost, defrost, and refrost and its impact on theair-side thermal-hydraulic performance of louvered-ﬁn, ﬂat-tube heat exchangers},
+  journal = {International Journal of Refrigeration 29},
+  year =    {2006},
+  pages =   {1066-1079},
+  month =   jun
+}
+
+@Booklet{,
+  title =     {Kältetechnik},
+  author =    {Siemens Schweiz AG},
+  month =     jan,
+  year =      {2007},
+  file =      {Kältetechnik_Siemens:set-filename.pdf:PDF},
+  timestamp = {2016-05-22},
+  url =       {https://www.downloads.siemens.com/download-center/Download.aspx?pos=download&fct=getasset&id1=8358}
+}
+
+@Booklet{,
+  title =     {Regeltechnik},
+  author =    {Siemens Schweiz AG},
+  month =     jan,
+  year =      {2007},
+  timestamp = {2016-04-21},
+  url =       {https://www.downloads.siemens.com/download-center/Download.aspx?pos=download&fct=getasset&id1=8360}
+}
+
+@Article{,
+  author =    {M. Becker},
+  title =     {Energieeffiziente Kältetechnik-Stellenwert der Automatisierungstechnik für einen energieeffizienten Betrieb sowie optimierte Betriebsführung von Kälteanlagen},
+  journal =   {Fach.Journal Klima-/Kältetechnik},
+  year =      {2006-2007},
+  timestamp = {2016-05-22},
+  url =       {http://www.ihks-fachjournal.de/fachartikel/download.php?title=energieeffiziente-kaeltetechnik}
+}
+
+@Conference{,
+  author = {M. Becker},
+  title =  {Energieeinsparung bei Kälteanlagen durch verbesserte Regelung und optimierte Betriebsführung},
+  year =   {2009},
+  month =  nov
+}
+
+@TechReport{,
+  author =      {C. Heinrich, S. Wittig, P. Albring, L. Richter, M. Safarik, U. Böhm, A. Hantsch},
+  title =       {Nachhaltige Kälteversorgung in Deutschland an den Beispielen Gebäudeklimatisierung und Industrie},
+  institution = {Institut für Luft- und Kältetechnik Dresden gGmbH},
+  year =        {2014},
+  number =      {25},
+  month =       jan,
+  timestamp =   {2016-05-22}
+}
+
+@Book{,
+  title =     {Thermophysical Properties of Fluid Systems},
+  publisher = {NIST Chemistry WebBook, NIST Standard Reference Database Number 69},
+  year =      {2016},
+  author =    {E.W. Lemmon, M.O. McLinden, D.G. Friend},
+  editor =    {P.J. Linstrom, W.G. Mallard},
+  series =    {NIST Chemistry WebBook, NIST Standard Reference Database Number 69},
+  month =     may,
+  journal =   {NIST Chemistry WebBook, NIST Standard Reference Database Number 69},
+  timestamp = {2016-05-22},
+  url =       {http://webbook.nist.gov}
+}
+
+@TechReport{,
+  author =      {M. Ehrbar},
+  title =       {Verbesserung des Abtauens bei luftbeaufschlagten Verdampfer},
+  institution = {Interstaatliche Hochschule für Technik Buchs Labor für Thermodynamik und Kältetechnik},
+  year =        {2002},
+  month =       nov,
+  url =         {http://www.bfe.admin.ch/php/modules/enet/streamfile.php?file=000000007564.pdf}
+}
+
+@Booklet{,
+  title =     {Kältetechnik-Einführung in die Grundlagen},
+  author =    {Danfoss GmbH},
+  address =   {http://www.danfoss.com/NR/rdonlyres/EC23F2C0-8831-4187-843F-580012B3E0BE/0/PF000F103.pdf},
+  month =     jun,
+  year =      {2006},
+  comment =   {Besucht am 22.05.2016},
+  timestamp = {2016-04-22},
+  url =       {http://www.danfoss.com/NR/rdonlyres/EC23F2C0-8831-4187-843F-580012B3E0BE/0/PF000F103.pdf}
+}
+
+@MastersThesis{,
+  author = {Michael Helmlinger},
+  title =  {Untersuchung von Energieeffizienz steigernden Maßnahmen bei der Abtauung von Luftkühlern mithilfe eines selbstentwickelten Messsystems},
+  school = {Institute for Energy Efficient Buildings and Indoor Climate, RWTH Aachen University},
+  year =   {2015},
+  month =  nov
+}
+
+@TechReport{,
+  author =      {K. Kosowski, W. Tegethoff, L. Kühl},
+  title =       {CO2- Wärmepumpe für Passivhäuser},
+  institution = {Institut für Thermodynamik, TU Braunschweig},
+  year =        {2009},
+  month =       feb,
+  school =      {Technische Universität Braunschweig}
+}
+
+@MastersThesis{,
+  author = {T. Peter},
+  title =  {Konzeption und Realisierung einer aktiven Kranpendeldämpfung an einem Labormodell auf der Basis einer PC-basierten IEC 61131 – programmierbaren SPS-Steuerung},
+  school = {FH SWF Meschede},
+  year =   {2001}
+}
+
+@Article{,
+  author =  {Institute of Refrigeration},
+  title =   {DEFROSTING},
+  journal = {SES Technical Bulletin No 3},
+  year =    {2000},
+  month =   oct,
+  url =     {http://www.ior.org.uk/ior_/images/pdf/se/Bulletin%203%20-%20Defrost.pdf}
+}
+
+@PhdThesis{,
+  author = {A. Schydlo},
+  title =  {Reifbildung und -wachstum auf gekühlten Rohroberflächen},
+  school = {Technischen Universität Darmstadt},
+  year =   {2010},
+  month =  mar,
+  url =    {http://tuprints.ulb.tu-darmstadt.de/2191/1/080610_Schydlo_PhD.pdf}
+}
+
+@Article{,
+  author =  {T.Davies},
+  title =   {A novel low energy defrost process for thefrozen food chain},
+  journal = {THE INSTITUTE OF REFRIGERATION},
+  year =    {2014},
+  month =   apr,
+  url =     {http://www.ior.org.uk/app/images/downloads/Davies3rdApril2014London.pdf}
+}
+
+@comment{jabref-meta: groupsversion:3;}
+
+@comment{jabref-meta: groupstree:
+0 AllEntriesGroup:;
+1 ExplicitGroup:Einleitung\;0\;Aschendorf2014\;;
+1 ExplicitGroup:Kältetechnik\;0\;Baehr2013\;;
+1 ExplicitGroup:Reifbildung\;0\;;
+1 ExplicitGroup:Stand der Technik\;0\;Huang20091697\;;
+1 ExplicitGroup:Regelungstechnik\;0\;;
+1 ExplicitGroup:Automation\;0\;Aschendorf2014\;;
+}
+
