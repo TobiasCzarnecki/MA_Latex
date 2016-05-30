@@ -12,10 +12,10 @@ Am \textit{Institute for Energy Efficient Buildings and Indoor Climate }(EBC) wi
 	\label{fig:Projektumgebung}
 \end{figure}
 
-Die Motivation zu diesem Forschungsprojekt rührt aus dem simplen Phänomen, dass bei der Unterschreitung des Taupunktes der zu kühlenden, vorbeiströmenden Luft zunächst eine Bereifung des Luftkühlers stattfindet. Die Bereifung führt bei einer Verdampfungstemperatur kleiner als 0 °C und somit Unterschreitung des Gefrierpunktes zu einer Vereisung. Die Bereifung führt durch Querschnittsverengungen im Wärmeübertrager des Luftkühlers zu einer erhöhten Strömungsgeschwindigkeit. Diese führt zunächst zu einem erhöhten Wärmeübergang und somit zu einer höhren übertragenden Leistung vom Luftkühler auf die Luft.\citep{Schydlo2010} 
+Die Motivation zu diesem Forschungsprojekt rührt aus dem simplen Phänomen, dass bei der Unterschreitung des Taupunktes der zu kühlenden, vorbei strömenden Luft zunächst eine Bereifung des Luftkühlers stattfindet. Die Bereifung führt bei einer Verdampfungstemperatur kleiner als 0 $°$C und somit Unterschreitung des Gefrierpunktes zu einer Vereisung. Die Bereifung führt durch Querschnittsverengungen im Wärmeübertrager des Luftkühlers zu einer erhöhten Strömungsgeschwindigkeit. Diese führt zunächst zu einem erhöhten Wärmeübergang und somit zu einer höheren übertragenden Leistung vom Luftkühler auf die Luft.\citep{Schydlo2010} 
 
 Eine spätere Bereifung der Lamellen führt zu einem sinkenden Wärmeübergang zwischen der Lamelle und der Luft, da sich das gefrorene Eis aufgrund der geringen Wärmeleitfähigkeit wie ein Isolator verhält. Um den eintretenden Leistungsabfall zu kompensieren, wird die Regelung der Kälteanlage die Verdampfungstemperatur verringern. Eine geringere Verdampfungstemperatur bedeutet einen geringeren Betriebssaugdruck, den der Kompressor bereitstellen muss. Eine höhere Druckdifferenz führt zu einem erhöhten Stromverbrauch und gleichzeitig sinkt der Wirkungsgrad der gesamten Kälteanlage.
-Aus dieser Kausalkette sollte eine Kälteanlage im Falle einer Vereisung abgetaut werden, um danach wieder seine Nennleistung zu Verfügung stellen zu können.
+Aus dieser Kausalkette sollte eine Kälteanlage im Falle einer Vereisung abgetaut werden, um danach wieder seine Nennleistung zur Verfügung stellen zu können.
 
  \begin{figure}[htb]
 	\centering
@@ -28,19 +28,29 @@ Die Ziele dieses Forschungsvorhabens sind sowohl experimentelle als auch numeris
 
 Das WSA übernimmt hierbei die Entwicklung eines numerischen Simulationsmodelles. Das EBC ist verantwortlich für den Aufbau eines Abtauprüfstand zur Validierung der Simulationsergebnisse. Hierzu wurde bereits in einer vorhergegangenen Masterarbeit von \citeauthor{Helmlinger2015} eine Kälteanlage geplant und in Betrieb genommen. Der Luftkühler ist hierbei in einer Klimakammer platziert, in der unterschiedlichste Raumbedingungen eingestellt werden können. Die Luftkühler können getauscht werden, um verschiedene Wärmetauscher-Varianten testen zu können.
 
-Diese Masterarbeit umfasst, wie in Abbildung \ref{fig:Aufgabenpakete} dargestellt, die Arbeitspakete 
-
-\begin{itemize}
-\item	Aufbau (bzw. Optimierung) eines Prüfstandes
-\item	Ermitteln von Messdaten.
-\end{itemize}
+Diese Masterarbeit umfasst, wie in Abbildung \ref{fig:Aufgabenpakete} dargestellt, die Arbeitspakete \textit{Aufbau (bzw. Optimierung) eines Prüfstandes} und \textit{Ermitteln von Messdaten}.
 
 Das Arbeitspaket \textit{Aufbau (bzw. Optimierung) eines Prüfstandes} unterteilt sich in 
 
 \begin{itemize}
+
+\item Optimierung des Kältekreislaufes: Umsetzung der Verbesserungsvorschläge aus der Masterarbeit von \textsc{\citeauthor{Helmlinger2015}}
+
 \item Entwicklung und Bau eines Wägesystems zur Messung und Bestimmung des 2D-Schwerpunktes der Eismenge im Luftkühler
-\item Entwicklung und Implemtierung einer Speicher-Programmierbaren-Steuerung
+
+\item Entwicklung und Implementierung einer Speicher-Programmierbaren-Steuerung(SPS) zur Steuerung, Regelung des Kältekreises und Auswertung des Wägesystems in Echtzeit.
+
+\item Auslegung der Regelparameter für verwendete PID-Regler
 \end{itemize}
+
+Am Ende der Masterarbeit und nach erfolgreichen Abschließen des ersten Arbeitspaketes wird das zweite Arbeitspaket \textit{Ermitteln von Messdaten} durchgeführt. Das setzt sich aus folgenden Punkten zusammen:
+
+\begin{itemize}
+\item Durchführung von Reifbildungsversuchen
+\item Durchführung von Abtauversuchen mittels verschiedener Abtaumethoden
+\item Ermittlung der Reproduzierbarkeit der durchgeführten Versuche.
+\end{itemize}
+
 
 
 

@@ -21,8 +21,8 @@ Das vielseitige Gebiet der Kältetechnik umfasst alle Technologien, die zur Bere
 
 \begin{itemize}
 
-\item Kaltdampfkompressionsprozess
-\item Absorptionskälteprozess
+\item Kompressions-Kälteprozess: \textit{Prozess wird angetrieben durch Zufuhr mechanischer Energie}
+\item Sorptions-Kälteprozess: \textit{Prozess wird angetrieben durch Zufuhr von Wärmeenergie}
 \item Linde-Verfahren.
 
 \end{itemize}
@@ -32,16 +32,95 @@ Weitere nicht so weitverbreitete Technologien der Kältetechnik, jedoch technisc
 Da sich diese Masterarbeit mit dem Aufbau eines Prüfstandes zur Untersuchung von Abtaumethoden einer Kompressionskälteanlage beschäftigt, wird in den folgenden Kapitel ausschließlich auf diese Technologie eingegangen. Für weitere Informationen bezüglich der anderen Technologien sei an dieser Stelle auf die Literatur \citep{Baehr2013}, \citep{Grote2014} und \citep{Grote2014} verwiesen.
 
 
-%\subsection{Thermodynamik des Kältekreislauf}
-%\label{subsec:Kaeltekreislauf}
+\subsection{Kaltdampf-Kälteprozess}
+\label{subsec:Kaltdampf-Kälteprozess}
+
+In diesem Abschnitt wird die Thermodynamik des Kaltdampf-Kälteprozesses näher erläutert. Der Kaltdampf-Kälteprozess ist ein linksläufiger \textit{Clausius-Rankine-Kreisprozess}. Die Zustandspunkte des verwendeten Kältemittels im ln p,h Diagramm sind in Abbildung \ref{fig:Schema p-h-Diagramm} dargestellt. 
+
+\begin{figure}[htb]
+\centering		
+\includegraphics[width=0.75\textwidth]{Pictures/log_p_h_Beahr_Schema.png}
+\caption{ln p,h-Diagramm von einem reinen Fluid  \citep{Baehr2013}}
+\label{fig:Schema p-h-Diagramm}
+\end{figure}
+
+Das halb-logarithmische Diagramm ist ein vielgebrauchtes und hilfreiches Mittel in der Kältetechnik-Branche. 
+\footnote{Das Zustandsdiagram wurde vom deutschen Ingenier Richard Mollier (863-1935) im Jahre 1924 erstmalig vorgestellt.} 
+Im Diagramm \ref{fig:Schema p-h-Diagramm} ist der Druck logarithmisch auf der y-Achse und die spezifische Enthalpie $h$ auf der x-Achse eingetragen. Die Siedelinie ist durch $x = 0$ und die Taulinie durch $x = 1$. Zwischen $0\leqq x\leqq 1$ befindet sich das Nassdampfgebiet. Es liegt ein Gemisch aus gasförmigen und flüssigem Kältemittel vor. Der Anteil des Gases im Nassdampfgebiet wird durch $x$ ausgedrückt, $1-x$ den Anteil der Flüssigkeit.
 
 
+In dem Diagramm \ref{fig:Komponeneten und p-h-Diagramm} sind alle Zustandspunkte bei einem Durchlauf des Kältekreislaufes abgebildet.Innerhalb des Nassdampfgebietes verläuft in einem idealen Kältekreislauf, eine Zustandsänderung \textit{isotherm} und \textit{isobar} ab. Wärmezu- oder abfuhr führt nicht zu einer Erhöhung der Temperatur sondern zu einer Veränderung vom Gas- bzw. Flüssigkeitsanteil, es wird von einer \textit{latenten} Wärmeänderung geredet. Um einen Tropfen flüssigen Wasser, dessen Zustand sich auf der Siedelinie befindet, in einen gasförmigigen Zustand, sprich $x=1$ zu überführen, muss ihm die spezifische Verdampfungsenthalpie $\Delta h$ zugeführt werden. Verläuft die Zustandsänderung entgegengesetzt kondensiert der Tropfen und gibt die Verdampfungsenthalpie $\Delta h$ an seine Umgebung ab. 
+Außerhalb des Nassdampfgebietes führt eine Wärmezu- oder abfuhr zu einer Veränderung der Temperatur. Die Wärmeänderung ist \textit{sensibel}. 
+
+\begin{figure}[htb]
+\centering		
+\includegraphics[width=0.6\textwidth]{Pictures/log_p_h_Beahr.png}
+\caption{Kreisprozess im ln p,h-Diagramm \citep{Baehr2013}}
+\label{fig:Komponeneten und p-h-Diagramm}
+\end{figure}
+
+
+In einem  Kaltdampfprozess, sprich ohne Verluste durch Reibung, finden folgende vier Teilprozesse statt:
+
+\begin{itemize}
+\item[1 $\longrightarrow$ 2] Kompression des dampfförmigen Kältemittels unter der Zuführung von elektrischer Leistung $P_{KM}$
+\item[2 $\longrightarrow$ 3] Abkühlung, Kondensation und Unterkühlung des Kältemittels unter der Abgabe der Wärmeenergie $\dot{Q}$ über den Verflüssiger an die Umgebung
+\item[3 $\longrightarrow$ 4] Entspannung des flüssigen Kältemittels durch das Drosselventil; teilweise setzt die Verdampfung des Fluids ein 
+\item[4 $\longrightarrow$ 1] Verdampfung des noch flüssigen Kältemittels auf niedrigem Druckniveau unter der Aufnahme des Wärmestromes $\dot{Q_0}$ aus dem Kühlraum
+\end{itemize}
+
+Der Prozess findet auf zwei Durckniveaus statt: dem Verdampfungsdruck $p_V$ und dem Kondensationsdruck $p_K$. Die Verflüssigung des Kältemittels findet auf hohem Druckniveau und die Verdampfung auf niedrigem Druck statt. Die höchste Temperatur wird nach der Kompression am Zustandspunkt 2 erreicht; er befindet sich im Überhitzen- und Hochdruckbereich. Die niedrigste Temperatur ist kurz nach dem Dosselventil und vor dem Verdampfer am Punkt 4. auf niedrigem Druckniveau. 
+
+Nach dem Anwenden des 1. Hauptsatzes der Thermodynamik, die Erhaltung der Energie in einem System, auf den Kältekreislauf folgt die Gleichung :
+
+ \begin{equation}
+ 	|\dot{Q}|  = \dot{Q_0} +  P_{KM}.
+ 	\label{eq:Energiebilanz}
+ \end{equation}
+ 
+Die Kälteleistung $\dot{Q_0}$, sprich den aus dem Kühlraum zu entnehmender Wärmestrom, ergibt sich aus dem Kältemittel-Massenstrom $\dot{m}$ und den spezifischen Enthalpien der Zustände 1 und 4 :
+
+\begin{equation}
+	\dot{Q_0} = \dot{m}~ q_0 = \dot{m}~ (h_1 - h_4).
+	\label{eq:Kälteleistung}
+\end{equation}
+
+
+Der über den Verflüssiger abzuführenden Wärmestrom $\dot{Q}$ ergibt sich analog zu: 
+
+\begin{equation}
+	\dot{Q} = \dot{m}~q_0 = \dot{m}~ (h_3 - h_2)< 0.
+	\label{eq:Wärmestrom}
+\end{equation}
+
+Der Wärmestrom $\dot{Q}$ ist immer kleiner als Null; er wird dem Kreislauf folglich entzogen. Die elektrische Antriebsleistung der Kältemaschine ist die aufgenommene elektrische Leistung durch den Kompressor. Sie ergibt sich zu:
+
+\begin{equation}
+P_{KM} = \dot{m}~ w_t= \dot{m}~ (h_2 - h_1).
+\label{eq:Antriebsleistung}
+\end{equation}
+
+Die Bewertung einer Kälteanlage erfolgt durch die Leistungszahl $\epsilon_{KM}$: 
+
+\begin{equation}
+	\epsilon_{KM} := \frac{Kälteleistung}{Antriebsleistung} =\frac{\dot{Q_0}}{P_{KM}}.
+	\label{eq:Leistungszahl}
+\end{equation}
+
+Ziel bei der Auslegung und dem Betrieb einer Kältemaschine ist eine möglichst große Leistungszahl zu erlangen. Damit $\epsilon_{KM}$ groß wird, muss die Kälteleistung $\dot{Q_0}$ groß werden und die aufgewandte Verdichterleistung $P_{KM}$ klein werden. 
 %\subsection{•}
 %\label{•}
 
-\subsection{log p-h Diagramm}
-\label{subsec:log p-h Diagramm}
+\subsection{Komponenten eines Kaltdampfprozesses}
+\label{subsec:Komponenten eines Kaltdampfprozesses}
 
-Bild
-Erläuterung
-Tabelle von Parametern
+Die Komponenten für einen einfachen Kaltdampfprozess sowie
+Der Prozess besteht aus vier Komponenten:
+\begin{itemize}
+\item der Kompressor
+\item der Verflüssiger
+\item das Drosselvenil
+\item der Verdampfer. 
+\end{itemize}
+
+
