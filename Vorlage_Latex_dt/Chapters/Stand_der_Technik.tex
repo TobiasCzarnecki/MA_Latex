@@ -49,7 +49,7 @@ Das halb-logarithmische Diagramm ist ein vielgebrauchtes und hilfreiches Mittel 
 Im Diagramm \ref{fig:Schema p-h-Diagramm} ist der Druck logarithmisch auf der y-Achse und die spezifische Enthalpie $h$ auf der x-Achse eingetragen. Die Siedelinie ist durch $x = 0$ und die Taulinie durch $x = 1$. Zwischen $0\leqq x\leqq 1$ befindet sich das Nassdampfgebiet. Es liegt ein Gemisch aus gasförmigen und flüssigem Kältemittel vor. Der Anteil des Gases im Nassdampfgebiet wird durch $x$ ausgedrückt, $1-x$ den Anteil der Flüssigkeit.
 
 
-In dem Diagramm \ref{fig:Komponeneten und p-h-Diagramm} sind alle Zustandspunkte bei einem Durchlauf des Kältekreislaufes abgebildet.Innerhalb des Nassdampfgebietes verläuft in einem idealen Kältekreislauf, eine Zustandsänderung \textit{isotherm} und \textit{isobar} ab. Wärmezu- oder abfuhr führt nicht zu einer Erhöhung der Temperatur sondern zu einer Veränderung vom Gas- bzw. Flüssigkeitsanteil, es wird von einer \textit{latenten} Wärmeänderung geredet. Um einen Tropfen flüssigen Wasser, dessen Zustand sich auf der Siedelinie befindet, in einen gasförmigigen Zustand, sprich $x=1$ zu überführen, muss ihm die spezifische Verdampfungsenthalpie $\Delta h$ zugeführt werden. Verläuft die Zustandsänderung entgegengesetzt kondensiert der Tropfen und gibt die Verdampfungsenthalpie $\Delta h$ an seine Umgebung ab. 
+In dem Diagramm \ref{fig:Komponeneten und p-h-Diagramm} sind alle Zustandspunkte bei einem Durchlauf des Kältekreislaufes abgebildet.Innerhalb des Nassdampfgebietes verläuft in einem idealen Kältekreislauf, eine Zustandsänderung \textit{isotherm} und \textit{isobar} ab. Wärmezu- oder abfuhr führt nicht zu einer Erhöhung der Temperatur, sondern zu einer Veränderung vom Gas- bzw. Flüssigkeitsanteil. Es wird von einer \textit{latenten}, also nicht fühlbaren,  Wärmeänderung geredet. Um einen Tropfen flüssigen Wasser, dessen Zustand sich auf der Siedelinie befindet, in einen gasförmigigen Zustand, sprich $x=1$ zu überführen, muss ihm die spezifische Verdampfungsenthalpie $\Delta h$ zugeführt werden. Verläuft die Zustandsänderung entgegengesetzt kondensiert der Tropfen und gibt die Verdampfungsenthalpie $\Delta h$ an seine Umgebung ab. 
 Außerhalb des Nassdampfgebietes führt eine Wärmezu- oder abfuhr zu einer Veränderung der Temperatur. Die Wärmeänderung ist \textit{sensibel}. 
 
 \begin{figure}[htb]
@@ -78,7 +78,33 @@ Nach dem Anwenden des 1. Hauptsatzes der Thermodynamik, die Erhaltung der Energi
  	\label{eq:Energiebilanz}
  \end{equation}
  
-Die Kälteleistung $\dot{Q_0}$, sprich den aus dem Kühlraum zu entnehmender Wärmestrom, ergibt sich aus dem Kältemittel-Massenstrom $\dot{m}$ und den spezifischen Enthalpien der Zustände 1 und 4 :
+Die elektrische Antriebsleistung der Kältemaschine ist die aufgenommene elektrische Leistung durch den Kompressor zwischen den Zustandspunkten 1  und 2. Sie ergibt sich zu:
+
+\begin{equation}
+P_{KM} = \dot{m}~ w_t= \dot{m}~ (h_2 - h_1) = \frac{\dot{m} }{\eta_{sV}} (h_{2'}- h_1).
+\label{eq:Antriebsleistung}
+\end{equation}
+
+Hierbei ist $\eta_{sV}$ der isentrope Wirkungsgrad des Kompressors. Der isentrope Wirkungsgrad setzt den realen Kältekreislauf in ein Verhältnis zum idealen Kältekreislauf. Die Überhitzung des Gases am Austritt des Kompressors ist höher als die Überhitzung nach einer isentropen Verdichtung. Daraus folgt eine höhere Energieaufnahme durch den Kompressor und ein höherer Wärmestrom $\dot{Q}$, der über den Verflüssiger an die Umgebung abgegeben werden muss. Der isentrope Wirkungsgrad ist definiert über 
+
+\begin{equation}
+\eta_{sV}:= \frac{h_{2'}- h_{1}}{h_2 - h_1}.
+\label{eq:Antriebsleistung}
+\end{equation}
+
+
+Der Wärmestrom $\dot{Q}$ wird über den Verflüssiger zwischen den Zuständen 2 und 3 abgeführt. Die Formel von  $\dot{Q}$ lautet: 
+
+\begin{equation}
+	\dot{Q} = \dot{m}~q_0 = \dot{m}~ (h_3 - h_2)< 0.
+	\label{eq:Wärmestrom}
+\end{equation}
+
+Der Wärmestrom $\dot{Q}$ ist immer kleiner als Null; er wird dem Kreislauf folglich entzogen.  
+ 
+Über ein Drosselorgan wird das Kältemittel vom hohen Druckniveau auf das niedrigere Druckniveau entspannt. Der Teilprozess findet zwischen den Zustandspunkten 3 und 4 statt und wird als $isenthalp$ angenommen.  
+ 
+Die Kälteleistung $\dot{Q_0}$, sprich den aus dem Kühlraum zu entnehmender Wärmestrom, ergibt sich aus dem Kältemittel-Massenstrom $\dot{m}$ und den spezifischen Enthalpien der Zustände 4 und 1 :
 
 \begin{equation}
 	\dot{Q_0} = \dot{m}~ q_0 = \dot{m}~ (h_1 - h_4).
@@ -86,19 +112,7 @@ Die Kälteleistung $\dot{Q_0}$, sprich den aus dem Kühlraum zu entnehmender Wä
 \end{equation}
 
 
-Der über den Verflüssiger abzuführenden Wärmestrom $\dot{Q}$ ergibt sich analog zu: 
 
-\begin{equation}
-	\dot{Q} = \dot{m}~q_0 = \dot{m}~ (h_3 - h_2)< 0.
-	\label{eq:Wärmestrom}
-\end{equation}
-
-Der Wärmestrom $\dot{Q}$ ist immer kleiner als Null; er wird dem Kreislauf folglich entzogen. Die elektrische Antriebsleistung der Kältemaschine ist die aufgenommene elektrische Leistung durch den Kompressor. Sie ergibt sich zu:
-
-\begin{equation}
-P_{KM} = \dot{m}~ w_t= \dot{m}~ (h_2 - h_1).
-\label{eq:Antriebsleistung}
-\end{equation}
 
 Die Bewertung einer Kälteanlage erfolgt durch die Leistungszahl $\epsilon_{KM}$: 
 
@@ -114,13 +128,23 @@ Ziel bei der Auslegung und dem Betrieb einer Kältemaschine ist eine möglichst 
 \subsection{Komponenten eines Kaltdampfprozesses}
 \label{subsec:Komponenten eines Kaltdampfprozesses}
 
-Die Komponenten für einen einfachen Kaltdampfprozess sowie
-Der Prozess besteht aus vier Komponenten:
+Die Komponenten für einen einfachen Kaltdampfprozess  besteht aus vier Komponenten:
+
 \begin{itemize}
 \item der Kompressor
-\item der Verflüssiger
-\item das Drosselvenil
+\item der Verflüssiger 
+\item das Drosselvenil Expansionsventil
 \item der Verdampfer. 
 \end{itemize}
+
+In Abbildung \ref{fig:einfacher Kältekreislauf} sind die vier Komponenten mit ihren Zustandspunkten dargestellt.
+
+Der Kompressor bildet das Herzstück der Kälteanlage. Er verdichtet das gasförmige Kältemittel von niedrigem Druck auf ein höheres Druckniveau. Um diese Arbeit zu verrichten, wird der Verdichter mit elektrischer Energie versorgt. Der Kompressor gibt es in verschiedenen Bauvarianten. Die zwei wichtigsten Bauvarianten sind der \textit{Hubkolbenverdichter} und der \textit{Rotationskolbenverdichter}. Die Baugruppen der Verdichter werden in offene, halbhermetische und vollhermetische Verdichter unterschieden.  Schrauben-,Scroll- sowie Turboverdichter sind Bauarten der \textit{Rotationskolbenverdichter}. 
+
+\begin{figure}[htb]
+\centering		\includegraphics[width=0.50\textwidth]{Pictures/Kaltekreislauf_beahr.png}
+\caption{Einfacher Kältekreislauf}
+\label{fig:einfacher Kältekreislauf}
+\end{figure}
 
 
