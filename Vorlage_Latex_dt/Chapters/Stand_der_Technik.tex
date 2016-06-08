@@ -122,8 +122,7 @@ Die Bewertung einer Kälteanlage erfolgt durch die Leistungszahl $\epsilon_{KM}$
 \end{equation}
 
 Ziel bei der Auslegung und dem Betrieb einer Kältemaschine ist eine möglichst große Leistungszahl zu erlangen. Damit $\epsilon_{KM}$ groß wird, muss die Kälteleistung $\dot{Q_0}$ groß werden und die aufgewandte Verdichterleistung $P_{KM}$ klein werden. 
-%\subsection{•}
-%\label{•}
+
 
 \subsection{Komponenten eines Kaltdampfprozesses}
 \label{subsec:Komponenten eines Kaltdampfprozesses}
@@ -139,12 +138,64 @@ Die Komponenten für einen einfachen Kaltdampfprozess  besteht aus vier Komponen
 
 In Abbildung \ref{fig:einfacher Kältekreislauf} sind die vier Komponenten mit ihren Zustandspunkten dargestellt.
 
-Der Kompressor bildet das Herzstück der Kälteanlage. Er verdichtet das gasförmige Kältemittel von niedrigem Druck auf ein höheres Druckniveau. Um diese Arbeit zu verrichten, wird der Verdichter mit elektrischer Energie versorgt. Der Kompressor gibt es in verschiedenen Bauvarianten. Die zwei wichtigsten Bauvarianten sind der \textit{Hubkolbenverdichter} und der \textit{Rotationskolbenverdichter}. Die Baugruppen der Verdichter werden in offene, halbhermetische und vollhermetische Verdichter unterschieden.  Schrauben-,Scroll- sowie Turboverdichter sind Bauarten der \textit{Rotationskolbenverdichter}. 
-
 \begin{figure}[htb]
 \centering		\includegraphics[width=0.50\textwidth]{Pictures/Kaltekreislauf_beahr.png}
-\caption{Einfacher Kältekreislauf}
+\caption{Einfacher Kältekreislauf \citep{Baehr2013}}
 \label{fig:einfacher Kältekreislauf}
 \end{figure}
+
+\subsubsection*{Der Kompressor}
+Der Kompressor bildet das Herzstück der Kälteanlage. Er verdichtet das gasförmige Kältemittel von niedrigem Druck auf ein höheres Druckniveau. Um diese Arbeit zu verrichten, wird der Verdichter mit elektrischer Energie versorgt. Der Kompressor gibt es in verschiedenen Bauvarianten. Die zwei wichtigsten Bauvarianten sind der \textit{Hubkolbenverdichter} und der \textit{Rotationskolbenverdichter}. Die Baugruppen der Verdichter werden in offene, halbhermetische und vollhermetische Verdichter unterschieden. Schrauben-,Scroll- sowie Turboverdichter sind Bauarten der \textit{Rotationskolbenverdichter}. 
+
+
+
+Ein wichtiges Kriterium bei Verdichtern ist das Druckverhältnis von Ansaugdruck, vor der Kompression, und dem Ausgangsdruck. Das Druckverhältnis $\pi$ ist definiert als:
+
+
+
+\begin{equation}
+\pi := \frac{p_{aus}}{p_{ein}}.
+\label{Druckverhältnis}
+\end{equation}
+
+\subsubsection*{Der Verflüssiger}
+
+Dem Kältemittel wird im Verflüssiger auf einem hohen Druckniveau Wärme entzogen. Der Verflüssiger kühlt das überhitzte, gasförmige Kältemittel ab. Beim Austritt aus dem Verflüssiger ist das Kältemittel meist vollständig kondensiert. 
+Um einen Wärmeentzug zu bewerkstelligen gibt es drei Bautypen:
+
+\begin{itemize}
+\item Wassergekühlte Verflüssiger
+\item Luftgekühlte Verflüssiger
+\item Verdunstungsverflüsssiger
+\end{itemize}
+
+Wassergekühlte Verflüssiger können, aufgrund der besseren Wäärmeübertragung verglichen zu Luft, sehr kompakt gebaut werden. Eine typische Bauform ist das \textit{Bündelrohrverflüssiger}.
+In der Praxis werden am häufigsten luftgekühlte Verflüssiger eingesetzt. Um die gleiche Kühlleistung wie ein wassergekühlter Verflüssiger zu erreichen, werden Lamellen und Ventilatoren eingesetzt. Die Lamellen vergrößern die Fläche für die Wärmeübertragung mit der Luft. Ventilatoren ermöglichen durch einen höheren Luftdurchsatz und der daraus resultierendem höhere Wärmeübertragung eine größere Kühlleistung und eine kompaktere Bauform der Wärmeübertragers. Diese Variante hat den Vorteil, dass die einen wartungsfreien Betrieb  sowie eine einfache Reinigung ermöglicht.
+
+
+\subsubsection*{Das Expansionsventil}
+
+Das Expansionsventil versorgt den Verdampfer mit dem nötigen Kältemittel-Massenstrom. Die Zuführung des Kältemittels erfolgt über eine Druckdifferenz. Durch eine lokale Verengung des Strömungquerschnitts, verringet sich der Druck des durchfließenden Kältemittels. Das Kältemittel vergrößert sein Volumen und es kommt zur Expansion. Die Druckreduzierung erfolgt ohne zusätzliche Arbeit. Im idealen Fall wird bei diesem Prozess auch keine Wärme abgefuhrt; der Prozess ist \textit{isenthalb}. 
+Das Expansionsventil trennt zusammen mit dem Kompressor die zwei Druckseiten des Kältekreislaufes. Es gibt Expansionsventile sowohl als regelbare und nicht regelbare Ausführungen. Bei kleineren Anlagen erfolgt die Expansion ungeregelt zum Beispiel durch Kapillarrohre. Geregelte Expansionsventile werden in mittleren und großen Kälteanlagen eingesetzt. Die Regelung erfolgt durch die Querschnittsänderung und dem damit einhergehendem Druckabfall.  
+
+\subsubsection*{Der Verdampfer}
+
+In dem Verdampfer wird das Kältemittel eingespritzt. Das Kältemittel verdampft und entzieht seiner Umgebung dabei Wärme. Aufgrund der vielfältigen Anforderungen an Verdampfer, gibt es eine Vielzahl an Bauarten für Verdampfer. Mögliche Bauarten sind 
+
+\begin{itemize}
+\item Glattrohrverdampfer
+\item Beripptes Verdampferregister
+\item Rippenrohrverdampfer
+\end{itemize}
+
+Um eine möglichst große Kälteleistung zu ermöglichen, werden wie beim Verflüssiger auch, Ventilatoren eingesetzt. Die Ventilatoren erzwingen einen Luftstrom durch den Verdampfer und erhöhen damit die Wärmeübertragung zwischen der Luft und den Verdampferrohren. 
+
+
+
+\include{Chapters/Reifbildung}
+
+\include{Chapters/Morphologie}
+
+
 
 
