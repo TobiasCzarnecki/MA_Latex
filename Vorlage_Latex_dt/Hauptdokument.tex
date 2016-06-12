@@ -19,6 +19,9 @@
 \usepackage[ngerman]{babel} %Anpassungen an nicht-englische Sprachen
 \usepackage{ifpdf} 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%Änderung durch T.C  
+            
+              
                 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Schriftarten, Schriftschnitte etc.
@@ -65,6 +68,7 @@
 \usepackage{multirow}
 \usepackage{booktabs} % erzeugt besser aussehende Tabellen, horizontale Linien mit \toprule, \midrule, \bottomrule
 \usepackage[point]{rccol} %Richtet Zahlen in Tabellen nach Dezimalkomma aus, im Output wird ein Dezimalpunkt verwendet
+\usepackage{lscape}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -72,6 +76,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{subfigure}
 \usepackage{float}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -122,6 +127,7 @@
 	%DVI or PS output
 	\usepackage{graphicx} 
 \fi
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \begin{document}
@@ -229,7 +235,13 @@
 
 \input{Chapters/Motivation_und_Ziele.tex}
 
-\input{Chapters/Stand_der_Technik.tex}
+\input{Chapters/Grundlagen.tex}
+
+\input{Chapters/Stand_der_Technik}
+
+\input{Chapters/Versuchsaufbau.tex}
+
+\input{Chapters/Teil1.tex}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 

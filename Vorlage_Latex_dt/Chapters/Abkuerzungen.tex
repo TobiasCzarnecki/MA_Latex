@@ -17,11 +17,11 @@
 		$c_{F}$&spezifische Wärmekapazität von flüssigem Wasser&\joule\per(\kilogram\usk\kelvin)\\
 		$c_{pL}$&spezifische Wärmekapazität von Luft&\joule\per(\kilogram\usk\kelvin)\\	
 		$c_{pD}$&spezifische Wärmekapazität von Wasserdampf &\joule\per(\kilogram\usk\kelvin)\\		
-		$C$&Wärmekapazität&\watt\per\kilogram\\
+		%$C$&Wärmekapazität&\watt\per\kilogram\\
 		$E$ & Elastizitätsmodul & N \per m\squaremetre \\
-		$E$ & Exergie & \joule\\
+		%$E$ & Exergie & \joule\\
 		$E$ & Energie & \joule\\
-		$e$ & spezifische Exergie & \joule\per\kilogram\\
+		%$e$ & spezifische Exergie & \joule\per\kilogram\\
 		$g$ & Schwerebeschleunigung & \meter \per \second$^2$\\
 		$h $ & spezifische Enthalpie & k\joule \per \kilogram\\		
 		$h_{K} $ & spezifische Kondensationsenthalpie & k\joule \per \kilogram\\	
@@ -37,20 +37,21 @@
 		$p_{D}$ & Dampfdruck & \pascal\\
 		$p_{L}$ & Luftdruck & \pascal\\		
 		$P$ & Leistung & \watt \\
+		$Q$		& Wärmemenge & \joule\\
 		$\dot{Q}$ & Wärmestrom & \watt\\
 		$R$ & spezifische Gaskonstante & \joule\per(\kilogram\usk\kelvin)\\
 		$S$ & Entropie & \joule\per\kelvin\\
 		$\dot{S}$ & Entropiestrom & \watt\per\kelvin\\
 		$T$ & Temperatur & \kelvin\\
 		$t$ & Zeit & \second\\
-		$U$ & innere Energie & \joule\\
+		%$U$ & innere Energie & \joule\\
 		$U$ & elektrische Spannung & V \\
-		$U_{T}$ & Wärmedurchgangskoeffizient & \watt\per(\kilogram\usk\kelvin)\\
-		$h$ & Wärmeübergangskoeffizient & \watt\per(\squaremetre\usk\kelvin)\\		
+		%$U_{T}$ & Wärmedurchgangskoeffizient & \watt\per(\kilogram\usk\kelvin)\\
+		%$h$ & Wärmeübergangskoeffizient & \watt\per(\squaremetre\usk\kelvin)\\		
 		$V$ & Volumen & \cubic\meter\\
 		$\dot{V}$&Volumenstrom&\cubic\meter\per\second\\
-		$\dot{W}$ & Leistung & \watt\\
-		$x$	& Wassergehalt & \kilogram \per \kilogram \\
+		$w$ & spezifische Leistung & \watt \per \kilogram\\
+		$X$	& Wassergehalt & \kilogram \per \kilogram \\
 		$Y$ & Wasserbeladung der Luft & \gram\per\kilogram\\
 		
 \end{longtable}
@@ -67,13 +68,13 @@
 		\endlastfoot
 		
 		$\eta_{C}$ & Carnot-Wirkungsgrad & ---\\
-		$\Phi$ & thermische Leistung & \watt\\
+		%$\Phi$ & thermische Leistung & \watt\\
 		$\varphi$ & relative Feuchte & \% \\
 		$\varrho$& Massendichte&\kilogrampercubicmetre\\
-		$\sigma$&Temperaturspreizung&\kelvin\\
+		%$\sigma$&Temperaturspreizung&\kelvin\\
 		$\vartheta $ & Temperatur  & \degreecelsius\\
 		$\Delta\vartheta $ & Temperaturdifferenz  &\kelvin\\
-		$\zeta$ & Druckverlustbeiwert & -\\
+		%$\zeta$ & Druckverlustbeiwert & -\\
 		$\psi$ & Sättigungsgrad & \% \\
 \end{longtable}
 
@@ -89,15 +90,16 @@
 		\endlastfoot
 		
 		0 & Referenzzustand (\emph{ambient dead state})\\
-		A & Außen/Umgebung\\ 		
+		A & Außen/Umgebung\\ 	
+		aus & Ausgang\\	
 		CV & Kontrollvolumen (\emph{control volume})\\
-		defrost & Abtauvorgang\\
-		DSC & Dynamische Differenzkalorimetrie (\emph{differential scanning calorimetry}) \\
-		e & über die Systemgrenze (\emph{external})\\
+		%defrost & Abtauvorgang\\
+		%DSC & Dynamische Differenzkalorimetrie (\emph{differential scanning calorimetry}) \\
+		%e & über die Systemgrenze (\emph{external})\\
 		el & elektrisch \\
 		EV & Expansionsventil\\
-		F & Volumenstrom\\	
-		in & Eingang (\emph{input})\\
+		%F & Volumenstrom\\	
+		ein & Eingang \\
 		KA & Kälteanlage \\
 		KK & Klimakammer\\
 		KN & kinetisch\\
@@ -106,21 +108,17 @@
 		L & Luft\\
 		m & Mittelwert\\
 		Modbus & ein offenes Kommunikationsprotokoll basierend auf einer Master-/Slave-Architektur \\
-		out & Ausgang (\emph{output})\\
+		MySQL & Datenbank-Verwaltungssoftware \\
 		PT & Drucksensor\\
-		Q & auf einen Wärmestrom bezogen\\
 		R & Rücklauf\\
 		R 134a & Handelsname von 1,1,1,2-Tetrafluorethan. Eingesetztes Kältemittel\\ 
 		rev & Strömungsumkehrung (\emph{reverse})\\
 		RTU & entfernte Terminaleinheit (\emph{Remote Terminal-Unit}). Betriebsart für die Datenübertragung für die Modbus-Kommunikation \\
 		SPS & Speicherprogrammierbare Steuerung \\
-		T & Temperatur\\
 		TT & Temperatur-Sensor\\
 		TwinCat & Automatisierungssoftware der Fa. Beckhoff\\
 		$\Delta$ t & Zeitschritt der Länge $\Delta$ t\\
 		t & technisch\\
-		V & Vorlauf\\
-		V & Verlust (Exergieanalyse)\\
 		Visual Studio & Integrierte Entwicklungsumgebung für verschiedene Hochsprachen der Fa. Microsoft. Entwicklungsumgebung für TwinCat\\
 		VD & Verdampfer \\
 		VF & Verflüssiger \\

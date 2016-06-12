@@ -1,0 +1,64 @@
+\section{Wägesystem}
+\label{sec:Wägesystem}
+
+Während der Arbeit wurde ein Wägesystem Konzept entworfen und gebaut. Das Wägesystem hatte \textit{konstruktive} als auch \textit{messtechnische} Anforderungen zu erfüllen. Aufgrund wechselnder Verdampfer-Prüflinge und schneller Demontage des Prüflings inklusive Wägesystem aus der KK sollte das Wägesystem  kompakt, mobil, für mehrere Verdampferhalterungen variabel und demontierbar sein. 
+Messtechnische Anforderungen an das Wägesystem waren:
+
+\begin{itemize}
+\item Ermittlung des gesamten Eisgewichtes am Verdampfer
+\item Ermittlung des 2D-Schwerpunktes der Eismenge
+\item Automatisiertes Datenauslesen mittels der SPS.
+\end{itemize}
+
+\subsection{Messtechnik}
+\label{subsec:Waagen-Messtechnik}
+
+Für das Wägesystem wurden 5 Waagen der Fa. \textsc{Kern und Sohn GmbH} verwendet. Die Waagen komunizieren mit der SPS per RS-232 Schnittstelle. Das Komunikationsprotokoll ist das 22-bit Protokoll, dass auf dem \textsc{ASCII}-7 bit- Zeichenkodierung beruht. \footnote{\textbf{ASCII} steht für \textit{American Standard Code for Information Interchange} und wurde im Jahre 1963  \textit{American Standards Association} gebiligt. Es war bis 2007 die meist verbreiteste 7-bit-Zeichenkodierung im World-Wide-Web bis es von UTF-8 überholt wurde.}. Die Kommunikation zwischen der Waage und der SPS ist näher in \ref{sec:Informationstechnischer Aufbau} beschrieben und erläutert.
+
+Das Wägeprinzip der eingesetzten Waagen beruht auf dem Dehnungsmessstreifen-Prinzip .Die Ablesegenauigkeit der Waagen korrelieren mit dem max. Wägebereich. Es wurde sich für den Waagentyp \textit{PCD 10K0.1} der Fa. Kern und Sohn GmbH entschieden. Diese Waage kann  jeweils  bis 10 kg belestet und dann gewogen werden. Des Weiteren besitzt die Waage eine sehr genaue Ablesbarkeit. Da der Verdampfer auf vier Waagen stehen wird, die maximal mit 10 kg jeweils belastet werden können, muss die Konstuktion erstens die Eismenge gleichmäßig auf alle vier Waagen verteilen. Und Zweitens muss das Eigengewicht des Verdampfers mit der Konstruktion gehalten werden. 
+
+
+ 
+\begin{table}[htb]
+\centering
+\caption{Waagendaten}\vspace{6pt}
+\label{tab:Messtechnik KA}
+\begin{tabular}{ll}
+\hline 
+ & \textbf{Waage}  \\ 
+\hline 
+\hline 
+Typ & PCD 10K0.1 \\ 
+\hline 
+Hersteller & \textsc{Kern und Sohn Gmbh} \\ 
+\hline 
+Messbereich & 0..10 kg \\ 
+\hline 
+Ablesbarkeit & 100 mg\\ 
+\hline 
+max. Luftfeuchtigkeit & 80 $\%$\\
+\hline
+min. Umgebungstemperatur & 5 $°C$\\
+\hline
+max. Umgebungstemperatur & 35 $°C$\\
+\hline
+Komunikationsart & RS-232 \\ 
+\hline 
+Hilfsenergie & 220-240  [V]  \\ 
+\hline
+Anzahl & 5 \\ 
+\hline 
+%Datenblatt(URL) &  \\ 
+\hline 
+\end{tabular} 
+\label{tab:Tabelle}
+\end{table}
+
+
+\subsection{Konstruktion}
+\label{subsec:Waagen-Konstruktion}
+
+
+Nach Entwicklungen mehrer Konzepte und Prototypen wurde sich für ein Wäagesystem mit vier eingespannten Stahlblätter als Federn benutzt. Die Federn sollen verstellbar sein, dass 
+
+

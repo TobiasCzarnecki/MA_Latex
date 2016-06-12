@@ -1,15 +1,30 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {1.1}{\ignorespaces Aufteilung der sich in Deutschland in Betrieb befindenden K\IeC {\"a}ltemaschinen je nach Einsatzgebiet und Energieverbrauch im Jahre 2009. \citep {M.Stoeckner2012}}}{1}{figure.1.1}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Energieeinsparpotentiale bis 2030 f\IeC {\"u}r die Sektoren Haushalt, Gewerbe und Handel, Verkehr und Industrie. \citep {Pehnt2011}}}{2}{figure.1.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Projektumgebung f\IeC {\"u}r den EBC Abtaupr\IeC {\"u}fstand \citep {Freitag2015}}}{4}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Aufgabenpakete im Projektzyklus.\citep {Freitag2015} Rot umrahmte Arbeitspakte werden in dieser Masterarbeit behandelt und durchgef\IeC {\"u}hrt.}}{5}{figure.2.2}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Projektumgebung f\IeC {\"u}r den EBC Abtaupr\IeC {\"u}fstand \citep {Freitag2015}}}{3}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Aufgabenpakete im Projektzyklus.\citep {Freitag2015} Rot umrahmte Arbeitspakte werden in dieser Masterarbeit behandelt und durchgef\IeC {\"u}hrt.}}{4}{figure.2.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces ln p,h-Diagramm von einem reinen Fluid \citep {Baehr2013}}}{8}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Kreisprozess im ln p,h-Diagramm \citep {Baehr2013}}}{9}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Einfacher K\IeC {\"a}ltekreislauf \citep {Baehr2013}}}{12}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces $h^*$, $X$- Diagramm f\IeC {\"u}r feuchte Luft bei einem Gesamtdruck $p= $ 100 kPa \citep {Baehr2013}}}{14}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Kristallwachstum auf einer ebenen Oberfl\IeC {\"a}che \citep {Schydlo2010}}}{17}{figure.3.5}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces ln p,h-Diagramm von einem reinen Fluid \citep {Baehr2013}}}{7}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Kreisprozess im ln p,h-Diagramm \citep {Baehr2013}}}{8}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces $h^*$, $X$- Diagramm f\IeC {\"u}r feuchte Luft bei einem Gesamtdruck $p= $ 100 kPa \citep {Baehr2013}}}{10}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Kristallwachstum auf einer ebenen Oberfl\IeC {\"a}che \citep {Schydlo2010}}}{13}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematischer Reifdichte- und Reifdickeverl\IeC {\"a}ufe beim Vereisungsvorgang eines Tropfen Wassers \citep {Schydlo2010}}}{15}{figure.3.5}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reifdichte}}}{15}{figure.3.5}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reifdicke}}}{15}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces W\IeC {\"a}rmeleitf\IeC {\"a}higkeit des Reifs aufgetragen \IeC {\"u}ber die mittlere Reifdichte \citep {Schydlo2010}}}{15}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Einfacher K\IeC {\"a}ltekreislauf \citep {Baehr2013}}}{18}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Hei\IeC {\ss }gas-Abtauung \citep {Kosowski2009}}}{20}{figure.3.8}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Flie\IeC {\ss }bild. Links: K\IeC {\"u}hlbetrieb, Rechts: Abtaubetrieb}}}{20}{figure.3.8}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zustandspunkte im ln p,h Diagramm}}}{20}{figure.3.8}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Links: K\IeC {\"u}hlbetrieb. Rechts:Hei\IeC {\ss }gas-Abtauung \citep {Kosowski2009}}}{21}{figure.3.9}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces K\IeC {\"a}lteanlage-Flie\IeC {\ss }bild}}{27}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces M\IeC {\"o}gliche Magnetventil-Schaltungen}}{32}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces W\IeC {\"a}rmestr\IeC {\"o}me in der Klimakammer \citep {Chen2013}}}{33}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Status-Maschine}}{34}{figure.5.4}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces RWTH-Aachen-Logo}}{39}{figure.6.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }

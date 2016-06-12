@@ -1,18 +1,36 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Hauptdokument.aux
 A level-1 auxiliary file: Chapters/Abkuerzungen.aux
-A level-1 auxiliary file: Chapters/Reifbildung.aux
-A level-1 auxiliary file: Chapters/Morphologie.aux
 The style file: natdin.bst
 A level-1 auxiliary file: bu.aux
 Database file #1: Literatur.bib
+Warning--entry type for "Chen2013" isn't style-file defined
+--line 55 of file Literatur.bib
 Warning--entry type for "M.Stoeckner2012" isn't style-file defined
---line 168 of file Literatur.bib
-Warning--entry type for "Pehnt2011" isn't style-file defined
---line 178 of file Literatur.bib
-Warning--entry type for "Sahinagic2004" isn't style-file defined
+--line 192 of file Literatur.bib
+Warning--entry type for "Nuerenberg2015" isn't style-file defined
+--line 202 of file Literatur.bib
+Warning--entry type for "OPALRTT2014" isn't style-file defined
 --line 210 of file Literatur.bib
-Warning--I didn't find a database entry for "Hayashi1977"
+Warning--entry type for "Sahinagic2004" isn't style-file defined
+--line 250 of file Literatur.bib
+Warning--I didn't find a database entry for "Baehr2014"
+Warning--I didn't find a database entry for "rst2010"
+Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
+while executing---line 2138 of file natdin.bst
+Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
+while executing---line 2138 of file natdin.bst
+Warning--to sort, need author or key in OPALRTT2014
+Warning--empty number in Ehrbar2002
+Warning--empty note in Ehrbar2002
 Warning--empty booktitle in Freitag2015
+Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
+while executing---line 2227 of file natdin.bst
+Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
+while executing---line 2227 of file natdin.bst
+Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
+while executing---line 2227 of file natdin.bst
+Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
+while executing---line 2227 of file natdin.bst
 Warning--empty number in Kosowski2009
 Warning--empty note in Kosowski2009
-(There were 7 warnings)
+(There were 6 error messages)

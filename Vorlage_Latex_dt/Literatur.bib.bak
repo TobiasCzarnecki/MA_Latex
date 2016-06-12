@@ -43,6 +43,23 @@
   url =    {https://www.bmwi.de/BMWi/Redaktion/PDF/E/energiekonzept-2010,property=pdf,bereich=bmwi2012,sprache=de,rwb=true.pdf}
 }
 
+@Book{Breidenbach2014,
+  author =    {Breidenbach, Karl},
+  title =     {Der Kälteanlagenbauer. 2 Bände - Band 1: Grundkenntnisse - Band 2: Grundlagen der Kälteanwendung},
+  year =      {2014},
+  publisher = {Vde Verlag GmbH},
+  isbn =      {978-3-800-73267-8},
+  address =   {Berlin, Offenbach}
+}
+
+@Report{Chen2013,
+  author =      {{Chen et al.}},
+  title =       {The HiL Project},
+  type =        {Final Report},
+  institution = {Iinterne Dokumente E.ON Energy Research Center},
+  year =        {2013}
+}
+
 @Booklet{Danfoss2006,
   author =    {{Danfoss GmbH}},
   title =     {Kältetechnik-Einführung in die Grundlagen},
@@ -109,6 +126,13 @@
   month =   mar
 }
 
+@Article{Hayashi1977,
+  author =       {Hayashi, Y. ; Aoki, K. ; Yuhara, H.},
+  title =        {Study of Frost Formation Based on a Theoretical Model of the Frost Layer},
+  journaltitle = {Heat Transfer-Japanese Research Vol. 6,1977 , S. 79-94},
+  year =         {1977}
+}
+
 @TechReport{Heinrich2014,
   author =      {C. Heinrich, S. Wittig, P. Albring, L. Richter, M. Safarik, U. Böhm, A. Hantsch},
   title =       {Nachhaltige Kälteversorgung in Deutschland an den Beispielen Gebäudeklimatisierung und Industrie},
@@ -173,6 +197,22 @@ abstract = "Frost build-up blocks the gap between fins and decreases the airflow
   chapter =     {Kältetechnologien in Deutschland – Energetische, ökologische Analysen sowie Potenziale der Entwicklung},
   pages =       {48-50},
   url =         {https://www.klimaschutz.de/sites/default/files/page/downloads/hs_karlsruhe_forschung_aktuell_2012.pdf}
+}
+
+@Thesis{Nuerenberg2015,
+  author =      {Markus Nürenberg},
+  title =       {Entwicklung und Inbetriebnahme der Mess-, Regel und Datenverwaltungsfunktionen für einen Hardware-in-the-Loop Prüfstand},
+  type =        {Masterthesis},
+  institution = {Lehrstuhl für Gebäude- und Raumklimatechnik},
+  year =        {2015}
+}
+
+@WWW{OPALRTT2014,
+  editor = {{OPAL-RT Technologies}},
+  title =  {What is Hardware-in-the-Loop Simulation?},
+  year =   {2014},
+  date =   {\today},
+  url =    {http://www.opal-rt.com/about-hardware-loop-simulation}
 }
 
 @Report{Pehnt2011,
@@ -285,7 +325,7 @@ abstract = "Frost build-up blocks the gap between fins and decreases the airflow
 
 @comment{jabref-meta: groupstree:
 0 AllEntriesGroup:;
-1 ExplicitGroup:Einleitung\;0\;Aschendorf2014\;Grote2014\;M.Stoeckner2012\;Pehnt2011\;Sahinagic2004\;;
+1 ExplicitGroup:Einleitung\;0\;Aschendorf2014\;Grote2014\;Hayashi1977\;M.Stoeckner2012\;Pehnt2011\;Sahinagic2004\;;
 1 ExplicitGroup:Kältetechnik\;0\;Baehr2013\;EnergieAgenturNRW2010\;Pehnt2011\;;
 1 ExplicitGroup:Reifbildung\;0\;Kosowski2009\;Schydlo2010\;;
 1 ExplicitGroup:Stand der Technik\;0\;Huang20091697\;;
