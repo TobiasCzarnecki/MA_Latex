@@ -95,7 +95,7 @@ Im Abtaubetrieb durch Prozessumkehrung kann das Heißgas entweder durch die Vent
 
 
 
-\begin{figure}[htb]
+\begin{figure}%[htb]
 \centering		
 \hspace{2cm}\includegraphics[page={3},width=1.15\textwidth]{Pictures/Schaltschema.pdf}
 \caption{Mögliche Magnetventil-Schaltungen}
@@ -140,21 +140,25 @@ Anzahl & 8  & 11 & 1 \\
 \label{tab:Tabelle}
 \end{table}
 
-
+\newpage
 \subsubsection{Klimakammer(KK)}
 \label{subsec:Klimakammer}
+\begin{figure}[htb]
+\centering		\includegraphics[width=0.850\textwidth]{Pictures/HIL2.png}
+\caption{Wärmeströme in der Klimakammer \citep{Nuerenberg2015}}
+\label{fig:KK}
+\end{figure}
+
+
 Die KK erlaubt es den Verdampfer und somit den Vereisungs- und Abtauprozess unter verschiedenen Abtaubedingungen zu untersuchen. Die KK ist als klassisches \textit{Hardware in the Loop} Die Kenndaten der KK sind in Tabelle \ref{tab:Parameter KK}. Die Abbildung \ref{fig:KK} zeigt die Wärmeströme innerhalb der KK. Die KK ist in der Lage eine stationäre Umgebungsbedingungen abzubilden. Es ist aber auch möglich instationäre Situationen wie zum Beispiel Typtage oder -wochen nachzustellen. 
 In der KK ist die Verdampfereinheit mit der Kältemittelversorgungs-Mimik lokalisiert. Des Weiteren ist das Wägesystem und die eingesetzten Waagen in der KK plaziert. 
 
-\begin{figure}[htb]
-\centering		\includegraphics[width=0.80\textwidth]{Pictures/KK.png}
-\caption{Wärmeströme in der Klimakammer \citep{Chen2013}}
-\label{fig:KK}
-\end{figure}
+
 
 Die KK ist konzipiert für  Untersuchungen von Wärmepumpen und Kältemaschinen. Der Einsatz der KK in Kombination mit einer klimatisierbaren Versuchshalle hebt die Reproduzierbarkeit von Messungen. Die Bedingungen für Versuche können unabhangig von der Jahreszeit oder dem Tagesklima konstant gehalten werden. So lassen sich Versuche mit verschiedensten Umgebungsbedingungen ganzjährlich durchführen.  Die einzustellen Parameter sind die Temperatur und die Relative Luftfeuchtigkeit($RH$). Die KK wurde 2015 in Betrieb genommen und wird wie die KA auch über eine SPS der Fa. Beckhoff geregelt und gesteuert. In dem KK-Projekt wurde von \textsc{\citeauthor{Nuerenberg2015}} beispielsweise die $Status Maschine$ eingeführt, auf der auch das Konzept der SPS der KA beruht, siehe Abschnitt \ref{sec:Informationstechnischer Aufbau}. 
 
 Die KK verfügt über Software-Schnittstellen  mit Simulationssoftwares (zB. \textsc{Dymola}) und Datenbanken (zB. \textsc{MySQL}). Die Kombination aus Simulator mit echter Hardware wird als \textit{Hardware in the Loop} bezeichnet. Diese Methode dient zum Testen und Absichern von eingebetteten Systemen, die noch in der Entwicklung sind oder sich in der Inbetriebnahme befinden. Die Vorteile dieser Methode liegt in der Verkürzung der Inbetriebnahmephase, Verringerung der Entwicklungskosten und das riskofreie Testen der Anlage in Grenzsituationen. \citep{OPALRTT2014}
+
 
 \begin{table}[htb]
 \centering
@@ -188,4 +192,5 @@ Hart echtzeitfähig & Ja \\
 \hline
 \end{tabular} 
 \label{tab:Systemparameter-KK}
-\end{table}
+\end{table} 
+

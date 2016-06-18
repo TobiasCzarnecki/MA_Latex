@@ -1,5 +1,6 @@
+
 \section{Wägesystem}
-\label{sec:Wägesystem}
+\label{sec:Waegesystem}
 
 Während der Arbeit wurde ein Wägesystem Konzept entworfen und gebaut. Das Wägesystem hatte \textit{konstruktive} als auch \textit{messtechnische} Anforderungen zu erfüllen. Aufgrund wechselnder Verdampfer-Prüflinge und schneller Demontage des Prüflings inklusive Wägesystem aus der KK sollte das Wägesystem  kompakt, mobil, für mehrere Verdampferhalterungen variabel und demontierbar sein. 
 Messtechnische Anforderungen an das Wägesystem waren:
@@ -7,7 +8,7 @@ Messtechnische Anforderungen an das Wägesystem waren:
 \begin{itemize}
 \item Ermittlung des gesamten Eisgewichtes am Verdampfer
 \item Ermittlung des 2D-Schwerpunktes der Eismenge
-\item Automatisiertes Datenauslesen mittels der SPS.
+\item Automatisiertes Datenauslesen mittels der SPS, beschrieben im Abschnitt \ref{sec:Informationstechnischer Aufbau}.
 \end{itemize}
 
 \subsection{Messtechnik}
@@ -22,7 +23,6 @@ Das Wägeprinzip der eingesetzten Waagen beruht auf dem Dehnungsmessstreifen-Pri
 \begin{table}[htb]
 \centering
 \caption{Waagendaten}\vspace{6pt}
-\label{tab:Messtechnik KA}
 \begin{tabular}{ll}
 \hline 
  & \textbf{Waage}  \\ 
@@ -44,21 +44,113 @@ max. Umgebungstemperatur & 35 $°C$\\
 \hline
 Komunikationsart & RS-232 \\ 
 \hline 
-Hilfsenergie & 220-240  [V]  \\ 
+Hilfsenergie & 220-240  V   \\ 
 \hline
 Anzahl & 5 \\ 
 \hline 
 %Datenblatt(URL) &  \\ 
 \hline 
 \end{tabular} 
-\label{tab:Tabelle}
+\label{tab:Waagendaten}
 \end{table}
+
 
 
 \subsection{Konstruktion}
 \label{subsec:Waagen-Konstruktion}
 
 
-Nach Entwicklungen mehrer Konzepte und Prototypen wurde sich für ein Wäagesystem mit vier eingespannten Stahlblätter als Federn benutzt. Die Federn sollen verstellbar sein, dass 
+Nach Entwicklungen von verschiedenen Konzepte und Prototypen wurde sich für ein Wäagesystem mit vier eingespannten Stahlblätter als Blattfedern entschieden.  Die Abbildung \ref{fig:Feder} zeigt die Federkonstruktion mit den auf die Feder wirkenden Kräften. Die Blattfeder ist mit einem Boschprofil verschraubt, dass die Lagerkräfte auf den Boden ableitet. An dem Ende der Blattfeder ist eine 10 mm Gewindestange mit zwei Muttern befestigt. Durch diese Muttern lassen sich bei der späteren Kalibrierung die Vorspannung einstellen. Am oberen Ende der Gewindestange ist die Standgerüst des Verdampfers befestigt. Da es vier Aufhängungs- bzw. Lagerpunkte gibt, wird ca. $1/4$ der Gewichtskraft ($F_{Verdampfer}$) in jede Gewindestange eingeleitet. Am Fuß der Gewindestange ist eine 50x50x5 mm Eisenplatte mit einer zentrierten 10 mm Gewindebohrung befestigt. Über den Fuß findet die Gewichtsübertragung zwischen der Waage und dem restlichen System statt. Am Fuß selber wird zusätzlich ein 5 mm dicker Gummidämpfer angeklebt. Dieser beugt zum einen mögliche Verkratzungen und Eindellungen auf der Waagenoberfläche vor. Zum anderen bewirkt der Gummidämpfer eine minimale Dämpfung des ganzen Systems. Die Konstruktion sieht vor, dass der Fuß im 90$°$-Winkel auf der Waage aufliegt. 
 
+\begin{figure}
+\centering		\includegraphics[page=7,width=1.10\textwidth]{Pictures/Feder.pdf}
+\caption{Federkonstruktion nach dem Prinzip des einseitig eingespannten Balkens}
+\label{fig:Feder}
+\end{figure}
+
+
+
+
+
+
+Die Blattfedern soll im Form einer Blattfeder gebaut sein, die über eine lineare Federkennlinie verfügen. Die Federn sollen in der Länge $l$ verstellbar sein und nach dem Prinzip eines einseitig eingespannten Balkens fungieren, vgl. Abschnitt \ref{sec:Federn}. 
+
+ 
+\begin{table}[htb]
+\centering
+\caption{Feder-Daten}\vspace{6pt}
+\begin{tabular}{ll}
+\hline 
+ & \textbf{Blattfeder}  \\ 
+\hline 
+\hline 
+Werkstoff & Edelstahl\\
+%\hline 
+Elastizitätsmodul E & 210 kN/mm$^2$ \\ 
+%\hline 
+Höhe h x Breite b x Länge l & ??? mm x ??? mm x ??? mm\\
+\hline
+Verdampfergewicht $F_{Verdampfer}$/4 & 490,5 N\\
+\hline
+maximale Eismenge $F_{Eis}$/4 & 24,5 N\\
+\hline
+$F_{ges}$ & 515 N\\
+
+\end{tabular} 
+\label{tab:Federblattereigenschaften}
+\end{table}
+
+Die maximale Eismenge am Ende des Vereisungsvorgang wird zu 10 kg festgelegt. Der Verdampfer verfügt über ein Gesamtgewicht von 10 kg. Da 4 Waagen mit jeweils einer Blattfeder vorgesehen sind, werden für die Auslegung nur ein Viertel der gesamten Gewichtskraft berücksichtigt.  Die Gewichtskräfte ergeben sich zu:
+\begin{equation*}
+F_{Verdampfer}= 1/4\cdot 200 kg \cdot 9,81 m/s^2 = 490,5 N
+\end{equation*}
+\begin{equation*}
+F_{Eis}= 1/4 \cdot 10 kg \cdot 9,81 m/s^2 = 24,5 N
+\end{equation*}
+\begin{equation*}
+F_{ges}= F_{Verdampfer} + F_{Eis} = 515 N.
+\end{equation*}
+
+Die Federwege, nach Gleichung \ref{eq:Federweg}, je nach Belastung ergeben sich zu:
+
+\begin{equation*}
+  s(F= F_{Verdampfer})=19,93 mm 
+ \end{equation*}
+ \begin{equation*}
+ s(F= F_{ges})= 20,93 mm 
+ \end{equation*}
+\begin{equation*}
+ \Delta s(\Delta F_{Eis}) = 1 mm
+\end{equation*}
+
+Die Federrate $R$ ergibt sich zu:
+
+\begin{equation*}
+R = \frac{98,1 N}{1 mm} = 98,1 N/mm.
+\end{equation*}
+
+Diese Berechnung gelten für den Einsatz einer einzelnen Feder ohne Waage. Die Kombination aus einer Blattfeder und einer Waage hat Einfluss auf die Federrate und so auf den resultierenden Federweg des Wägesystems. Die Federrate wird größer, sprich die Feder wird härter. Aus einer härteren Feder resultiert ein kürzerer Federweg $\Delta s$.  In Abbildung \ref{fig:Feder_Waage_Fs} ist der verkürzte Federweg $\Delta s_{F+W}$ für ein System aus Feder und Waage dargestellt. Es folgt $\Delta s_{F+W}< \Delta s_{F}$. Die resultierende Federrate für eine Feder-Waage-Kombination ergibt sich aufgrund einer Parallelschaltung zu :
+
+\begin{equation}
+R_{F+W}= R_F + R_W.
+\end{equation}
+
+Die Federrate der Waage nicht bekannt. Eine gleichmäßige Verteilung des Verdampfersgewicht auf die vier Waagen könnte durch die Bestimmung der Durchbiegung aller Federblätter bestimmt werden. Eine praktische Auslesung des Federweges $s$ ist nicht vorhanden. Ungenaues Bestimmen würde zu großen Fehlern führen. Ein Abweichung von $\pm 0,1 mm$ zöge einen Messfehler von $\pm$ 1 kg hinter sich.  Zusätzlich kann noch keine Aussage über den Schwerpunkt des gefrorenen Eises im Verdampfer getroffen werden.
+Erste Versuche mit dem Wäägesystem führten zu der Erkenntnis, dass die Federn sich bei der Einstellung der Vorspannung sehr stark beeinflussen. 
+ 
+Deshalb wird das Wägesystem und alle ihre Waagen einer Kalibrierung vor jeder Messung durchlaufen müssen. Die Kalibrierung geschieht mit einem Prüfgewicht an 4 verschiedenen Positionen am Verdampfer und wird in die Software implementiert, siehe Abschnitt \ref{sec:Informationstechnischer Aufbau} für den informationstechnischen Aufbau. 
+
+%\begin{figure}[htb]
+%\centering		\includegraphics[width=0.90\textwidth]{Pictures/%Feder_Waage_Fs.pdf}
+%\caption{Kraft-Weg-Kennlinie mit Federweg für System aus Feder(F) %und System aus Feder und Waage (F+W)}
+%\label{fig:Feder_Waage_Fs}
+%\end{figure}
+
+
+\begin{figure}
+\centering		
+\includegraphics[width=0.7\textwidth]{Pictures/Federarbeit.png}
+\caption{Federarbeit aufgeteilt auf Verdampfergewicht, Waagenvorspannung und Eismenge}
+\label{fig:Feder}
+\end{figure}
 

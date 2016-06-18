@@ -13,24 +13,25 @@
 \contentsline {section}{\numberline {3.2}K\IeC {\"a}ltetechnik}{16}{section.3.2}
 \contentsline {subsection}{\numberline {3.2.1}Komponenten eines Kaltdampfprozesses}{17}{subsection.3.2.1}
 \contentsline {subsection}{\numberline {3.2.2}Abtaumethoden}{19}{subsection.3.2.2}
-\contentsline {chapter}{\numberline {4}Stand der Technik}{24}{chapter.4}
-\contentsline {chapter}{\numberline {5}Versuchsaufbau}{25}{chapter.5}
-\contentsline {section}{\numberline {5.1}K\IeC {\"a}ltetechnischer Aufbau}{25}{section.5.1}
-\contentsline {subsubsection}{\nonumberline K\IeC {\"a}lteaanlage(KA)}{25}{section*.19}
-\contentsline {subsubsection}{\nonumberline K\IeC {\"u}hlbetrieb, Zustandspunkte: $1 \rightarrow 2 \rightarrow 2'\rightarrow 3' \rightarrow 3''\rightarrow 3''' \rightarrow 3 \rightarrow 4 \rightarrow 1' $}{26}{section*.20}
-\contentsline {subsubsection}{\nonumberline Klimakammer(KK)}{28}{section*.23}
-\contentsline {section}{\numberline {5.2}W\IeC {\"a}gesystem}{29}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Messtechnik}{29}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Konstruktion}{30}{subsection.5.2.2}
-\contentsline {section}{\numberline {5.3}Elektrischer Aufbau}{31}{section.5.3}
-\contentsline {section}{\numberline {5.4}Informationstechnischer Aufbau}{31}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Status Maschine}{31}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Modbus RTU}{31}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Grafical User Interface - GUI}{31}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Anlagenschutz}{31}{subsection.5.4.4}
-\contentsline {chapter}{\numberline {6}Teil 1}{35}{chapter.6}
-\contentsline {section}{\numberline {6.1}Abschnitt 1}{35}{section.6.1}
-\contentsline {chapter}{Literaturverzeichnis}{40}{Hilfszaehler.6}
-\contentsline {chapter}{\numberline {A}Wichtiger Anhang 1}{43}{appendix.A}
-\contentsline {section}{\numberline {A.1}Die Versalien}{43}{section.A.1}
-\contentsline {chapter}{\numberline {B}\IeC {\"A}hnlich wichtiger Anhang}{45}{appendix.B}
+\contentsline {section}{\numberline {3.3}Federn}{24}{section.3.3}
+\contentsline {chapter}{\numberline {4}Stand der Technik}{27}{chapter.4}
+\contentsline {chapter}{\numberline {5}Versuchsaufbau}{28}{chapter.5}
+\contentsline {section}{\numberline {5.1}K\IeC {\"a}ltetechnischer Aufbau}{28}{section.5.1}
+\contentsline {subsubsection}{\nonumberline K\IeC {\"a}lteaanlage(KA)}{28}{section*.19}
+\contentsline {subsubsection}{\nonumberline K\IeC {\"u}hlbetrieb, Zustandspunkte: $1 \rightarrow 2 \rightarrow 2'\rightarrow 3' \rightarrow 3''\rightarrow 3''' \rightarrow 3 \rightarrow 4 \rightarrow 1' $}{29}{section*.20}
+\contentsline {subsubsection}{\nonumberline Klimakammer(KK)}{33}{section*.23}
+\contentsline {section}{\numberline {5.2}W\IeC {\"a}gesystem}{34}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Messtechnik}{34}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Konstruktion}{35}{subsection.5.2.2}
+\contentsline {section}{\numberline {5.3}Elektrischer Aufbau}{38}{section.5.3}
+\contentsline {section}{\numberline {5.4}Informationstechnischer Aufbau}{38}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Status Maschine}{38}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Modbus RTU}{38}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Grafical User Interface - GUI}{38}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Anlagenschutz}{39}{subsection.5.4.4}
+\contentsline {chapter}{\numberline {6}Teil 1}{41}{chapter.6}
+\contentsline {section}{\numberline {6.1}Abschnitt 1}{41}{section.6.1}
+\contentsline {chapter}{Literaturverzeichnis}{46}{Hilfszaehler.6}
+\contentsline {chapter}{\numberline {A}Wichtiger Anhang 1}{49}{appendix.A}
+\contentsline {section}{\numberline {A.1}Die Versalien}{49}{section.A.1}
+\contentsline {chapter}{\numberline {B}\IeC {\"A}hnlich wichtiger Anhang}{50}{appendix.B}

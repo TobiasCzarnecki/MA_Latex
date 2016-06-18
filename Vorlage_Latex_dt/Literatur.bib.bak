@@ -96,6 +96,16 @@
   url =    {http://www.energieagentur.nrw/content/anlagen/qb_kaelteerzeugung_final.pdf}
 }
 
+@Book{Ettemeyer2007,
+  author =  {Andreas Ettemeyer AND Otoo Olbrich},
+  title =   {Konstruktionselemente},
+  year =    {2007},
+  date =    {27.02.},
+  editor =  {Fachhochschule München},
+  volumes = {3.02},
+  chapter = {Kapitel 9: Federn}
+}
+
 @Conference{Freitag2015,
   author = {H. Freitag},
   title =  {Experimentelle Kältetechnik am EBC: Der Abtau-Prüfstand},
@@ -292,6 +302,18 @@ abstract = "Frost build-up blocks the gap between fins and decreases the airflow
   urldate =   {2016-04-21},
   month =     jan,
   timestamp = {2016-04-21}
+}
+
+@Book{Wittel2011,
+  author =    {Wittel, Herbert AND Muhs, Dieter AND Jannasch, Dieter AND Voßiek, Joachim},
+  title =     {Roloff/Matek Maschinenelemente - Normung, Berechnung, Gestaltung - Lehrbuch und Tabellenbuch},
+  year =      {2011},
+  edition =   {20. Aufl.},
+  publisher = {Vieweg+Teubner Verlag},
+  isbn =      {978-3-834-81454-8},
+  chapter =   {10 Federn},
+  pages =     {301-310},
+  address =   {Wiesbaden}
 }
 
 @Article{Xia2006,
