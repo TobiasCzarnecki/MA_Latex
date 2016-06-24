@@ -3,21 +3,23 @@ A level-1 auxiliary file: Chapters/Abkuerzungen.aux
 The style file: natdin.bst
 A level-1 auxiliary file: bu.aux
 Database file #1: Literatur.bib
+Warning--entry type for "Beckhoff2016" isn't style-file defined
+--line 38 of file Literatur.bib
 Warning--entry type for "M.Stoeckner2012" isn't style-file defined
---line 202 of file Literatur.bib
+--line 209 of file Literatur.bib
 Warning--entry type for "Nuerenberg2015" isn't style-file defined
---line 212 of file Literatur.bib
+--line 226 of file Literatur.bib
 Warning--entry type for "OPALRTT2014" isn't style-file defined
---line 220 of file Literatur.bib
+--line 234 of file Literatur.bib
 Warning--entry type for "Sahinagic2004" isn't style-file defined
---line 260 of file Literatur.bib
+--line 274 of file Literatur.bib
 Warning--I didn't find a database entry for "Baehr2014"
-Warning--I didn't find a database entry for "rst2010"
 Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
 while executing---line 2138 of file natdin.bst
 Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
 while executing---line 2138 of file natdin.bst
 Warning--to sort, need author or key in OPALRTT2014
+Warning--to sort, need author or key in Beckhoff2016
 Warning--empty number in Ehrbar2002
 Warning--empty note in Ehrbar2002
 Warning--empty booktitle in Freitag2015

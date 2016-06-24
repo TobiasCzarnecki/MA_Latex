@@ -24,14 +24,16 @@
 \contentsline {subsection}{\numberline {5.2.1}Messtechnik}{34}{subsection.5.2.1}
 \contentsline {subsection}{\numberline {5.2.2}Konstruktion}{35}{subsection.5.2.2}
 \contentsline {section}{\numberline {5.3}Elektrischer Aufbau}{38}{section.5.3}
-\contentsline {section}{\numberline {5.4}Informationstechnischer Aufbau}{38}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Status Maschine}{38}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Modbus RTU}{38}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Grafical User Interface - GUI}{38}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Anlagenschutz}{39}{subsection.5.4.4}
-\contentsline {chapter}{\numberline {6}Teil 1}{41}{chapter.6}
-\contentsline {section}{\numberline {6.1}Abschnitt 1}{41}{section.6.1}
-\contentsline {chapter}{Literaturverzeichnis}{46}{Hilfszaehler.6}
-\contentsline {chapter}{\numberline {A}Wichtiger Anhang 1}{49}{appendix.A}
-\contentsline {section}{\numberline {A.1}Die Versalien}{49}{section.A.1}
-\contentsline {chapter}{\numberline {B}\IeC {\"A}hnlich wichtiger Anhang}{50}{appendix.B}
+\contentsline {subsection}{\numberline {5.3.1}Modbus RTU}{42}{subsection.5.3.1}
+\contentsline {section}{\numberline {5.4}Informationstechnischer Aufbau}{45}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Status Maschine}{45}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Modbus RTU}{45}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Grafical User Interface - GUI}{45}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Anlagenschutz}{45}{subsection.5.4.4}
+\contentsline {chapter}{\numberline {6}Inbetriebnahme}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}K\IeC {\"a}lteanlage}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}Kalibrierung: W\IeC {\"a}gesystem}{47}{section.6.2}
+\contentsline {chapter}{Literaturverzeichnis}{48}{Hilfszaehler.6}
+\contentsline {chapter}{\numberline {A}Wichtiger Anhang 1}{52}{appendix.A}
+\contentsline {section}{\numberline {A.1}Die Versalien}{52}{section.A.1}
+\contentsline {chapter}{\numberline {B}\IeC {\"A}hnlich wichtiger Anhang}{53}{appendix.B}

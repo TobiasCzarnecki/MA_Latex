@@ -85,17 +85,18 @@ Die Blattfedern soll im Form einer Blattfeder gebaut sein, die über eine linear
 \hline 
 \hline 
 Werkstoff & Edelstahl\\
-%\hline 
-Elastizitätsmodul E & 210 kN/mm$^2$ \\ 
-%\hline 
-Höhe h x Breite b x Länge l & ??? mm x ??? mm x ??? mm\\
+\hline 
+Elastizitätsmodul E & 206 kN/mm$^2$ \\ 
+\hline 
+Höhe h x Breite b x Länge l & 5 mm x 50 mm x 185 mm\\
 \hline
 Verdampfergewicht $F_{Verdampfer}$/4 & 490,5 N\\
 \hline
 maximale Eismenge $F_{Eis}$/4 & 24,5 N\\
 \hline
 $F_{ges}$ & 515 N\\
-
+\hline
+\hline
 \end{tabular} 
 \label{tab:Federblattereigenschaften}
 \end{table}
@@ -105,29 +106,39 @@ Die maximale Eismenge am Ende des Vereisungsvorgang wird zu 10 kg festgelegt. De
 F_{Verdampfer}= 1/4\cdot 200 kg \cdot 9,81 m/s^2 = 490,5 N
 \end{equation*}
 \begin{equation*}
-F_{Eis}= 1/4 \cdot 10 kg \cdot 9,81 m/s^2 = 24,5 N
+\Delta F_{Eis}= 1/4 \cdot 10 kg \cdot 9,81 m/s^2 = 24,5 N
 \end{equation*}
 \begin{equation*}
-F_{ges}= F_{Verdampfer} + F_{Eis} = 515 N.
+F_{ges}= F_{Verdampfer} + \Delta F_{Eis} = 515 N.
 \end{equation*}
 
 Die Federwege, nach Gleichung \ref{eq:Federweg}, je nach Belastung ergeben sich zu:
 
 \begin{equation*}
-  s(F= F_{Verdampfer})=19,93 mm 
+  s(F= F_{Verdampfer})=9,65 mm 
  \end{equation*}
  \begin{equation*}
- s(F= F_{ges})= 20,93 mm 
+ s(F= F_{ges})= 10,13 mm 
  \end{equation*}
 \begin{equation*}
- \Delta s(\Delta F_{Eis}) = 1 mm
+ \Delta s(\Delta F_{Eis}) = 0,48 mm
 \end{equation*}
 
 Die Federrate $R$ ergibt sich zu:
 
 \begin{equation*}
-R = \frac{98,1 N}{1 mm} = 98,1 N/mm.
+R = \frac{24,5 N}{1 mm} = 51,04 N/mm.
 \end{equation*}
+
+Die maximal auftretende Biegespannung ergibt sich bei $F_{ges}$ zu  $\sigma_{b,max} = 457,34 \frac{N}{mm^2}.$ Mit $R_m =1000 N/mm^2$, entnommen für Blattfedern aus TB 10-1 aus \citep{Wittel2011}, ergibt sich  $\sigma_{zul}\approx 0,7 \cdot 1100 N/mm^2 = 770 N/mm^2  $ als maximal zulässige Biegespannung. Daraus resultiert eine Sicherheit für die Blattfeder von:
+
+\begin{equation}
+S= \frac{770~N/mm^2}{457,34~N/mm^2} = 1,68.
+\end{equation}
+
+
+
+
 
 Diese Berechnung gelten für den Einsatz einer einzelnen Feder ohne Waage. Die Kombination aus einer Blattfeder und einer Waage hat Einfluss auf die Federrate und so auf den resultierenden Federweg des Wägesystems. Die Federrate wird größer, sprich die Feder wird härter. Aus einer härteren Feder resultiert ein kürzerer Federweg $\Delta s$.  In Abbildung \ref{fig:Feder_Waage_Fs} ist der verkürzte Federweg $\Delta s_{F+W}$ für ein System aus Feder und Waage dargestellt. Es folgt $\Delta s_{F+W}< \Delta s_{F}$. Die resultierende Federrate für eine Feder-Waage-Kombination ergibt sich aufgrund einer Parallelschaltung zu :
 
@@ -135,10 +146,10 @@ Diese Berechnung gelten für den Einsatz einer einzelnen Feder ohne Waage. Die K
 R_{F+W}= R_F + R_W.
 \end{equation}
 
-Die Federrate der Waage nicht bekannt. Eine gleichmäßige Verteilung des Verdampfersgewicht auf die vier Waagen könnte durch die Bestimmung der Durchbiegung aller Federblätter bestimmt werden. Eine praktische Auslesung des Federweges $s$ ist nicht vorhanden. Ungenaues Bestimmen würde zu großen Fehlern führen. Ein Abweichung von $\pm 0,1 mm$ zöge einen Messfehler von $\pm$ 1 kg hinter sich.  Zusätzlich kann noch keine Aussage über den Schwerpunkt des gefrorenen Eises im Verdampfer getroffen werden.
-Erste Versuche mit dem Wäägesystem führten zu der Erkenntnis, dass die Federn sich bei der Einstellung der Vorspannung sehr stark beeinflussen. 
+Die Federrate der Waage nicht bekannt. Eine gleichmäßige Verteilung des Verdampfersgewicht auf die vier Waagen könnte durch die Bestimmung der Durchbiegung aller Federblätter bestimmt werden. Eine praktische Auslesung des Federweges $s$ ist nicht vorhanden. Ungenaues Bestimmen würde zu großen Fehlern führen. Ein Abweichung von $\pm 0,1 mm$ zöge einen Messfehler von $\pm$ 0,5 kg hinter sich.  Zusätzlich kann noch keine Aussage über den Schwerpunkt des gefrorenen Eises im Verdampfer getroffen werden.
+Erste Versuche mit dem Wäägesystem führten zu der Erkenntnis, dass die Federn sich bei der Einstellung der Vorspannung sehr stark gegenseitig beeinflussen. 
  
-Deshalb wird das Wägesystem und alle ihre Waagen einer Kalibrierung vor jeder Messung durchlaufen müssen. Die Kalibrierung geschieht mit einem Prüfgewicht an 4 verschiedenen Positionen am Verdampfer und wird in die Software implementiert, siehe Abschnitt \ref{sec:Informationstechnischer Aufbau} für den informationstechnischen Aufbau. 
+Deshalb wird das Wägesystem und alle ihre Waagen vor jeder Messung kalibriert. Die Kalibrierung geschieht mit fünf Prüfgewicht an allen vier Waagen, siehe Abschnitt \ref{sec:Kalibrierung Wägesystem}. Der Kalibrierungsprozess wird in die Software implementiert, siehe Abschnitt \ref{sec:Informationstechnischer Aufbau} für den informationstechnischen Aufbau. 
 
 %\begin{figure}[htb]
 %\centering		\includegraphics[width=0.90\textwidth]{Pictures/%Feder_Waage_Fs.pdf}

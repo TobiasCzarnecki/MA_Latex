@@ -35,6 +35,13 @@
   month =  nov
 }
 
+@Electronic{Beckhoff2016,
+  editor = {{BECKHOFF AUTOMATION GMBH \& CO. KG}},
+  title =  {TwinCAT 3– eXtended Automation Engineering (XAE).},
+  year =   {2016},
+  url =    {http://download.beckhoff.com/download/Document/catalog/Beckhoff_TwinCAT3_042012_d.pdf}
+}
+
 @Article{BMWi2010,
   author = {{Bundesministerium für Wirtschaft und Technologie (BMWi)}},
   title =  {Energiekonzept für eine umweltschonende, zuverlässige und bezahlbare Energieversorgung},
@@ -207,6 +214,13 @@ abstract = "Frost build-up blocks the gap between fins and decreases the airflow
   chapter =     {Kältetechnologien in Deutschland – Energetische, ökologische Analysen sowie Potenziale der Entwicklung},
   pages =       {48-50},
   url =         {https://www.klimaschutz.de/sites/default/files/page/downloads/hs_karlsruhe_forschung_aktuell_2012.pdf}
+}
+
+@Booklet{MODBUS.ORG2002,
+  editor = {{MODBUS.ORG}},
+  title =  {MODBUS over Serial Line Specification \& Implementation guide V1.0},
+  year =   {2002},
+  url =    {http://www.modbus.org/docs/Modbus_over_serial_line_V1.pdf}
 }
 
 @Thesis{Nuerenberg2015,
