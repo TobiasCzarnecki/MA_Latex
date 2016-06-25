@@ -26,18 +26,21 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Federungsarbeit mit Reibungs-Hysterese\citep {Wittel2011}}}}{25}{figure.3.11}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces K\IeC {\"a}lteanlage(KA)-Flie\IeC {\ss }bild}}{30}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces M\IeC {\"o}gliche Magnetventil-Schaltungen}}{31}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces W\IeC {\"a}rmestr\IeC {\"o}me in der Klimakammer \citep {Nuerenberg2015}}}{33}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Federkonstruktion nach dem Prinzip des einseitig eingespannten Balkens}}{36}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Federarbeit aufgeteilt auf Verdampfergewicht, Waagenvorspannung und Eismenge}}{38}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces SPS-CPU und E-Busklemme der Fa. Beckhoff}}{40}{figure.5.6}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ethernet-Steuerungs-CPU CX9020}}}{40}{figure.5.6}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {EL3202: 2-Kanal-Eingangsklemmen f\IeC {\"u}r PT100-Temperatursensoren}}}{40}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Zwei-Kabel-Topologie eines MODBUS RTU- Feldbusses \citep {MODBUS.ORG2002} }}{42}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Zwei Modbus-Feldbusse mit angeschlossenen Sensoren, Busklemmen und Spannungsspeisung}}{44}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Status-Maschine}}{46}{figure.5.9}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Gesamtaufbau mit Klimakammer(KK), Luftk\IeC {\"u}hler ,Verfl\IeC {\"u}ssigungssatz und W\IeC {\"a}gesystem}}{28}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces K\IeC {\"a}lteanlage(KA)-Flie\IeC {\ss }bild}}{30}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces M\IeC {\"o}gliche Magnetventil-Schaltungen}}{32}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces W\IeC {\"a}rmestr\IeC {\"o}me in der Klimakammer \citep {Nuerenberg2015}}}{33}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces CAD-Modell des W\IeC {\"a}gesystems mit Blattfeder.}}{35}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Federkonstruktion nach dem Prinzip des einseitig eingespannten Balkens}}{37}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces SPS-CPU und E-Busklemme der Fa. Beckhoff}}{41}{figure.5.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ethernet-Steuerungs-CPU CX9020}}}{41}{figure.5.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {EL3202: 2-Kanal-Eingangsklemmen f\IeC {\"u}r PT100-Temperatursensoren}}}{41}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Zwei-Kabel-Topologie eines MODBUS RTU- Feldbusses \citep {MODBUS.ORG2002} }}{43}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Zwei Modbus-Feldbusse mit angeschlossenen Sensoren, Busklemmen und Spannungsspeisung}}{45}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Prozesschritte beim \textit {User Centered Design} \citep {Nuerenberg2015}}}{46}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Statusmaschine}}{48}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces TwinCAT 3 \citep {Beckhoff2016}}}{55}{figure.5.12}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Waage vom Typ \textit {PCD 10K0.1} der Fa. \textsc {Kern und Sohn Gmbh}}}{52}{figure.A.1}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Waage vom Typ \textit {PCD 10K0.1} der Fa. \textsc {Kern und Sohn Gmbh}}}{63}{figure.A.1}
 \addvspace {10\p@ }

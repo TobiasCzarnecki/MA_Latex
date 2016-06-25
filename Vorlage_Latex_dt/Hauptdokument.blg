@@ -7,13 +7,18 @@ Warning--entry type for "Beckhoff2016" isn't style-file defined
 --line 38 of file Literatur.bib
 Warning--entry type for "M.Stoeckner2012" isn't style-file defined
 --line 209 of file Literatur.bib
+Warning--entry type for "Neumann2007" isn't style-file defined
+--line 235 of file Literatur.bib
 Warning--entry type for "Nuerenberg2015" isn't style-file defined
---line 226 of file Literatur.bib
+--line 245 of file Literatur.bib
 Warning--entry type for "OPALRTT2014" isn't style-file defined
---line 234 of file Literatur.bib
+--line 253 of file Literatur.bib
 Warning--entry type for "Sahinagic2004" isn't style-file defined
---line 274 of file Literatur.bib
+--line 293 of file Literatur.bib
 Warning--I didn't find a database entry for "Baehr2014"
+Warning--I didn't find a database entry for "Normung2010"
+Warning--I didn't find a database entry for "Preim2013"
+Warning--I didn't find a database entry for "Nuerenberg15"
 Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
 while executing---line 2138 of file natdin.bst
 Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
@@ -33,4 +38,5 @@ Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hay
 while executing---line 2227 of file natdin.bst
 Warning--empty number in Kosowski2009
 Warning--empty note in Kosowski2009
+Warning--empty address in MicroNovaAG2011
 (There were 6 error messages)
