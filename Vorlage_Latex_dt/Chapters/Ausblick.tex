@@ -1,0 +1,106 @@
+\chapter{Ausblick und Optimierungsvorschläge}
+\label{cha:Ausblick}
+
+Die Anlage wurde erfolgreich in Betrieb genommen und erste Vereisungs- und Abtauversuche wurden durchgeführt. Während der Versuche wurden weitere vier Oberflächentemperaturen an unterschiedlichen Positionen auf dem Wärmeübertrager gemessen. Das System lässt sich mittels der SPS steuern und regeln.
+
+Um qualitative Aussagen bezüglich der Abtaueffizienz und -geschwindigkeit treffen zu können, werden weitere Messungen durchzuführen sein. Zunächst wird vorgeschlagen, den Referenzumgebungspunkt bei 2 °C und 90$\%$ Luftfeuchtigkeit zu belassen und mit einer Vereisungszeit von 1 h alle Abtaumethoden hinreichend oft zu vermessen. Erst dann wird ein Vergleich der Abtaumethoden mittels der gewonnen Daten möglich sein. 
+
+Um die Performance der Kälteanlage als auch der SPS und des Wägesystems weiter zu optimieren, wurde eine Liste von Punkten zusammengetragen, die zu einer Verbesserung des gesamten Prüfstands führen sollen. Bei den aufgeführten Punkten und Unterpunkten handelt es sich lediglich um eine Empfehlung des Verfassers. Die Punkte haben sich während der Inbetriebnahme und bei der Durchführung der ersten Messungen ergeben. Die Optimierungsmaßnahmen haben unterschiedlich hohe Prioritäten und werden unterschiedlich stark zur Verbesserung des Prüfstandes führen. Jeder Vorschlag ist mit einer subjektiven Prioritätseinschätzung seitens des Autors versehen. Die Priorität (P) und der Aufwandes (A) jedes Vorschlages wurde nach Schema, aufgezeigt in der Tabelle \ref{tab:Bewertung}, eingestuft. 
+
+
+\begin{table}[htb]
+\centering
+\caption{Aufwands- und Prioritätsschlüssel}\vspace{6pt}
+\begin{tabular}{ll}
+\hline 
+\textbf{Markierung} & \textbf{Priorität (P) / Aufwand (A)} \\ 
+\hline 
+\hline 
+(+) & hoch \\ 
+\hline 
+(0) & mittel  \\ 
+\hline 
+(-) & niedrig \\ 
+\hline 
+\hline
+\end{tabular} 
+\label{tab:Bewertung}
+\end{table}
+
+Die Priorität bezieht sich auf Sicherheit, Funktionalität und Messerfassung der Kälteanlage. Der Aufwand betrachtet Arbeitsstunden, Einarbeitungszeit und Kosten der Maßnahmen. Alle Einschätzungen sind subjektiv und bedürfen die Absprache mit dem Anlagenbetreiber.
+
+\section*{Kältemaschine}
+
+\begin{itemize}
+\item die Wiederinbetriebnahme der mechanischen Sicherheitskette des Bock-Kompressors durch Austausch des Funktionsmoduls am EFC-Frequenzumrichter. Weitere Hardware-Sicherheitsorgane wie mechanische Druckschalter erhöhen das Sicherheitsniveau der Anlage.  A$\rightarrow$ 0, P $\rightarrow$ +
+\end{itemize}		
+		
+	\textbf{Expansionsventil}: Verbesserung der Regelperformance und Düsenaustausch:
+	\begin{itemize}
+	 \item Den Temperatursensor näher an den Verdampfer-Austritt positionieren und/oder externes analoges Signal für Druck- und Temperaturwerte  verwenden. Hierfür CAREL-Sensoreingangskanäle S3 und S4 benutzten, da diese noch nicht belegt sind. Analoge Ausgangsklemmen, EL 4024 für 4-20 mA oder EL 4008 für 0-10 V, von der SPS besitzen noch unbenutzte Kanäle. CAREL-Druck und Temperatursensoren (auf Anschlüssen S1 und S2) als \textit{Back-up}-Regelung konfigurieren. A$\rightarrow$ 0, P $\rightarrow$ +
+	 
+	 \item Die Reglerparameter sollten optimiert werden. Entweder kann hierfür das \textit{Autotuning}-Verfahren von CAREL benutzt werden oder das Ziegler-Nichols-Verfahren, dass per SPS ausführt werden kann. Für das Ziegler-Nichols-Verfahren gibt es in der OSCAT-Bibliothek die Funktionsbausteine \textit{CONTROL$\_$SET1} oder \textit{CONTROL$\_$SET2}. Die Funktionsbausteine, führen nach Eingabe der kritischen Verstärkung und Periodendauer, das Verfahren automatisiert durch. A$\rightarrow$ -, P $\rightarrow$ +
+	 \item 	Die Einspritzdüse tauschen oder weiteres Magnetventil installieren, um einen Druckausgleich im Anlagenstillstand zu verhindern. Nach einem PumpDown bleibt das flüssige Kältemittel im Sammler. A$\rightarrow$ +, P $\rightarrow$ +
+	\end{itemize}		
+		
+
+
+		
+		
+\textbf{Abtauverdampfer}: 
+Verhindern von Einschluss von flüssigem Kältemittel im Abtauverdampfer durch Heizstäbe, Umleitung der Verflüssiger-Abluft oder Magnetventile. 
+	\begin{itemize}
+\item  Heizstäbe
+\begin{itemize}
+	\item  Das flüssig, im Abtauverdampfer gefangene Kältemittel  wird bei T= 35 °C  verdampfen und der Druck sich auf ca. 9 bar erhöhen. Das Kältemittel wird zum Austritt über die Rückstoßventile aus dem Verdampfer gezwungen und kein flüssiges Kältemittel sammelt sich im Kühlbetrieb im Abtauverdampfer. A$\rightarrow$ 0, P $\rightarrow$ 0
+\end{itemize} 
+
+\item Magnetventile
+\begin{itemize}
+	\item  Rückschlagventile durch Magnetventile ersetzten und über ein Schaltschütz öffnen und schließen. Schaltschütz könnte über ein digitales Ausgangssignal über die SPS geschalten werden. Zusätzliches Signal in die Statusmaschine implementieren. 
+	A$\rightarrow$ +, P $\rightarrow$ 0
+\end{itemize}
+
+\item Umlenkung der warmen Verflüssiger-Abluft 
+
+\begin{itemize}
+\item	Verflüssiger-Ventilator mit niedrigeren Drehzahlen betreiben und Umlenkung der warmen Luft in den Wärmeübertrager des Abtauverdampfers. Erhöhung der Temperatur führt zum Verdampfen des flüssigen, eingeschlossenen Kältemittels. 
+A$\rightarrow$ -, P $\rightarrow$ 0
+\end{itemize} 
+	\end{itemize}	
+	
+\section*{Modbus RTU}
+\begin{itemize}
+
+\item Baudrate von \textit{Modbus COM} auf 115200 bps hochstellen. Dies ermöglicht eine schnellere Abfrage der Slaves. Bisher dauert ein Datenerfassungszyklus 2-4 s lang. Anpassung der Baudrate führt zu einer Verringerung des Datenerfassungszyklus auf  unter 1 s. Achtung: Störsignale werden höher auf der Datenleitunf. Es wird empfohlen die Timeout zwischen Modbus-\textit{Request} und -\textit{Response} hochzustellen. A$\rightarrow$ 0, P $\rightarrow$ 0
+
+\end{itemize}
+
+\section*{Informationstechnik}
+Optimierung des Programmcodes und Implementierung weiterer \textit{Features}. 
+\begin{itemize}
+\item Datenspeicherung der Globalen Variablen per .CSV- Datei oder direkte Übermittlung der Daten in die Datenbank MySQL programmieren. A$\rightarrow$ 0, P $\rightarrow$ +
+\item Meldungslog einbauen, indem Fehler und aktuelle Statusmeldungen geschrieben werden können. Erleichtert die Überwachung und Auswertung der Messdaten. A$\rightarrow$ 0, P $\rightarrow$ -
+\item Abtauablauf: Einschalten der Bodenheizung mittels TIMER verzögern. Bei Heißgasabtauung die Abtaudauer optimieren bzw. an die vorhandene Eismenge anpassen.  A$\rightarrow$ -, P $\rightarrow$ -
+\end{itemize}
+
+\section*{GUI}
+Zur Verbessung der Funktionalität und Übersicht der GUI werden folgende Punkte vorgeschlagen: 
+
+\begin{itemize}
+\item Erweiterung der Steuerungselemente-Bibliothek um folgende Kältekomponenten: Wärmeübertrager, Magnetventil, Vierwegeventil, Kompressor. Übersichtlichere und eine intuitiv verständlichere Benutzeroberfläche wäre das Ergebnis. A$\rightarrow$ 0, P $\rightarrow$ -
+\item Messdaten-Aufzeichnungsfeld in die Benutzeroberfläche integrieren, siehe Konzept von HIL2-Benutzeroberfläche in \textsc{\citeauthor{Nuerenberg2015}}. A$\rightarrow$ 0, P $\rightarrow$ +
+\end{itemize}
+
+\section*{Regelung}
+	\begin{itemize}
+	\item Nach Optimierung der Regelperformance des Expansionsventils kann die gesamte Regelung der Kälteanlage optimiert werden. Hierzu die gängigen empirischen Optimierungsverfahren (\textit{Ziegler-Nichols-Verfahren}) anwenden, um bessere Regelparameter für die PID-Regler zu ermitteln. Die Standardabweichung wird gesenkt und dadurch eine geringere Abweichung von den gewünschten Oberflächentemperaturen im Verdampfer erreicht. A$\rightarrow$ 0, P $\rightarrow$ 0
+	\end{itemize}
+
+\section*{Wägesystem}
+
+\begin{itemize}
+\item Reduzierung der Waagenanzahl  auf drei Waagen. Durch Fixierung von der linken Seite wird es kein Kippmoment bei Betrieb der Ventilatoren und Klimakammer geben. Ein Wägesystem mit drei Waagen hat weniger Freiheitsgrade als ein System mit vier Waagen. A$\rightarrow$ 0, P $\rightarrow$ +
+\item Optimierung der Schmelzwasser-Wägung bzw. des -Ablaufes für den automatisierten Vereisungs- und Abtauungsprozess. Zurzeit ist manuelles Leeren nach jeder Messreihe nötig. A$\rightarrow$ -, P $\rightarrow$ -
+\item  Kältemittel-Gewichtserfassung: Berechnung oder praktische Erfassung der Kältemittelmasse im Luftkühler, um errechnete Eis-Summe von Öffnung des Expansionsventiles zu entkoppeln. A$\rightarrow$ 0, P $\rightarrow$ +
+\end{itemize}

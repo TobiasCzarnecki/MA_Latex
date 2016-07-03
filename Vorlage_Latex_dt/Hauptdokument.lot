@@ -2,15 +2,25 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3.1}{\ignorespaces Vor- und Nachteile der verschiedenen Abtaumethoden \citep {Breidenbach2014}, \citep {Refrigeration2000}, \citep {Yin2012}, \citep {Huang20091697} }}{23}{table.3.1}
 \addvspace {10\p@ }
+\contentsline {table}{\numberline {4.1}{\ignorespaces Vor- und Nachteile der verschiedenen Abtaumethoden \citep {Breidenbach2014}, \citep {Refrigeration2000}, \citep {Yin2012}, \citep {Huang20091697} }}{25}{table.4.1}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {5.1}{\ignorespaces Leistungsdaten K\IeC {\"a}lteanlage}}{29}{table.5.1}
-\contentsline {table}{\numberline {5.2}{\ignorespaces Sensordaten-\IeC {\"U}bersicht}}{33}{table.5.2}
-\contentsline {table}{\numberline {5.3}{\ignorespaces Systemparamter der Klimakammer \citep {Nuerenberg2015}}}{34}{table.5.3}
-\contentsline {table}{\numberline {5.4}{\ignorespaces Waagendaten}}{36}{table.5.4}
-\contentsline {table}{\numberline {5.5}{\ignorespaces Feder-Daten}}{38}{table.5.5}
+\contentsline {table}{\numberline {5.1}{\ignorespaces Leistungsdaten K\IeC {\"a}lteanlage}}{27}{table.5.1}
+\contentsline {table}{\numberline {5.2}{\ignorespaces Sensordaten-\IeC {\"U}bersicht}}{31}{table.5.2}
+\contentsline {table}{\numberline {5.3}{\ignorespaces Systemparameter der Klimakammer \citep {Nuerenberg2015}}}{32}{table.5.3}
+\contentsline {table}{\numberline {5.4}{\ignorespaces Waagendaten}}{34}{table.5.4}
+\contentsline {table}{\numberline {5.5}{\ignorespaces Feder-Daten}}{36}{table.5.5}
 \contentsline {table}{\numberline {5.6}{\ignorespaces Busklemmen-\IeC {\"U}bersicht}}{41}{table.5.6}
+\contentsline {table}{\numberline {5.7}{\ignorespaces Abk\IeC {\"u}rzungen-\IeC {\"U}bersicht}}{59}{table.5.7}
+\contentsline {table}{\numberline {5.8}{\ignorespaces Abk\IeC {\"u}rzungen-\IeC {\"U}bersicht \citep {Nuerenberg2015}}}{60}{table.5.8}
+\contentsline {table}{\numberline {5.9}{\ignorespaces PID-Regler-\IeC {\"U}bersicht}}{63}{table.5.9}
+\contentsline {table}{\numberline {5.10}{\ignorespaces Modbus-Register Adressen \citep {KMGH2013}}}{66}{table.5.10}
+\contentsline {table}{\numberline {5.11}{\ignorespaces Modbus-Befehle mit ihrem Funktions-Code }}{67}{table.5.11}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {6.1}{\ignorespaces Werte f\IeC {\"u}r CAREL-PID-Regler f\IeC {\"u}r Einschwingvorgang und station\IeC {\"a}rer Betrieb}}{82}{table.6.1}
+\contentsline {table}{\numberline {6.2}{\ignorespaces Versuchsreihen}}{82}{table.6.2}
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {7.1}{\ignorespaces Aufwands- und Priorit\IeC {\"a}tsschl\IeC {\"u}ssel}}{91}{table.7.1}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

@@ -11,28 +11,38 @@
 \BOOKMARK [2][-]{subsection.3.1.3}{Reif- und Eisbildung}{section.3.1}% 11
 \BOOKMARK [1][-]{section.3.2}{K\344ltetechnik}{chapter.3}% 12
 \BOOKMARK [2][-]{subsection.3.2.1}{Komponenten eines Kaltdampfprozesses}{section.3.2}% 13
-\BOOKMARK [2][-]{subsection.3.2.2}{Abtaumethoden}{section.3.2}% 14
-\BOOKMARK [1][-]{section.3.3}{Federn}{chapter.3}% 15
-\BOOKMARK [0][-]{chapter.4}{Stand der Technik}{}% 16
+\BOOKMARK [1][-]{section.3.3}{Federn}{chapter.3}% 14
+\BOOKMARK [0][-]{chapter.4}{Stand der Technik}{}% 15
+\BOOKMARK [1][-]{section.4.1}{Abtaumethoden}{chapter.4}% 16
 \BOOKMARK [0][-]{chapter.5}{Versuchsaufbau}{}% 17
 \BOOKMARK [1][-]{section.5.1}{K\344ltetechnischer Aufbau}{chapter.5}% 18
 \BOOKMARK [1][-]{section.5.2}{W\344gesystem}{chapter.5}% 19
 \BOOKMARK [2][-]{subsection.5.2.1}{Messtechnik}{section.5.2}% 20
 \BOOKMARK [2][-]{subsection.5.2.2}{Konstruktion}{section.5.2}% 21
-\BOOKMARK [1][-]{section.5.3}{Elektrischer Aufbau}{chapter.5}% 22
-\BOOKMARK [2][-]{subsection.5.3.1}{Modbus RTU}{section.5.3}% 23
-\BOOKMARK [1][-]{section.5.4}{Informationstechnischer Aufbau}{chapter.5}% 24
-\BOOKMARK [2][-]{subsection.5.4.1}{User Centered Design\(UCD\)}{section.5.4}% 25
-\BOOKMARK [2][-]{subsection.5.4.2}{Statusmaschine}{section.5.4}% 26
-\BOOKMARK [2][-]{subsection.5.4.3}{TwinCAT 3}{section.5.4}% 27
-\BOOKMARK [2][-]{subsection.5.4.4}{Modbus RTU}{section.5.4}% 28
-\BOOKMARK [2][-]{subsection.5.4.5}{Programme}{section.5.4}% 29
-\BOOKMARK [2][-]{subsection.5.4.6}{Grafical User Interface - GUI}{section.5.4}% 30
-\BOOKMARK [2][-]{subsection.5.4.7}{Anlagenschutz}{section.5.4}% 31
-\BOOKMARK [0][-]{chapter.6}{Inbetriebnahme}{}% 32
-\BOOKMARK [1][-]{section.6.1}{K\344lteanlage}{chapter.6}% 33
-\BOOKMARK [1][-]{section.6.2}{Kalibrierung: W\344gesystem}{chapter.6}% 34
-\BOOKMARK [0][-]{Hilfszaehler.6}{Literaturverzeichnis}{}% 35
-\BOOKMARK [0][-]{appendix.A}{Wichtiger Anhang 1}{}% 36
-\BOOKMARK [1][-]{section.A.1}{Die Versalien}{appendix.A}% 37
-\BOOKMARK [0][-]{appendix.B}{\304hnlich wichtiger Anhang}{}% 38
+\BOOKMARK [2][-]{subsection.5.2.3}{Kalibrierung}{section.5.2}% 22
+\BOOKMARK [1][-]{section.5.3}{Elektrischer Aufbau}{chapter.5}% 23
+\BOOKMARK [2][-]{subsection.5.3.1}{RS232-Kommunikation zwischen SPS und KERN-Waage}{section.5.3}% 24
+\BOOKMARK [2][-]{subsection.5.3.2}{RS485-Kommunikation zwischen SPS und Sensoren \374ber MODBUS RTU}{section.5.3}% 25
+\BOOKMARK [1][-]{section.5.4}{Informationstechnischer Aufbau}{chapter.5}% 26
+\BOOKMARK [2][-]{subsection.5.4.1}{User Centered Design\(UCD\)}{section.5.4}% 27
+\BOOKMARK [2][-]{subsection.5.4.2}{Statusmaschine}{section.5.4}% 28
+\BOOKMARK [2][-]{subsection.5.4.3}{TwinCAT 3}{section.5.4}% 29
+\BOOKMARK [2][-]{subsection.5.4.4}{Namensgebung der Variablen}{section.5.4}% 30
+\BOOKMARK [2][-]{subsection.5.4.5}{RS232-Kommunikation: Verarbeitung des Prozessabbildes}{section.5.4}% 31
+\BOOKMARK [2][-]{subsection.5.4.6}{Regelung}{section.5.4}% 32
+\BOOKMARK [2][-]{subsection.5.4.7}{Modbus RTU}{section.5.4}% 33
+\BOOKMARK [2][-]{subsection.5.4.8}{Programme}{section.5.4}% 34
+\BOOKMARK [2][-]{subsection.5.4.9}{Grafical User Interface - GUI}{section.5.4}% 35
+\BOOKMARK [0][-]{chapter.6}{Inbetriebnahme}{}% 36
+\BOOKMARK [1][-]{section.6.1}{Elektrische Inbetriebnahme}{chapter.6}% 37
+\BOOKMARK [1][-]{section.6.2}{Informationstechnische Inbetriebnahme}{chapter.6}% 38
+\BOOKMARK [1][-]{section.6.3}{Fehlersuche}{chapter.6}% 39
+\BOOKMARK [1][-]{section.6.4}{Kalibrierung W\344gesystem}{chapter.6}% 40
+\BOOKMARK [1][-]{section.6.5}{Versuche}{chapter.6}% 41
+\BOOKMARK [2][-]{subsection.6.5.1}{Fehlerabsch\344tzung}{section.6.5}% 42
+\BOOKMARK [0][-]{chapter.7}{Ausblick und Optimierungsvorschl\344ge}{}% 43
+\BOOKMARK [0][-]{chapter.8}{Zusammenfassung}{}% 44
+\BOOKMARK [0][-]{Hilfszaehler.6}{Literaturverzeichnis}{}% 45
+\BOOKMARK [0][-]{appendix.A}{Datenbank lesen}{}% 46
+\BOOKMARK [1][-]{section.A.1}{Die Versalien}{appendix.A}% 47
+\BOOKMARK [0][-]{appendix.B}{\304hnlich wichtiger Anhang}{}% 48

@@ -1,8 +1,8 @@
 \select@language {ngerman}
-\contentsline {chapter}{Nomenklatur}{vi}{Hilfszaehler.2}
-\contentsline {chapter}{Abbildungsverzeichnis}{ix}{Hilfszaehler.3}
-\contentsline {chapter}{Tabellenverzeichnis}{xi}{Hilfszaehler.4}
-\contentsline {chapter}{Vorwort}{xii}{Hilfszaehler.5}
+\contentsline {chapter}{Nomenklatur}{v}{Hilfszaehler.2}
+\contentsline {chapter}{Abbildungsverzeichnis}{viii}{Hilfszaehler.3}
+\contentsline {chapter}{Tabellenverzeichnis}{x}{Hilfszaehler.4}
+\contentsline {chapter}{Vorwort}{xi}{Hilfszaehler.5}
 \contentsline {chapter}{\numberline {1}Einf\IeC {\"u}hrung}{1}{chapter.1}
 \contentsline {chapter}{\numberline {2}Motivation und Ziele}{3}{chapter.2}
 \contentsline {chapter}{\numberline {3}Grundlagen}{6}{chapter.3}
@@ -11,33 +11,42 @@
 \contentsline {subsection}{\numberline {3.1.2}Feuchte Luft}{9}{subsection.3.1.2}
 \contentsline {subsection}{\numberline {3.1.3}Reif- und Eisbildung}{12}{subsection.3.1.3}
 \contentsline {section}{\numberline {3.2}K\IeC {\"a}ltetechnik}{16}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Komponenten eines Kaltdampfprozesses}{17}{subsection.3.2.1}
-\contentsline {subsection}{\numberline {3.2.2}Abtaumethoden}{19}{subsection.3.2.2}
-\contentsline {section}{\numberline {3.3}Federn}{24}{section.3.3}
-\contentsline {chapter}{\numberline {4}Stand der Technik}{27}{chapter.4}
-\contentsline {chapter}{\numberline {5}Versuchsaufbau}{28}{chapter.5}
-\contentsline {section}{\numberline {5.1}K\IeC {\"a}ltetechnischer Aufbau}{28}{section.5.1}
-\contentsline {subsubsection}{\nonumberline K\IeC {\"a}lteaanlage(KA)}{29}{section*.19}
-\contentsline {subsubsection}{\nonumberline K\IeC {\"u}hlbetrieb, Zustandspunkte: $1 \rightarrow 2 \rightarrow 2'\rightarrow 3' \rightarrow 3''\rightarrow 3''' \rightarrow 3 \rightarrow 4 \rightarrow 1' $}{31}{section*.20}
-\contentsline {subsubsection}{\nonumberline Klimakammer(KK)}{33}{section*.23}
-\contentsline {section}{\numberline {5.2}W\IeC {\"a}gesystem}{34}{section.5.2}
-\contentsline {subsection}{\numberline {5.2.1}Messtechnik}{35}{subsection.5.2.1}
-\contentsline {subsection}{\numberline {5.2.2}Konstruktion}{36}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {3.2.1}Komponenten eines Kaltdampfprozesses}{16}{subsection.3.2.1}
+\contentsline {section}{\numberline {3.3}Federn}{19}{section.3.3}
+\contentsline {chapter}{\numberline {4}Stand der Technik}{22}{chapter.4}
+\contentsline {section}{\numberline {4.1}Abtaumethoden}{22}{section.4.1}
+\contentsline {chapter}{\numberline {5}Versuchsaufbau}{26}{chapter.5}
+\contentsline {section}{\numberline {5.1}K\IeC {\"a}ltetechnischer Aufbau}{26}{section.5.1}
+\contentsline {subsubsection}{\nonumberline K\IeC {\"a}lteaanlage}{27}{section*.20}
+\contentsline {subsubsection}{\nonumberline K\IeC {\"u}hlbetrieb, Zustandspunkte: $1 \rightarrow 2 \rightarrow 2'\rightarrow 3' \rightarrow 3''\rightarrow 3''' \rightarrow 3 \rightarrow 4 \rightarrow 1' $}{28}{section*.21}
+\contentsline {subsubsection}{\nonumberline Klimakammer}{31}{section*.24}
+\contentsline {section}{\numberline {5.2}W\IeC {\"a}gesystem}{32}{section.5.2}
+\contentsline {subsection}{\numberline {5.2.1}Messtechnik}{33}{subsection.5.2.1}
+\contentsline {subsection}{\numberline {5.2.2}Konstruktion}{34}{subsection.5.2.2}
+\contentsline {subsection}{\numberline {5.2.3}Kalibrierung}{37}{subsection.5.2.3}
 \contentsline {section}{\numberline {5.3}Elektrischer Aufbau}{39}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Modbus RTU}{43}{subsection.5.3.1}
-\contentsline {section}{\numberline {5.4}Informationstechnischer Aufbau}{46}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}User Centered Design(UCD)}{46}{subsection.5.4.1}
-\contentsline {subsection}{\numberline {5.4.2}Statusmaschine}{47}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}TwinCAT 3}{55}{subsection.5.4.3}
-\contentsline {subsubsection}{\nonumberline Waagen-Kommunikation mittels RS-232}{57}{section*.32}
-\contentsline {subsection}{\numberline {5.4.4}Modbus RTU}{57}{subsection.5.4.4}
-\contentsline {subsection}{\numberline {5.4.5}Programme}{57}{subsection.5.4.5}
-\contentsline {subsection}{\numberline {5.4.6}Grafical User Interface - GUI}{57}{subsection.5.4.6}
-\contentsline {subsection}{\numberline {5.4.7}Anlagenschutz}{57}{subsection.5.4.7}
-\contentsline {chapter}{\numberline {6}Inbetriebnahme}{58}{chapter.6}
-\contentsline {section}{\numberline {6.1}K\IeC {\"a}lteanlage}{58}{section.6.1}
-\contentsline {section}{\numberline {6.2}Kalibrierung: W\IeC {\"a}gesystem}{58}{section.6.2}
-\contentsline {chapter}{Literaturverzeichnis}{59}{Hilfszaehler.6}
-\contentsline {chapter}{\numberline {A}Wichtiger Anhang 1}{63}{appendix.A}
-\contentsline {section}{\numberline {A.1}Die Versalien}{63}{section.A.1}
-\contentsline {chapter}{\numberline {B}\IeC {\"A}hnlich wichtiger Anhang}{64}{appendix.B}
+\contentsline {subsection}{\numberline {5.3.1}RS232-Kommunikation zwischen SPS und KERN-Waage}{43}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.2}RS485-Kommunikation zwischen SPS und Sensoren \IeC {\"u}ber MODBUS RTU}{44}{subsection.5.3.2}
+\contentsline {section}{\numberline {5.4}Informationstechnischer Aufbau}{47}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}User Centered Design(UCD)}{48}{subsection.5.4.1}
+\contentsline {subsection}{\numberline {5.4.2}Statusmaschine}{49}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}TwinCAT 3}{57}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Namensgebung der Variablen}{58}{subsection.5.4.4}
+\contentsline {subsection}{\numberline {5.4.5}RS232-Kommunikation: Verarbeitung des Prozessabbildes}{60}{subsection.5.4.5}
+\contentsline {subsection}{\numberline {5.4.6}Regelung}{61}{subsection.5.4.6}
+\contentsline {subsection}{\numberline {5.4.7}Modbus RTU}{64}{subsection.5.4.7}
+\contentsline {subsection}{\numberline {5.4.8}Programme}{67}{subsection.5.4.8}
+\contentsline {subsection}{\numberline {5.4.9}Grafical User Interface - GUI}{67}{subsection.5.4.9}
+\contentsline {chapter}{\numberline {6}Inbetriebnahme}{75}{chapter.6}
+\contentsline {section}{\numberline {6.1}Elektrische Inbetriebnahme}{76}{section.6.1}
+\contentsline {section}{\numberline {6.2}Informationstechnische Inbetriebnahme}{76}{section.6.2}
+\contentsline {section}{\numberline {6.3}Fehlersuche}{78}{section.6.3}
+\contentsline {section}{\numberline {6.4}Kalibrierung W\IeC {\"a}gesystem}{82}{section.6.4}
+\contentsline {section}{\numberline {6.5}Versuche}{82}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Fehlerabsch\IeC {\"a}tzung}{90}{subsection.6.5.1}
+\contentsline {chapter}{\numberline {7}Ausblick und Optimierungsvorschl\IeC {\"a}ge}{91}{chapter.7}
+\contentsline {chapter}{\numberline {8}Zusammenfassung}{95}{chapter.8}
+\contentsline {chapter}{Literaturverzeichnis}{97}{Hilfszaehler.6}
+\contentsline {chapter}{\numberline {A}Datenbank lesen}{102}{appendix.A}
+\contentsline {section}{\numberline {A.1}Die Versalien}{102}{section.A.1}
+\contentsline {chapter}{\numberline {B}\IeC {\"A}hnlich wichtiger Anhang}{104}{appendix.B}
