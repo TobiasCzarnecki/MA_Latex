@@ -1,57 +1,35 @@
 \chapter{Motivation und Ziele}
 \label{cha:Motivation_und_Ziele}
 
-Am \textit{Institute for Energy Efficient Buildings and Indoor Climate }(EBC) werden in Kooperation mit dem \textit{Lehrstuhl für Wärme- und Stoffübertragung }(WSA) verschiedene Abtaumethoden für vereiste Luftkühler erforscht. Der Auftraggeber und Kooperationspartner für die Forschungsarbeiten ist der \textit{Forschungsrat Kältetechnik e.V}. Die komplette Projektumgebung ist in der Abbildung \ref{fig:Projektumgebung} dargestellt
 
-\begin{figure}[htb]
-	\centering
-		\includegraphics[width=0.80\textwidth]{Pictures/Projektumgebung.png}
-	\caption{Projektumgebung für den EBC Abtauprüfstand \citep{Freitag2015}}
-	\label{fig:Projektumgebung}
-\end{figure}
+Die Motivation zu diesem Forschungsprojekt basiert auf dem Phänomen, dass bei der Unterschreitung des Taupunktes der zu kühlenden vorbei strömenden Luft zunächst Wasser an der Oberfläche des Wärmeübertragers auskondensiert. Unterschreitet die Oberflächentemperatur 0 °C, so können sich erste Kristalle an Keimzellen auf der Oberfläche bilden. Das Wachstum der Kristalle führt zu einer Bereifung des Wärmeübertrager. Die Bereifung führt bei einem konstant bleibendem Volumenstrom durch eine Querschnittsverengung im Wärmeübertrager des Luftkühlers zu einer erhöhten Strömungsgeschwindigkeit. Diese führt zunächst zu einem erhöhten Wärmeübergang und somit zu einer höheren Leistungsübertragung vom Luftkühler auf die Luft.\citep{Schydlo2010}
 
-Die Motivation zu diesem Forschungsprojekt basiert auf dem Phänomen, dass bei der Unterschreitung des Taupunktes der zu kühlenden vorbei strömenden Luft zunächst eine Bereifung des Luftkühlers stattfindet. Die Bereifung führt bei einer Verdampfungstemperatur kleiner als 0 °C zu einer Vereisung. Die Bereifung führt durch eine Querschnittsverengung im Wärmeübertrager des Luftkühlers zu einer erhöhten Strömungsgeschwindigkeit. Diese führt zunächst zu einem erhöhten Wärmeübergang und somit zu einer höheren übertragenden Leistung vom Luftkühler auf die Luft.\citep{Schydlo2010}
+Eine weitere Bereifung der Lamellen führt zu einem sinkenden Wärmeübergang zwischen der Lamelle und der Luft, da das gefrorene Eis aufgrund der geringen Wärmeleitfähigkeit einen zusätzlichen Wärmeübergangswiderstand darstellt. Um den eintretenden Leistungsabfall zu kompensieren und einen Temperaturanstieg in der Kühlzelle zu vermeiden, wird die Temperatur-Regelung der Kälteanlage, sofern sie dafür ausgelegt ist, die Verdampfungstemperatur verringern. Eine Verringerung der Verdampfungstemperatur führt zu einer Erhöhung der Temperaturdifferenz zwischen Kältemittel und Luft. Eine höhere Temperaturdifferenz steigert wiederum die Kälteleistung. 
 
-Eine spätere Bereifung der Lamellen führt zu einem sinkenden Wärmeübergang zwischen der Lamelle und der Luft, da sich das gefrorene Eis aufgrund der geringen Wärmeleitfähigkeit wie ein Isolator verhält. Um den eintretenden Leistungsabfall zu kompensieren, wird die Regelung der Kälteanlage die Verdampfungstemperatur verringern. Verdampfungstemperatur geht mit einem geringeren Saugdruck für den Kompressor einher. Eine höhere Druckdifferenz führt zu einem erhöhten Stromverbrauch und gleichzeitig sinkt der Wirkungsgrad der gesamten Kälteanlage.
-Aus dieser Kausalkette sollte eine Kälteanlage im Falle einer Vereisung abgetaut werden, um danach wieder seine Nennleistung zur Verfügung stellen zu können.
+Die Verdampfungstemperatur des Kältemittels ist druckabhängig und somit abhängig vom Saugdruck. Um die Verdampfungstemperatur zu verringern, muss der Saugdruck verringert werden. Ein geringerer Saugdruck erhöht die Druckdifferenz zwischen Ein- und Ausgang des Kompressors. Dies führt zu einem erhöhten Stromverbrauch seitens des Kompressors und gleichzeitig sinkt der Wirkungsgrad der gesamten Kälteanlage.
+Die Kälteanlage wird im Falle einer Vereisung abgetaut, um danach die ursprüngliche Nennkälteleistung zur Verfügung stellen zu können.
 
-Das Forschungsvorhaben zielt sowohl auf experimentelle als auch numerische Erkenntnisgewinne im Hinblick auf Reifbildungsvorgänge bei verschiedenen Abtaumethoden bei Luftkühlern in einem Kältekreislauf. Diese Erkenntnisse sollen in eine spätere Datenbasis zur energieeffizienten Auslegung von Luftkühlerkomponenten einfließen.
+Das Forschungsvorhaben zielt sowohl auf experimentelle als auch numerische Erkenntnisgewinne im Hinblick auf verschiedene Abtaumethoden bei Luftkühlern in einem Kältekreislauf. Diese Erkenntnisse sollen in eine spätere Datenbasis zur energieeffizienten Auslegung von Luftkühlerkomponenten einfließen.
 
-Das WSA übernimmt hierbei die Entwicklung eines numerischen Simulationsmodelles. Das EBC ist verantwortlich für den Aufbau eines Abtauprüfstand zur Validierung der Simulationsergebnisse. Hierzu wurde bereits in einer vorhergegangenen Masterarbeit von \textsc{\citeauthor{Helmlinger2015}} eine Kälteanlage geplant und in Betrieb genommen. Der Luftkühler ist hierbei in einer Klimakammer platziert, in der unterschiedlichste Raumbedingungen eingestellt werden können. Die Luftkühler können getauscht werden, um verschiedene Wärmeübertrager-Varianten testen zu können.
+Hierzu wurde bereits eine Kälteanlage geplant und in Betrieb genommen. Der Luftkühler ist hierbei in einer Klimakammer platziert, in der unterschiedlichste Raumbedingungen eingestellt werden können. Die Luftkühler können getauscht werden, um verschiedene Wärmeübertrager-Varianten testen zu können.
 
-
-
-Diese Masterarbeit umfasst, wie in Abbildung \ref{fig:Aufgabenpakete} dargestellt, die Arbeitspakete \textit{Aufbau (bzw. Optimierung) eines Prüfstandes} und \textit{Ermitteln von Messdaten}.
-
-
-
-Das Arbeitspaket \textit{Aufbau (bzw. Optimierung) eines Prüfstandes} unterteilt sich in 
+Diese Masterarbeit umfasst die Arbeitspakete \textit{Aufbau (bzw. Optimierung) eines Prüfstandes} und \textit{Ermitteln von Messdaten}. Das Arbeitspaket \textit{Aufbau (bzw. Optimierung) eines Prüfstandes} unterteilt sich in 
 
 \begin{itemize}
 
-\item Optimierung des Kältekreislaufes: Umsetzung der Verbesserungsvorschläge aus der Masterarbeit von \textsc{\citeauthor{Helmlinger2015}}
+\item Optimierung des Kältekreislaufes
 
 \item Entwicklung und Bau eines Wägesystems zur Messung und Bestimmung des 2D-Schwerpunktes der Eismenge im Luftkühler
 
-\item Entwicklung und Implementierung einer Speicher-Programmierbaren-Steuerung(SPS) zur Steuerung, Regelung des Kältekreises und Auswertung des Wägesystems in Echtzeit.
+\item Entwicklung und Implementierung einer speicherprogrammierbaren Steuerung (SPS) zur Regelung und Steuerung des Kältekreises und Auswertung des Wägesystems in Echtzeit.
 
 \item Auslegung der Regelparameter für verwendete PID-Regler
 \end{itemize}
 
-Am Ende der Masterarbeit und nach erfolgreichem Abschließen des ersten Arbeitspaketes wird das zweite Arbeitspaket \textit{Ermitteln von Messdaten} bearbeitet. Dieses setzt sich aus folgenden Punkten zusammen:
+Nach erfolgreichem Abschließen des ersten Arbeitspaketes wird das zweite Arbeitspaket \textit{Ermitteln von Messdaten} bearbeitet. Dieses setzt sich aus folgenden Punkten zusammen:
 
 \begin{itemize}
 \item Durchführung von Reifbildungsversuchen
 \item Durchführung von Abtauversuchen mittels verschiedener Abtaumethoden
 \item Ermittlung der Reproduzierbarkeit der Messungen.
 \end{itemize}
-
-
-
-
- \begin{figure}[htb]
-	\centering
-		\includegraphics[width=0.80\textwidth]{Pictures/Projektablauf.png}
-	\caption{Aufgabenpakete im Projektzyklus.\citep{Freitag2015} Rot umrahmte Arbeitspakte werden in dieser Masterarbeit behandelt und ausgeführt.}
-	\label{fig:Aufgabenpakete}
-\end{figure}

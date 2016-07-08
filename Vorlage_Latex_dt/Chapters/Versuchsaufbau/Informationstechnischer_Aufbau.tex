@@ -3,7 +3,7 @@
 
 
 
-In diesem Abschnitt wird der informationstechnische Aufbau der Kälteanlage vorgestellt und erläutert. Eine Grundlage für die Software-Entwicklung für die Kälteanlage waren das Vorgehen und Erfahrungen aus dem Aufbau der Klimakammer und dessen SPS-Entwicklung. Das Grundgerüst für die SPS bildet die Ablaufstruktur aus dem Klimakammer-Projekt, nachzulesen in \textsc{\citeauthor{Nuerenberg2015}}. Das Konzept wurde an die Anforderung der Kälteanlage angepasst sowie in einigen Teilen weiterentwickelt und um neue Programme und Ablaufstrukturen ergänzt. Zunächst wird das Grundkonzept sowie das Vorgehen erläutert, um später auf die Konzepte und Teilprogramme näher einzugehen. 
+In diesem Abschnitt wird der informationstechnische Aufbau der Kälteanlage vorgestellt und erläutert. Eine Grundlage für die Software-Entwicklung für die Kälteanlage waren das Vorgehen und Erfahrungen aus dem Aufbau der Klimakammer und dessen SPS-Entwicklung (siehe \citep{Nuerenberg2015}). Das Konzept wurde an die Anforderung der Kälteanlage angepasst sowie in einigen Teilen weiterentwickelt und um neue Programme und Ablaufstrukturen ergänzt. Zunächst wird das Grundkonzept sowie das Vorgehen erläutert, um später auf die Konzepte und Teilprogramme näher einzugehen. 
 
 \begin{figure}[htb]
 \centering		\includegraphics[width=0.50\textwidth]{Pictures/UCD.png}
@@ -11,10 +11,10 @@ In diesem Abschnitt wird der informationstechnische Aufbau der Kälteanlage vorg
 \label{fig:}
 \end{figure}
 
-\subsection{User Centered Design(UCD)}
+\subsection{User Centered Design (UCD)}
 \label{subsec: UCD}
 
-Für die Software-Entwicklung für die Kälteanlage wird der Ansatz des \textit{User Centered Design} (UCD) verfolgt. Dieser Ansatz dient zur Gestaltung von interaktiven System. Im Mittelpunkt stehen hierbei die Bedürfnisse, Fähigkeiten und Erfahrungen vom Endanwender stehen. Es wird sowohl für die Produktentwicklung als auch in der Softwareentwicklung eingesetzt. Sie beruht auf der alten Norm  EN ISO 13407 \footnote{EN ISO 13407: Benutzer-orientierte Gestaltung interaktiver Systeme} und ging in der neuen Norm EN ISO 9241-210 \footnote{EN ISO 9241-210: Prozess zur Gestaltung gebrauchstauglicher interaktiver Systeme}  auf. \citep{Normung2010}
+Für die Software-Entwicklung für die Kälteanlage wird der Ansatz des \textit{User Centered Design} (UCD) verfolgt. Dieser Ansatz dient zur Gestaltung von interaktiven Systemen. Im Mittelpunkt steht hierbei die Bedürfnisse, Fähigkeiten und Erfahrungen vom Endanwender stehen. Es wird sowohl für die Produktentwicklung als auch in der Softwareentwicklung eingesetzt. Sie beruht auf der alten Norm  EN ISO 13407 \footnote{EN ISO 13407: Benutzer-orientierte Gestaltung interaktiver Systeme} und ging in der neuen Norm EN ISO 9241-210 \footnote{EN ISO 9241-210: Prozess zur Gestaltung gebrauchstauglicher interaktiver Systeme}  auf. \citep{Normung2010}
 
 Das Konzept besteht aus vier Prozessschritten. Zunächst werden in der \textit{Analyse des Nutzungskontextes} die Benutzergruppe, ihr fachlicher Hintergrund und ihre Arbeitsaufgaben definiert. Bei der Benutzung der Kälteanlage handelt es sich um Entwickler oder um eingewiesenes Personal. Beide verfügen über ein gutes bis sehr gutes technisches und thermodynamisches Verständnis. Sie kennen die Funktionen der einzelnen Bauteile und das Verhalten des Prüfstandes. Technische Fachtermini sowie englische Begriffe werden vorausgesetzt.  Des Weiteren verfügt es über Erfahrungen im Umgang mit PC-Software.
 
@@ -30,16 +30,16 @@ Vom Benutzer werden die folgenden Arbeitsfelder ausgeführt:
 
 Um diese Arbeitsfelder durchführen zu können, werden die \textit{Basisanforderungen} an die Software definiert. Diese umfassen die Sicherheit für Mensch und Maschine, ein effizientes und komfortables Arbeiten. Zuletzt soll die Software flexibel und erweiterbar sein. 
 
-Nach der Erfassung der Anforderungen geht die Software-Entwicklung zur nächsten Phase über. Diese umfasst die \textit{Konzeption und Entwurf} der Prüfstandssoftware. In der Arbeit von \textsc{\citeauthor{Neumann2007}} \citep{Neumann2007} werden zu beachtende Gesetze für diese Phase aufgelistet. Diese Gesetze sollen ein späteres effizientes, angenehmes Arbeiten ermöglichen. In \citep{Preim2013} werden 15 Punkte genannt, die es bei der Entwicklung einer ergonomischen Softwareentwicklung zu berücksichtigen gilt.
+Nach der Erfassung der Anforderungen geht die Software-Entwicklung zur nächsten Phase über. Diese umfasst die \textit{Konzeption und Entwurf} der Prüfstandssoftware. In der Arbeit von Neumann \citep{Neumann2007} werden zu beachtende Gesetze für diese Phase aufgelistet. Diese Gesetze sollen ein späteres effizientes, angenehmes Arbeiten ermöglichen. In \citep{Preim2013} werden 15 Punkte genannt, die es bei der Entwicklung einer ergonomischen Softwareentwicklung zu berücksichtigen gilt.
 
 Die letzte Phase des UCD ist die kontinuierliche \textit{Evaluation} der Software. Der Kreis des UCDs ist nun geschlossen und fängt von vorne an. Es ist ein kontinuierlicher Prozess für eine bessere und effizientere Software für die definierten Aufgabenfelder. 
 
 \subsection{Statusmaschine}
 \label{subsec:Statusmaschine}
 
-Die Statusmaschine ist das Werkzeug zur Umsetzung der vom UCD definierten Basisanforderungen an de Kälteanlage-Software. Das Werkzeug für eine kontinuierliche und zuverlässige Ausführung der Anforderungen ist eine Speicher-Programmierbare-Steuerung (SPS) am besten geeignet. Die SPS gewährleistet die kontinuierliche Ausführung des Programm-Codes und besitzt eine hohe Kompatibilität mit der eingesetzten Hardware inklusive Regler und Sensoren der Kälteanlage. 
+Die Statusmaschine ist das Werkzeug zur Umsetzung der vom UCD definierten Basisanforderungen an die Kälteanlage-Software. Als Werkzeug für eine kontinuierliche und zuverlässige Ausführung der Anforderungen ist eine SPS am besten geeignet. Die SPS gewährleistet die kontinuierliche Ausführung des Programmcodes und besitzt eine hohe Kompatibilität mit der eingesetzten Hardware inklusive Regler und Sensoren der Kälteanlage. 
 
-Die SPS ermöglicht des Weiteren das Lesen und das Schreiben jeder Variablen innerhalb eines Zykluses. Ein herkömmliches PC-Programm ist, im Gegensatz zu dem zyklusgesteuerten SPS-Programmcode, ereignisgesteuert. Die Dauer für einen Durchlauf des Programmes in einem herkömmlichen PC-Programm variiert je nach Belegung des Arbeitsspeicher und Auslastung der CPU. Der Ablauf einer zyklusgesteuerten SPS lässt sich unterteilen in folgende Teilschritte:
+Die SPS ermöglicht des Weiteren das Lesen und das Schreiben jeder Variablen innerhalb eines Zykluses. Ein herkömmliches PC-Programm ist, im Gegensatz zu dem zyklusgesteuerten Programmcode, ereignisgesteuert. Die Dauer für einen Durchlauf des Programmes in einem herkömmlichen PC-Programm variiert je nach Belegung des Arbeitsspeicher und Auslastung der CPU. Der Ablauf einer zyklusgesteuerten SPS lässt sich unterteilen in folgende Teilschritte:
 
 \begin{enumerate}
 \item	Nach Bereitschafts-Kontrolle aller angeschlossenen Baugruppen wird das Prozessabbild aller Eingänge aktualisiert. Der Status aller Eingangs-Busklemmen wird abgefragt
@@ -48,8 +48,8 @@ Die SPS ermöglicht des Weiteren das Lesen und das Schreiben jeder Variablen inn
 \end{enumerate}
 
 
-\begin{figure}[htb]
-\centering		\includegraphics[width=0.75\textwidth]{Pictures/SM.png}
+\begin{figure}%[htb]
+\centering		\includegraphics[width=1\textwidth]{Pictures/SM.png}
 \caption{Statusmaschine}
 \label{fig:SM}
 \end{figure}
@@ -63,15 +63,15 @@ Die Statusmaschine beginnt ihren Zyklus beim Start. Dort wird über eine Transit
 
 \subsubsection*{Statusmaschine: Initialisieren}
 
-Während des Initialisierungsvorgangs werden Daten aus den Datenbanken eingelesen und an die Variablen weitergegeben. Das Konzept der Datenbanken beruht hauptsächlich auf dem Programm $DB\_lesen$ von \textsc{\citeauthor{Nuerenberg2015}}\citep{Nuerenberg2015}. 
-Die Verbindung zu einer Tabelle aus der Datenbank wird mittels des Funktionsblockes \textit{FB$\_$DBRecord-ArraySelect} hergestellt. Aus der Tabelle werden dann eine bestimmte Menge an Datensätzen gelesen. 
+Während des Initialisierungsvorgangs werden Daten aus den Datenbanken eingelesen und an die Variablen weitergegeben. Das Konzept der Datenbanken beruht hauptsächlich auf dem Programm $DB\_lesen$ von Nürenberg \citep{Nuerenberg2015}. 
+Die Verbindung zu einer Tabelle aus der Datenbank wird mittels des Funktionsblockes \textit{FB$\_$DBRecord$\_$ArraySelect} hergestellt. Aus der Tabelle werden dann eine bestimmte Menge an Datensätzen gelesen. 
 Die Verbindungsinformationen zur Datenbank und Tabelle werden über das Beckhoff-Konfigurationstool \textit{Database Server Konfigurator} hergestellt und verwaltet. 
-Rückgabewert des Funktionsbausteins $FB\_DBRecord-ArraySelect$ ist ein Array der Struktur der Tabelle. Bei keinem Fehler ist die Tabelle mit Werten von der Datenbank gefüllt und die Array-Größe  ist größer als Null. Kommt es zu einem Verbindungsfehler, können die Daten nicht eingelesen werden und die Arraygröße ist gleich Null. Dann wird die Fehler-Boolvariable $bDBFehler$ auf TRUE gesetzt und die Statusmaschine verharrt im Status \textit{Initialisieren}. 
+Rückgabewert des Funktionsbausteins \textit{FB$\_$DBRecord$\_$ArraySelect} ist ein Array der Struktur der Tabelle. Wenn kein Fehler aufgetreten ist, wird die Tabelle mit Werten von der Datenbank gefüllt und die Array-Größe ist größer als Null. Kommt es zu einem Verbindungsfehler, können die Daten nicht eingelesen werden und die Arraygröße ist gleich Null. Dann wird die Fehler-Boolvariable \textit{bDBFehler} auf TRUE gesetzt und die Statusmaschine verharrt im Status \textit{Initialisieren}. 
 
-Das gefüllte Array mit den Tabellenwerten wird im folgenden Schritt an die lokale Struktur übergeben. \textsc{\citeauthor{Nuerenberg2015}} verwendet hierzu eine Kombination aus einer FOR-Schleife mit einer IF-Abfrage. Mit der FOR-Schleife wird die ID-Nummer hochgezählt und falls der Variablenname mit dem lokalen Namen übereinstimmt, in deren Struktur übergeben.  
-\textsc{\citeauthor{Nuerenberg2015}} schreibt in seiner Arbeit von Problemen mit der Verbindung zur Datenbank in dem ersten Zyklus und setzt daher einen \textit{Timer} ein. Der \textit{Timer} startet den Lese-Prozess drei Sekunden nach dem Start der Statusmaschine und fängt an die Datensätze zu lesen. In dem jetzigen Programmablauf wird das Timeout für den Funktionsbaustein auf 150 ms gestellt und auf den \textit{Timer} verzichtet. Das führt dazu, dass das System der Kommunikation zwischen SPS und Datenbank mehr Zeit gibt, bevor der Prozess abgebrochen wird und die Fehlervariable auf TRUE gesetzt wird. Dies hat den gleichen Effekt wie der Einsatz eines Timers. Die Datenbanken werden jedoch im ersten Zyklus ausgelesen. 
+Das gefüllte Array mit den Tabellenwerten wird im folgenden Schritt an die lokale Struktur übergeben. Nürenberg\citep{Nuerenberg2015} verwendet hierzu eine Kombination aus einer FOR-Schleife mit einer IF-Abfrage. Mit der FOR-Schleife wird die ID-Nummer hochgezählt und falls der Variablenname mit dem lokalen Namen übereinstimmt, in deren Struktur übergeben.  
+Nürenberg \citep{Nuerenberg2015} schreibt in seiner Arbeit von Problemen mit der Verbindung zur Datenbank in dem ersten Zyklus und setzt daher einen \textit{Timer} ein. Der \textit{Timer} startet den Lese-Prozess drei Sekunden nach dem Start der Statusmaschine und fängt an die Datensätze zu lesen. In dem jetzigen Programmablauf wird das Timeout für den Funktionsbaustein auf 150 ms gestellt und auf den \textit{Timer} verzichtet. Das führt dazu, dass das System der Kommunikation zwischen SPS und Datenbank mehr Zeit gibt, bevor der Prozess abgebrochen wird und die Fehlervariable auf TRUE gesetzt wird. Dies hat den gleichen Effekt wie der Einsatz eines Timers. Die Datenbanken werden jedoch im ersten Zyklus ausgelesen. 
 
-Stoffwerte, die mittels Datenbankübertragung, an die SPS geliefert werden, sind lokal als \textit{Persistente Variablen} gespeichert. Neukompilieren, Neustarten der SPS oder Programmänderungen haben keinen Einfluss auf die Variablenwert. Die SPS speichert die Variablen lokal auf ihrem Speicherplatz. Dadurch werden die Daten für die Stoffwerte nur dann gelesen, wenn der Benutzer dies mittels der Boolvariable \textit{bLeseStoffwerte} entscheidet. Im Gegensatz zu den anderen Datenbanken, beispielsweise mit Reglereinstellungen, verändern die Stoffwerte sich nicht. Deshalb müssen diese nicht jedes Mal beim Starten der SPS gelesen werden. Werden die Stoffwerte-Tabellen in der Datenbank angepasst bzw. das Abfrageraster der Werte verkleinert, so muss man die lokalen Strukturen und Iterationsverfahren daran anpassen. 
+Stoffwerte, die mittels Datenbankübertragung, an die SPS geliefert werden, sind lokal als \textit{persistente Variablen} gespeichert. Neukompilieren, Neustarten der SPS oder Programmänderungen haben keinen Einfluss auf die Variablenwert. Die SPS speichert die Variablen lokal auf ihrem Speicherplatz. Dadurch werden die Daten für die Stoffwerte nur dann gelesen, wenn der Benutzer dies mittels der Boolvariable \textit{bLeseStoffwerte} entscheidet. Im Gegensatz zu den anderen Datenbanken, beispielsweise mit Reglereinstellungen, verändern die Stoffwerte sich nicht. Deshalb müssen diese nicht jedes Mal beim Starten der SPS gelesen werden. Werden die Stoffwerte-Tabellen in der Datenbank angepasst bzw. das Abfrageraster der Werte verkleinert, so muss man die lokalen Strukturen und Iterationsverfahren daran anpassen. 
 
 Des Weitern wird während Initialisierung der Status des Wägesystems kontrolliert. Sind die Waagen korrekt mit 2 kg vorbelastet, jede Feder gewichtskalibiert und der alle Offsets ermittelt, wird die Boolvariable  \textit{bWaagenBereit} auf TRUE gesetzt. Diese Abfrage gilt nur zur Kontrolle. Das System startet auch ohne die vorher aufgelisteten Schritte, die im Status \textit{Leerlauf} durchgeführt werden. 
 
@@ -84,33 +84,33 @@ Im Status \textit{Lesen} werden folgende Schritte durchgeführt:
 
 \begin{itemize}
 \item	Temperatur-Eingänge werden ausgelesen
-\item	Waagen-Eingänge werden aus Datenpuffer gelesen, vgl. Abschnitt \ref{subsubsec:Modus}
-\item	Ablaufstruktur für Modbus RTU, vgl. \ref{subsec:Modbus RTU}
+\item	Waagen-Eingänge werden aus Datenpuffer gelesen
+\item	Ablaufstruktur für Modbus RTU
 \item 	Berechnungsprogramm für Enthalpien der Zustandspunkte und 2-D Schwerpunktermittlung der Eismasse im Luftkühler.
 \end{itemize} 
 
-Die Klemmenwerte der Busklemmen werden gelesen und in native Werte umgerechnet, z. B. 4..20 mA oder 0..10V. Dieses Vorgehen ermöglicht ein komfortableres und effizienteres Arbeiten und Verarbeiten der Signale auf Seiten des Benutzers. Die Umrechnung von Klemmenwerten (\textit{INT$\_$VAR}) in native Werte(\textit{REAL$\_$VAR}) erfolgt über eine einfache Geradengleichung mit den Parameter \textit{PARA$\_$M} als Geradensteigung und \textit{PARA$\_$C} als y-Achsenabschnitt :
+Die Klemmenwerte der Busklemmen werden gelesen und in native Werte ( z. B. 4\dots20~mA) umgerechnet. Dieses Vorgehen ermöglicht ein komfortableres und effizienteres Arbeiten und Verarbeiten der Signale auf Seiten des Benutzers. Die Umrechnung von Klemmenwerten (\textit{INT$\_$VAR}) in native Werte (\textit{REAL$\_$VAR}) erfolgt über eine einfache Geradengleichung mit den Parametern \textit{PARA$\_$M} als Geradensteigung und \textit{PARA$\_$C} als y-Achsenabschnitt :
 
 \begin{equation}
 REAL\_VAR = PARA\_M\cdot INT\_VAR + PARA\_C; 
 \label{eq:SPSNativ}
 \end{equation}
 
-\textsc{\citeauthor{Nuerenberg15}}  benutzt für die Umrechnung \ref{eq:SPSNativ} die Funktion \textit{FB$\_$SPS$\_$zu$\_$Nativ$\_$lin}. Die Parameter und die Geradengleichung werden in der Datenbank für die jeweilige Struktur hinterlegt. Für Eingangswerte werden die Strukturen \textit{INPUT$\_$VAR} und für Ausgangswerte \textit{OUTPUT$\_$VAR} eingeführt. Die Umrechnung von nativen Werten in Klemmenwerten erfolgt im Schritt \textit{Schreiben}.
+Nürenberg \citep{Nuerenberg2015}  benutzt für die Umrechnung \ref{eq:SPSNativ} die Funktion \textit{FB$\_$SPS$\_$zu$\_$Nativ$\_$lin}. Die Parameter und die Geradengleichung werden in der Datenbank für die jeweilige Struktur hinterlegt. Für Eingangswerte werden die Strukturen \textit{INPUT$\_$VAR} und für Ausgangswerte \textit{OUTPUT$\_$VAR} eingeführt. Die Umrechnung von nativen Werten in Klemmenwerten erfolgt im Schritt \textit{Schreiben}.
 
 \subsubsection*{Statusmaschine: Leerlauf}
 
-Ist keine Transitionsvariable beim Start der SPS ausgewählt, so geht die SPS automatisch nach dem Status \textit{Lesen} in den Status \textit{Leerlauf} über. In diesem Status werden alle Komponenten der Kälteanlage spannungsfrei geschaltet und alle Regler auf nicht aktiv(FALSE) gesetzt. In diesem Status wird zu Beginn jeder Messung das Wägesystem kalibriert werden. Danach kann der Benutzer zur Messung übergegehen. Der genaue Kalibrierungsablauf ist in Abschnitt  \ref{sec:Kalibrierung Wägesystem} beschrieben. 
+Ist keine Transitionsvariable beim Start der SPS ausgewählt, so geht die SPS automatisch nach dem Status \textit{Lesen} in den Status \textit{Leerlauf} über. In diesem Status werden alle Komponenten der Kälteanlage spannungsfrei geschaltet und alle Regler auf nicht aktiv (FALSE) gesetzt. In diesem Status wird zu Beginn jeder Messung das Wägesystem kalibriert werden. Danach kann der Benutzer zur Messung übergehen. Der genaue Kalibrierungsablauf ist in Abschnitt  \ref{subsec:Waagen-Kalibrierung} beschrieben. 
 
 Befindet die Anlage sich im Kühl- bzw. Abtau-Modus und dieser wird manuell oder automatisch durch den Anlagenschutz abgebrochen bzw. beendet, so geht die Anlage in den sicheren Betriebsmodus \textit{Leerlauf}.  
 
-Nach dem \textit{Leerlauf} geht die SPS in den Status \textit{Anlagenschutz} über.  
+Nach dem \textit{Leerlauf} geht die SPS in den Status \textit{Schreiben} über.  
 
 \subsubsection*{Statusmaschine: Pumpdown}
 
-Der Status \textit{Pumpdown} bewirkt ein Absaugen des Kältemittels aus dem Verdampfer, um mögliche Kältemittelverlagerungen während einer Stillstandsphase vorzubeugen (vgl. \citep{Siemens2007a}).  Das Kältemittel wird durch den Kompressor angesaugt, durch den Verflüssiger kondensiert und dann unter hohem Druck in den Sammler gedrückt. Damit kein weiteres Kältemittel aus dem Sammler in den Verdampfer nachströmt, bekommt das Expansionsventil per Modbus den Befehlt zum Schließen. Das geschlossene Expansionsventil verhindert weiteres Eindringen des Kältemittels in den Verdampfer. Der Druck sinkt auf der Niedrigdruckseite und steigt auf der Hochdruckseite. 
+Der Status \textit{Pumpdown} bewirkt ein Absaugen des Kältemittels aus dem Verdampfer, um mögliche Kältemittelverlagerungen während einer Stillstandsphase vorzubeugen.  Das Kältemittel wird durch den Kompressor angesaugt, durch den Verflüssiger kondensiert und dann unter hohem Druck in den Sammler gedrückt. Damit kein weiteres Kältemittel aus dem Sammler in den Verdampfer nachströmt, bekommt das Expansionsventil per Modbus den Befehl zum Schließen. Das geschlossene Expansionsventil verhindert weiteres Eindringen des Kältemittels in den Verdampfer. Der Druck sinkt auf der Niedrigdruckseite und steigt auf der Hochdruckseite. 
 
-Der Pumpdown führt zu einem starken Temperaturabfall in dem Verdampfer und den Rohrleitungen, sodass Temperaturen bis zu -20 $°C$ erreicht werden. Um zu starke Unterkühlungen zu verhindern, wird der Kompressor beim Pumpdown mit der niedrigsten Drehzahl bei 4 mA betrieben. Fällt der Niedrigdruck vor dem Kompressor unter 1,5  bar, so ist der Pumpdown abgeschlossen.
+Der Pumpdown führt zu einem starken Temperaturabfall in dem Verdampfer und den Rohrleitungen, sodass Temperaturen bis zu -20 °C erreicht werden. Um zu starke Unterkühlungen zu verhindern, wird der Kompressor beim Pumpdown mit der niedrigsten Drehzahl bei 4 mA betrieben. Fällt der Niedrigdruck vor dem Kompressor unter 1,5  bar, so ist der Pumpdown abgeschlossen.
 
 Für die Schaltung der Schaltschütze zur Spannungsfreigabe sowie die Schaltung der Magnetventile wurde der Funktionsbaustein \textit{FB$\_$Schuetzstellung} programmiert. Der Funktionsbaustein hat als Input-Variable \textit{myStatus}, die vom \textit{TYPE}  \textit{Status$\_$Schuetzstellung} ist. Der \textit{TYPE}  \textit{Status$\_$Schuetzstellung} beinhaltet sechs verschiedene Schaltungssituationen:
 
@@ -123,11 +123,11 @@ Für die Schaltung der Schaltschütze zur Spannungsfreigabe sowie die Schaltung 
 \item	\textit{AbtauenElektrisch}
 \end{itemize}
 
-Dieser Funktionsbaustein ist als Globale Variable deklariert und kann so aus jedem Programm aufgerufen werden. Dies ermöglicht dem Benutzer, die Schaltung der elektrischen Bauteile ohne die genauen Schaltpläne nachvollzogen zu haben und vermeidet Fehler bei der Programmierung. 
+Dieser Funktionsbaustein ist als globale Variable deklariert und kann so aus jedem Programm aufgerufen werden. Dies ermöglicht dem Benutzer, die Schaltung der elektrischen Bauteile ohne die genauen Schaltpläne nachvollzogen zu haben und vermeidet Fehler bei der Programmierung. 
 
-Um einen Pumpdown durchführen zu können, werden die Transitionsvariablen \textit{bPumpDown} und \textit{bPumpdown$\_$rev}  auf TRUE gesetzt. Die Statusmaschine durchläuft nun bei jedem Zyklus den Pumpdown-Status. Unterschreitet der Saugdruck die 1,5 bar, ist der Pumpdown erfolgreich abgeschlossen. Die Transitionsvariablen \textit{bPumpdown} und \textit{bPumpdown$\_$rev} werden wieder auf FALSE gestellt und die Variable \textit{bPumpDownAbgeschlossen} bzw. \textit{bPumpDown$\_$revAbgeschlossen} auf TRUE. Der Funktionsbaustein \textit{Status$\_$Schuetzstellung} schaltet automatisch alle Komponenten spannungsfrei. Die Anlage wird neu inistialisiert, um die Sollwerte für den Kühlmodus wieder zu laden und an die lokalen Strukturen weiterzugeben. 
+Um einen Pumpdown durchführen zu können, werden die Transitionsvariablen \textit{bPumpdown} und \textit{bPumpdown$\_$rev}  auf TRUE gesetzt. Die Statusmaschine durchläuft nun bei jedem Zyklus den Pump-down-Status. Die Transitionsvariablen \textit{bPumpdown} und \textit{bPumpdown$\_$rev} werden wieder auf FALSE gestellt und die Variable \textit{bPumpDownAbgeschlossen} bzw. \textit{bPumpDown$\_$revAbgeschlossen} auf TRUE. Der Funktionsbaustein \textit{Status$\_$Schuetzstellung} schaltet automatisch alle Komponenten spannungsfrei. Die Anlage wird neu inistialisiert, um die Sollwerte für den Kühlmodus wieder zu laden und an die lokalen Strukturen weiterzugeben. 
 
-Der Pumpdown kann bei normaler Strömungsrichtung durchgeführt werden, um den Verdampfer in der Klimakammer zu entleeren. Es ist aber auch ein umgekehrter Pumpdown(\textit{AnlagenPumpDown$\_$rev}) implementiert. Dieser erlaubt es, das Kältemittel der Hochdruckseite abzusaugen und in den Sammler über den Verdampfer in der Klimakammer zu pumpen. Der normale Pumpdown wird nach einer Vereisungsphase vor dem Abtauen, aber auch vor dem Ausschalten der Kälteanlage automatisch ausgeführt bzw. manuell betätigt. 
+Der Pumpdown kann bei normaler Strömungsrichtung durchgeführt werden, um den Verdampfer in der Klimakammer zu entleeren. Es ist aber auch ein umgekehrter Pumpdown (\textit{AnlagenPump-Down$\_$rev}) implementiert. Dieser erlaubt es, das Kältemittel der Hochdruckseite abzusaugen und in den Sammler über den Verdampfer in der Klimakammer zu pumpen. Der normale Pumpdown wird nach einer Vereisungsphase vor dem Abtauen, aber auch vor dem Ausschalten der Kälteanlage automatisch ausgeführt bzw. manuell betätigt. 
 
 Der umgekehrte Pumpdown kann in manchen Situation aktiviert werden, führt mitunter aber zu unerwünschten Betriebsbedingungen, siehe hierzu Abschnitt \ref{cha:Inbetriebnahme}. 
 
@@ -137,7 +137,7 @@ Der nächste Status ist \textit{Anlagenschutz}.
 
 Der Status \textit{Abtauen} ruft zwei Programme auf:\textit{ Regelung()} und \textit{Abtauung()}. 
 
-Das Abtauprogramm orientiert sich  an der Empfehlung für den Abtauprozesses des Forschungsrates für Kältetechnik für die verschiedenen Abtaumethoden. Es hat die CASE-Struktur, um einen effizienteren Programmcode, aber auch die Verständlichkeit und Fehlersuche zu optimieren. Die CASE-Struktur ist in Teilschritte unterteilt, die ihren Programmcode ausführen und dann in den nächsten Teilschritt, soweit die Bedingungen dafür erfüllt sind,  übergehen. Je nach Abtaumethode wird die CASE-Struktur anders durchlaufen. Gleich  bei allen Vorgängen ist, dass zunächst ein PumpDown durchgeführt wird und dann die Abtaumethode für das Abtauen geregelt wird. Bei der elektrischen Abtauung ist das Kriterium für ein erfolgreiches Abtauen die Überschreitung von 10 °C vom Temperaturfühler im vereisten Verdampfer. 
+Das Abtauprogramm hat eine CASE-Struktur, um einen effizienteren Programmcode, aber auch die Verständlichkeit zu gewährleisten. Die CASE-Struktur ist in Teilschritte unterteilt, die ihren Programmcode ausführen und dann in den nächsten Teilschritt, soweit die Bedingungen dafür erfüllt sind,  übergehen. Je nach Abtaumethode wird die CASE-Struktur anders durchlaufen. Gleich  bei allen Vorgängen ist, dass zunächst ein PumpDown durchgeführt wird und dann die Abtaumethode für das Abtauen geregelt wird. Bei der elektrischen Abtauung ist das Kriterium für ein erfolgreiches Abtauen die Überschreitung von 10 °C vom Temperaturfühler im vereisten Verdampfer. 
 
 Bei der Heißgas-Abtauung ist die vorgegebene \textit{Abtaudauer} entscheidend. Sie wird von dem Benutzer festgelegt und solange wird der Verdampfer mit Heißgas durchströmt. Ist die Zeit abgelaufen, wird der Kompressor ausgeschaltet und in den nächsten Teilschritt übergegangen. 
 
@@ -159,7 +159,7 @@ Im \textit{Kuehlen}-Status wird nun auch die Transitionsvariable \textit{bVollau
 \item 	Vereisung()
 \end{itemize}
 
-Das \textit{Regelung()}-Programm ist wie in den anderen Zuständen verantwortlich für die Regelung der PID-Regler, vgl \ref{subsec:Programme}. 
+Das \textit{Regelung()}-Programm ist wie in den anderen Zuständen verantwortlich für die Regelung der PID-Regler. 
 Das Programm \textit{Vereisung()} stellt den Status des Funktionsbaustein \textit{FB$\_$Schuetzstellung} auf \textit{Kuehlen} und startet den Timer  \textit{TimerVereisung} mit der \textit{Vereisungszeit}, die vom Benutzer eingestellt wird. Nach Ablauf dieser \textit{Vereisungszeit} wird der Vereisungsvorgang nicht beendet, sondern lediglich eine Meldung als STRING in die Variable \textit{Mitteilung} geschrieben. 
 
 \subsubsection*{Statusmaschine: Anlagenschutz}
@@ -203,45 +203,7 @@ Soll\_KP.INT\_VAR\_Output = \frac{Soll\_KP.REAL\_VAR - Soll\_KP.PARA\_C}{Soll\_K
 \label{eq:NativSPS} 
 \end{equation}
 
-Für diese Berechnungsformel setzt \textsc{\citeauthor{Nuerenberg2015}} die rekursive Funktion $FB\_Nativ\_zu\_SPS\_lin$ ein. Die Umrechnung der Sollwerte erfolgt in den Programmen \textit{SchreibeSollwerte()}. Der nächste Status ist \textit{Lesen} bzw. \textit{Initialisieren}.
-
-\subsection{TwinCAT 3}
-\label{subsec:TwinCat}
-
-\begin{figure}[htb]
-\centering		\includegraphics[width=0.90\textwidth]{Pictures/TwinCat3_Beckhoff.png}
-\caption{TwinCAT 3 \citep{Beckhoff2016}}
-\label{fig:TwinCAT}
-\end{figure}
-
-
-Die im vorherigen Abschnitt vorgestellte Statusmaschine soll mittels einer SPS Programmierung umgesetzt werden. Zur informationstechnischen Umsetzung wurde die Automatisierungssoftware TwinCAT 3 der Fa. Beckhoff verwendet. TwinCAT ist die Abkürzung von \textit{The Windows Control and Automation Technology} und  ist in die Entwicklungssoftware von Microsofts Visual Studios integriert. Über das Visual Studios wird der Programm-Code kompiliert, debugged, ausgeführt und überwacht. Sie ermöglicht es, den lokalen PC mit der SPS zu verbinden. 
-
-TwinCAT 3 unterteilt sich hauptsächlich in zwei Unterpunkte: 
-
-\begin{itemize}
-\item	\textit{eXtended Automation Engineering} (XAE)
-\item	\textit{eXtended Automation Runtime} (XAR).
-\end{itemize}
-
-Abbild \ref{fig:TwinCAT} zeigt den softwaretechnischen Aufbau von TwinCAT 3 sowie deren Schnittstellen und Unterstrukturen.
-
-Das \textit{eXtended Automation Engineering} (XAE) ermöglicht durch ihre Orientierung an der IEC 61131-3 \footnote{IEC 61131-3:  Europäische Norm die sich mit den Grundlagen Speicherprogrammierbarer Steuerungen bezüglich Programmiersprachen befasst,} die Verwendung von folgenden Sprachen :
-
-\begin{itemize}
-\item	Anweisungsliste (AWL)
-\item	Kontaktplan (KOP)
-\item 	Funktionsbaustein-Sprache (FBS)
-\item	Ablaufsprache (AS)
-\item	Strukturierter Text (ST).
-\end{itemize}
-
-Über die Norm-Programmiersprachen hinaus ist es möglich, echtzeitfähige, externe C++- Programme als auch nicht echtzeitfähige Programme mit VB.NET  als Programmiersprache in das Projekt einzubinden. Eine weitere Software-Schnittstelle erlaubt eine Verbindung zu  Toolboxen wie \textit{MATLAB} oder \textit{Simulink}. Des Weiteren eignet sich diese Schnittstelle zur Herstellung von einer Verbindung zu Datenbank-Software wie z. B.\textit{ MySQL} oder \textit{MariaDB}. Die erzeugten Objekte, auch Module genannt, können unabhängig von ihrer Programmiersprache, in der sie erzeugt wurden,  Daten austauschen und sich gegenseitig aufrufen. 
-
-\textit{eXtended Automation Engineering} beinhaltet das Daten-Analyse-Programm \textit{Scope}. Wie auch TwinCAT selber ist \textit{Scope} in Microsofts Visual Studios eingebunden. Das \textit{Scope} unterteilt sich in \textit{Scope View} und \textit{Scope Server}. \textit{Scope View} erlaubt die Echtzeitdarstellung von Messdaten.  \textit{Scope Server} ist für die eigentliche Aufnahme der Daten verantwortlich.
-
-
-\textit{eXtended Automation Runtime} (XAR) ist zuständig für die Kommunikation von allen angeschlossenen Geräten, Feldbussen und Busklemmen der SPS. Das (XAR) stellt einen Durchlauf des gesamten Programmcodes sowie das Empfangen und Senden einer Busklemme-Signals innerhalb eines Zyklus sicher. Auf einer SPS können mehrere Tasks laufen. Jedem Task wird eine Dauer und eine Priorität durch den Benutzer zugeteilt. Der Task mit der höchsten Priorität wird stets zuerst ausgeführt. Auf dem verwendeten CX-9020 können maximal 4 Task ausgeführt werden. Ein Task besteht aus einem oder mehreren Programmen, Funktionen und Funktionsbausteinen.  Die Grundlage jeglicher Kommunikation ist das \textit{Automation Device Specification} (ADS). Es stellt eine geräte- und feldbus-unabhängige Schnittstelle zwischen ADS-Teilnehmern dar. 
+Für diese Berechnungsformel setzt Nürenberg \citep{Nuerenberg2015} die rekursive Funktion \textit{FB$\_$Nativ$\_$zu$\_$SPS$\_$lin} ein. Die Umrechnung der Sollwerte erfolgt in den Programmen \textit{SchreibeSollwerte()}. Der nächste Status ist \textit{Lesen} bzw. \textit{Initialisieren}.
 
 \subsection{Namensgebung der Variablen}
 \label{subsec: Namensgebung}
@@ -276,11 +238,11 @@ Die Namensgebung ist ein wichtiger Teil der Software-Entwicklung. Einheitliche N
 \label{tab:Abkürzungen}
 \end{table}
 
-Die \textit{Ungarische Notation} ist ein System zur Benennung von Variablen in einem Programmcode. Sie soll der Lesbarkeit und Übersichtlichkeit des Programmcodes dienen. Es gibt zwei Auffassungen von der \textit{Ungarische Notation}. Bei der ersten ist eine Abkürzung für den Variablentyp vor den eigentlichen Variablennamen zu setzten. Ein \textit{bBedingung} steht beispielsweise für eine BOOL-Variable, die TRUE oder FALSE sein kann, je nach dem, ob die Bedingung erfüllt ist oder nicht. Diese Verwendung führt nicht selten zu einer Verwirrung der Leser,  da sich die Variablentypen mittels Funktionen in viele andere Typen umwandeln lassen. Der Compiler des Programmcodes weiß den Typ der Variable ohnehin und kann diesen jederzeit kontrollieren und abfragen. Aus diesem Grunde ist diese Art der Verwendung der \textit{Ungarische Notation} unter Programmierern umstritten. 
+Die \textit{ungarische Notation} ist ein System zur Benennung von Variablen in einem Programmcode. Sie soll der Lesbarkeit und Übersichtlichkeit des Programmcodes dienen. Es gibt zwei Auffassungen von der \textit{ungarischen Notation}. Bei der ersten ist eine Abkürzung für den Variablentyp vor den eigentlichen Variablennamen zu setzten. Ein \textit{bBedingung} steht beispielsweise für eine BOOL-Variable, die TRUE oder FALSE sein kann, je nach dem, ob die Bedingung erfüllt ist oder nicht. Diese Verwendung führt nicht selten zu einer Verwirrung der Leser,  da sich die Variablentypen mittels Funktionen in viele andere Typen umwandeln lassen. Der Compiler des Programmcodes kennt den Typ der Variable aufgrund der Deklaration und kann diesen jederzeit kontrollieren und abfragen. Aus diesem Grunde ist diese Art der Verwendung der \textit{ungarischen Notation} unter Programmierern umstritten. 
 
-Die \textit{ungarische Notation}, im Sinne von [Variablentyp]$\_$[Variablenname], wird in dem erstellten Programmcode lediglich bei BOOL-Variablen benutzt. Der Grund hierfür war eine leichtere Unterscheidung zwischen den Transitionsvariablen und den Zuständen der Statusmaschine. Für andere Variablentypen wie zum Beispiel WORD oder BYTE ist die Verwendung der Notation nicht unbedingt erforderlich. In manchen Fällen ist es hilfreich direkt zu wissen, von welchem Variablentyp der Wert ist. 
+Die \textit{ungarische Notation}, im Sinne von [Variablentyp]$\_$[Variablenname], wird in dem erstellten Programmcodes lediglich bei BOOL-Variablen benutzt. Der Grund hierfür war eine leichtere Unterscheidung zwischen den Transitionsvariablen und den Zuständen der Statusmaschine. Für andere Variablentypen wie zum Beispiel WORD oder BYTE ist die Verwendung der Notation nicht unbedingt erforderlich. In manchen Fällen ist es hilfreich direkt zu wissen, von welchem Variablentyp der Wert ist. 
 
-Für das Regelungsprogramm und dessen PID-Regler sowie für die Klemmenwert-Umrechnung wurde die Namensgebung von \textsc{\citeauthor{Nuerenberg2015}} übernommen, die in Tabelle \ref{tab:PID_Abkürzungen} aufgelistet ist. 
+Für das Regelungsprogramm und dessen PID-Regler sowie für die Klemmenwert-Umrechnung wurde die Namensgebung von Nürenberg \citep{Nuerenberg2015} übernommen, die in Tabelle \ref{tab:Namenskonzept Nuerenberg} aufgelistet ist. 
 
 
 
@@ -292,7 +254,7 @@ Für das Regelungsprogramm und dessen PID-Regler sowie für die Klemmenwert-Umre
 \rule[-1ex]{0pt}{2.5ex} \textbf{Abkürzung} & \textbf{Bedeutung} & \textbf{Abkürzung} & \textbf{Bedeutung} \\ 
 \hline
 \hline  
-\rule[-1ex]{0pt}{2.5ex} INT & Variable vom Typ Inteher & REAL & Variable vom Typ Real (Float) \\ 
+\rule[-1ex]{0pt}{2.5ex} INT & Variable vom Typ Integer & REAL & Variable vom Typ Real (Float) \\ 
 \hline 
 \rule[-1ex]{0pt}{2.5ex} VAR & Variabler Wert & PARA & (fester) Parameter \\ 
 \hline 
@@ -305,13 +267,13 @@ Für das Regelungsprogramm und dessen PID-Regler sowie für die Klemmenwert-Umre
 \label{tab:Namenskonzept Nuerenberg}
 \end{table}
 
-Die ursprüngliche Idee der \textit{Ungarischen Notation} besteht darin, der Variablen einen Namen zu geben, der  im spezifischen Kontext mit seiner Applikation steht. Zum Beispiel: Eine Laufvariable für eine CASE-Struktur sollte in diesem Fall \textit{counter}, \textit{state} oder \textit{schritt} heißen. Die Variable kann vom Type INTEGER(ganze Zahl) oder REAL(Kommazahl) sein; dies zu wissen ist für den Leser jedoch unerheblich. 
+Die ursprüngliche Idee der \textit{ungarischen Notation} besteht darin, der Variablen einen Namen zu geben, der  im spezifischen Kontext mit seiner Applikation steht. Zum Beispiel: Eine Laufvariable für eine CASE-Struktur sollte in diesem Fall \textit{counter}, \textit{state} oder \textit{schritt} heißen. Die Variable kann vom Type INTEGER (ganze Zahl) oder REAL (Kommazahl) sein; dies zu wissen ist für den Leser jedoch unerheblich. 
 Um den Leser den Codetext möglichst einfach und übersichtlich darzustellen, wurden Variablennamen bezüglich ihrer Funktion vergeben.
 
 \subsection{RS232-Kommunikation: Verarbeitung des Prozessabbildes}
 \label{subsec:RS-232}
 
-Die Kommunikation zwischen der SPS und den Waagen nimmt eine gewisse Sonderstellung zu den anderen benutzen Signalverarbeitungen ein. Die Kommunikation erfordert einen schnell laufenden TASK, um die Verarbeitung korrekt ausführen zu können. Deshalb läuft das Programm \textit{Hintergrund}, zuständig für die Signalverarbeitung der RS232-Kommunikation, auf dem TASK \textit{SerialComTask} mit einer Zykluszeit von 2 ms. Der Funktionsbaustein \textit{SerialLineControl} schreibt den Datenstring in den Zwischenspeicher \textit{RxBuffer}, vom Typ \textit{ComBuffer}. Der Datenverkehr zwischen Datenpuffer und Hardware wird so mit maximaler Geschwindigkeit im Hintergrund abgewickelt.
+Die Kommunikation zwischen der SPS und den Waagen nimmt eine gewisse Sonderstellung zu den anderen benutzen Signalverarbeitungen ein. Die Kommunikation erfordert einen schnell laufenden TASK, um die Verarbeitung korrekt ausführen zu können. Bei einer hohen Baudrate führt die Ausführung auf einem langsamen Task zu einem \textit{Buffer-Full}- Fehler. Bei einer Baudrate von 9600 ist ein schneller Task nicht unbedingt vorgeschrieben, um möglichen Fehlern vorzubeugen wurde ein schneller Task ausgewählt. Das Programm \textit{Hintergrund}, zuständig für die Signalverarbeitung der RS232-Kommunikation, läuft auf dem TASK \textit{SerialComTask} mit einer Zykluszeit von 10 ms. Der Funktionsbaustein \textit{SerialLineControl} schreibt den Datenstring in den Zwischenspeicher \textit{RxBuffer}, vom Typ \textit{ComBuffer}. Der Datenverkehr zwischen Datenpuffer und Hardware wird so mit maximaler Geschwindigkeit im Hintergrund abgewickelt.
 
 Schickt die PLC-Anwendung einen Befehl, so wird dieser über den Funktionsbaustein \textit{SendString} in den Zwischenspeicher \textit{TxBuffer} geschrieben. Beide Zwischenspeicher müssen deklariert und mit den Funktionsbausteinen verbunden sein. 
 
@@ -327,14 +289,14 @@ Aus dem Zwischenspeicher \textit{RxBuffer} wird mittels des Funktionsbausteins \
 
 In dem Fall von dem Datenverkehr zwischen Waage und SPS wird lediglich der \textit{Rx-Buffer} beschrieben. Die SPS sendet keine Befehle an die Waage. Ein Sendeaufforderung seitens der SPS ist denkbar, wurde aber aufgrund der Waageeinstellungen umgangen. Die Waagen senden kontinuierlich ihre Daten und eine Sendeaufforderung ist hinfällig. 
 
-Der Datenstring des ASCII-Codes wird mittels OSCAT\footnote{OSCAT steht für \textit{Open Source Community for Automation Technology} und baut seit 2006  Kommunikationsplattform für Automatisierung auf. Die Bibliothek ist frei zugänglich und umfasst mehr als 800 Funktionen und Funktionsbausteine.}-Funktionen in eine REAL-Variable umgeformt. Die String-Bearbeitung und der Funktionsbaustein \textit{ReceiveString} wurde in dem Funktionsbaustein \textit{FB$\_$GewichtAuslesen} zusammengefasst.\citep{OSCAT2016}
+Der Datenstring des ASCII-Codes wird mittels OSCAT\footnote{OSCAT steht für \textit{Open Source Community for Automation Technology} und baut seit 2006  Kommunikationsplattformen für Automatisierung auf. Die Bibliothek ist frei zugänglich und umfasst mehr als 800 Funktionen und Funktionsbausteine.}-Funktionen in eine REAL-Variable umgeformt. Die String-Bearbeitung und der Funktionsbaustein \textit{ReceiveString} wurde in dem Funktionsbaustein \textit{FB$\_$GewichtAuslesen} zusammengefasst.\citep{OSCAT2016}
 
 \subsection{Regelung}
 \label{subsec:Regelung}
 
 
 Teil der Benutzeranforderungen an die SPS ist der Punkt \textit{Steuern und Regeln}. 
-Ein Kältekreis verfügt über mehrere Regelungen mit unterschiedlichen Stellgrößen. Die Regelung der Kälteanlage erfolgt über drei PID-Regler : 	Kompressor,	Expansionsventil und Verflüssigungsventilator.
+Ein Kältekreis verfügt über mehrere Regelungen mit unterschiedlichen Stellgrößen. Die Regelung der Kälteanlage erfolgt über drei PID-Regler: 	Kompressor,	Expansionsventil und Verflüssigungsventilator.
 
 \begin{figure}[htb]
 \centering		\includegraphics[page=1, width=0.80\textwidth]{Pictures/Versuchsaufbau/PID-Regler.pdf}
@@ -345,8 +307,8 @@ Ein Kältekreis verfügt über mehrere Regelungen mit unterschiedlichen Stellgr�
 Ein PID-Regler besteht aus drei Anteilen: dem P-Glied, dem I-Glied und dem D-Glied. PID-Regler können sowohl in Reihen- als auch in Parallelstruktur eingesetzt werden. Für die Kälteanlage wurde eine Parallelstruktur für die PID-Regler ausgewählt. Abbild \ref{fig:PID_Regler} stellt einen  PID-Regler dar, der in einer Regelstrecke eine Führungsgröße regelt.
 Für die Regelung der Kälteanlage wurde der OSCAT-Funktionsbaustein \textit{CTRL$\_$PID} verwendet. 
 
-Die Führungsgröße kann eine Temperatur, ein Druck oder ähnliches sein. Die Führungsgröße, auch Sollwert genannt, wird im OSCAT-Funktionsbaustein für den PID-Regler \textit{SET$\_$POINT} genannt. Aus der Differenz von der Führungsgröße, die einen bestimmten Wert inne hat, und den Ist-Wert der Regelgröße wird die Regelabweichung berechnet. Der Ist-Wert der Regelgröße wird in OSCAT mit \textit{ACTUAL} und die Regelabweichung \textit{DIFF} bezeichnet. 
-Um die Regelabweichung zu minimieren wirkt der Regler mittels der Stellgröße (\textit{Y}) auf die Störgrößen \textit{z} ein. Die Stellgröße ist im Falle der Kälteanlage ein analoges Signal, z. B. 4..20 mA oder 0..10 V. Die Störgröße \textit{z} ist von der Regelstrecke und der Umgebung abhängig. Sie kann aus einer oder mehreren Größen bestehen. Die Veränderung der Stellgröße hängt von der Regelabweichung bzw. Fehler und den Einstellungen für die drei Regleranteile P,I und D. \citep{OSCAT2016}
+Die Führungsgröße, auch Sollwert genannt, wird im OSCAT-Funktionsbaustein für den PID-Regler \textit{SET$\_$POINT} genannt. Aus der Differenz der Führungsgröße und dem Ist-Wert der Regelgröße wird die Regelabweichung berechnet. Der Ist-Wert der Regelgröße wird in OSCAT mit \textit{ACTUAL} und die Regelabweichung \textit{DIFF} bezeichnet. 
+Um die Regelabweichung zu minimieren wirkt der Regler mittels der Stellgröße (\textit{Y}) auf die Störgrößen \textit{z} ein. Die Stellgröße ist im Falle der Kälteanlage ein analoges Signal, z. B. 4\dots 20 mA oder 0\dots 10 V. Die Störgröße \textit{z} ist von der Regelstrecke und der Umgebung abhängig. Sie kann aus einer oder mehreren Größen bestehen. Die Veränderung der Stellgröße hängt von der Regelabweichung bzw. Fehler und den Einstellungen für die drei Regleranteile P, I und D. \citep{OSCAT2016}
 
 Der eingesetzte OSCAT-PID-Regler arbeitet nach der folgenden Formel:
 
@@ -355,14 +317,14 @@ Der eingesetzte OSCAT-PID-Regler arbeitet nach der folgenden Formel:
  \label{eq:PID}
 \end{equation}
 
-In der Formel \ref{eq:PID} entspricht $DIFF = SET\_POINT - ACTUAL$.  Die Addierung von einem zusätzlichen $OFFSET$- Wert dient der Kompensation von Störsignal. Der Funktionsbaustein besitzt des weiteren eine obere und untere Ausgangsbegrenzung(\textit{LL} und \textit{LH}). Diese Grenzen sind native Werte, angegebenen in mA. Das Erreichen der Grenzen wird über die BOOL-Variablen \textit{LIM} angegeben. Wird der Regler an den Grenzen betrieben, so wird automatisch ein \textit{Anti Wind-Up} gestartet. Ein \textit{Anti Wind-UP} friert den I-Anteil des Reglers beim Überschreiten der Grenzen auf den letzten Wert ein. Ändert sich der Fehler(DIFF) und der Regler wird wieder in seinen Grenzen betrieben, so kommt es zu keiner Verzögerung durch einen groß gewordenen, dominierenden I-Anteil im Regler. Ein manuelles Bedienen des Reglers ist über die BOOL-Variable \textit{MAN} und den Eingangswert \textit{M$\_$I} möglich. In diesem Fall entspricht das Stellsignal :
+In der Formel \ref{eq:PID} entspricht $DIFF = SET\_POINT - ACTUAL$.  Die Addierung von einem zusätzlichen $OFFSET$- Wert dient der Kompensation von Störsignal. Der Funktionsbaustein besitzt des weiteren eine obere und untere Ausgangsbegrenzung(\textit{LL} und \textit{LH}). Diese Grenzen sind native Werte, angegebenen in mA. Das Erreichen der Grenzen wird über die BOOL-Variablen \textit{LIM} angegeben. Wird der Regler an den Grenzen betrieben, so wird automatisch ein \textit{Anti Wind-Up} gestartet. Ein \textit{Anti Wind-UP} friert den I-Anteil des Reglers beim Überschreiten der Grenzen auf den letzten Wert ein. Ändert sich der Fehler (DIFF) und der Regler wird wieder in seinen Grenzen betrieben, so kommt es zu keiner Verzögerung durch einen groß gewordenen, dominierenden I-Anteil im Regler. Ein manuelles Bedienen des Reglers ist über die BOOL-Variable \textit{MAN} und den Eingangswert \textit{M$\_$I} möglich. In diesem Fall entspricht das Stellsignal :
 
 \begin{equation}
 Y = MANUAL\_IN + OFFSET. 
 \end{equation}
 
 
-Die PID-Regler von dem Kompressor und des Verflüssigungsventilator sind in dem Programm \textit{Regelung()} implementiert.  In der Tabelle \ref{tab:Regler_Uebersicht} sind die drei PID-Regler mit ihren Führungs- und Stellgrößen aufgelistet, sowie im Schaubild \ref{fig:AllePIDs}. 
+Die PID-Regler vom Kompressor und des Verflüssigungsventilators sind in dem Programm \textit{Regelung()} implementiert.  In der Tabelle \ref{tab:Regler_Uebersicht} sind die drei PID-Regler mit ihren Führungs- und Stellgrößen aufgelistet, sowie in Abbildung \ref{fig:AllePIDs} dargestellt. 
 
 
 \begin{table}[htb]
@@ -373,22 +335,22 @@ Die PID-Regler von dem Kompressor und des Verflüssigungsventilator sind in dem 
 \textbf{Regler} & \textbf{Führungsgröße (\textit{SET$\_$POINT})} & \textbf{Stellgröße \textit{Y}} \\
 \hline 
 \hline
-Kompressor & Saugdruck in bar & Drehzahl mit 4..20 mA Stellsignal \\ 
+Kompressor & Saugdruck in bar & Drehzahl mit 4\dots 20 mA Stellsignal \\ 
 \hline 
 Expansionsventil & Überhitzung in K & Ventilöffnung in $\%$ \\ 
 \hline 
-Verflüssigungsventilator & Unterkühlung in K, Verflüssigungsdruck in bar & Drehzahl mit 0..20 mA Stellsignal \\ 
+Verflüssigungsventilator & Unterkühlung in K, Verflüssigungsdruck in bar & Drehzahl mit 0\dots20 mA Stellsignal \\ 
 \hline 
 \hline
 \end{tabular} 
 \label{tab:Regler_Uebersicht}
 \end{table}
 
-Für die Parameter der PID-Regler wurden die schon existierenden Strukturen von \textsc{\citeauthor{Nuerenberg2015}} verwendet. Die Werte für die Parameter wurden aus Übersichtsgründen in die Datenbank \textit{MySQL} ausgelagert. Sollen Parameter-Werte für die Regler geändert werden, so geschieht dies zunächst in der Datenbank  \textit{MySQL} in der entsprechenden Tabelle. Die Datenbank \textit{MySQL} arbeitet mit Kommata als Trennzeichen; TwinCAT 3 mit Punkt. Die Daten werden aus der Datenbank als STRING eingelesen und dann das Trennzeichen von Komma in Punkt gewandelt. Das geschieht mit Hilfe des Programms \textit{PunktErsetztKomma}. Darauf folgt die Umrechnung in den Typ REAL. 
+Für die Parameter der PID-Regler wurden die schon existierenden Strukturen von Nürenberg \citep{Nuerenberg2015} verwendet. Die Werte für die Parameter wurden aus Übersichtsgründen in die Datenbank \textit{MySQL} ausgelagert. Sollen Parameter-Werte für die Regler geändert werden, so geschieht dies zunächst in der Datenbank  \textit{MySQL} in der entsprechenden Tabelle. Die Datenbank \textit{MySQL} arbeitet mit Kommata als Trennzeichen; TwinCAT 3 mit Punkt. Die Daten werden aus der Datenbank als STRING eingelesen und dann das Trennzeichen von Komma in Punkt gewandelt. Das geschieht mit Hilfe des Programms \textit{PunktErsetztKomma}. Darauf folgt die Umrechnung in den Typ REAL. 
 
-Wird \textit{Neuinitialisierung} nun auf TRUE gestellen, so werden die neuen Werte in die Strukturen der PID-Regler geschrieben und der Regler neugestartet. Dies funktioniert auch im laufenden Betrieb. 
+Wird \textit{Neuinitialisierung} nun auf TRUE gestellt, so werden die neuen Werte in die Strukturen der PID-Regler geschrieben und der Regler neugestartet. Dies funktioniert auch im laufenden Betrieb. 
 
-Bei der Kälteanlage und den eingesetzten PID-Regler gibt es eine Kopplung der Regeleffekte. In diesem Fall wird von einem Mehrgrößensystem gesprochen. Die meisten technischen System sind in der Regel Mehrgrößensysteme, da die physikalischen Größen mehr oder wenig stark von einander abhängig sind. In der Kälteanlage  sinkt beispielsweise die Überhitzungstemperatur bei gleicher Ventilöffnung des Expansionsventils und sinkendem Verdamfungsdruck. Der Verdamfungsdruck wird durch die Saugdruckregelung des Kompressors bestimmt. Dreht der Kompressor also mal schneller oder langsamer, so zieht dies immer eine Regelabweichungsänderung für das Expansionsventil nach sich.
+Bei der Kälteanlage und den eingesetzten PID-Regler gibt es eine Kopplung der Regeleffekte. In diesem Fall wird von einem Mehrgrößensystem gesprochen. Die meisten technischen Systeme sind in der Regel Mehrgrößensysteme, da die physikalischen Größen mehr oder weniger stark von einander abhängig sind. In der Kälteanlage  sinkt beispielsweise die Überhitzungstemperatur bei gleicher Ventilöffnung des Expansionsventils und sinkendem Verdampfungsdruck. Drehzahländerungen des Kompressors ziehen immer eine Regelabweichung des E-Ventils nach sich.
 
 \begin{figure}[htb]
 \centering		\includegraphics[page=2, width=1.0\textwidth]{Pictures/Versuchsaufbau/PID-Regler.pdf}
@@ -397,34 +359,20 @@ Bei der Kälteanlage und den eingesetzten PID-Regler gibt es eine Kopplung der R
 \end{figure}
 
 
-Abbildung \ref{fig:AllePIDs} zeigt das Mehrgrößensystem der Kälteanlage. Zur Regelung eines Mehrgrößensystem als einen einzigen Regler, müssen alle Kopplungen im System bekannt sein. Für die Kälteanlage ist dies zur Zeit noch nicht der Fall. 
+Abbildung \ref{fig:AllePIDs} zeigt das Mehrgrößensystem der Kälteanlage. Für die Regelung eines Mehrgrößensystems als einen einzigen Regler, müssen alle Kopplungen im System bekannt sein. Für die Kälteanlage ist dies zur Zeit noch nicht der Fall. 
 Ein alternatives Konzept ist die \textit{Entkopplung} der einzelnen Reglerkreise. Grundsätzlich wird zunächst zwischen positiver und negativer Kopplung von Regelkreisen unterschieden. Bei positiver Kopplung wird die Dämpfung der einzelnen Regelkreise erhöht, bei negativer Kopplung verringert, vgl. \citep{Schwarz2013}. Im Kapitel \ref{cha:Inbetriebnahme} wird die  Inbetriebnahme der Regler vorgestellt und besprochen.   
 
 
 
-%\begin{figure}[htb]
-%\centering		\includegraphics[width=1.1\textwidth]{Pictures/Versuchsaufbau/%Regelung.pdf}
-%\caption{Gekoppelte Regler in einem Kältekreislauf \citep{Becker2009}}
-%\label{fig:}
-%\end{figure}
+%\subsection{Programme}
+%\label{subsec:Programme}
 
+%\subsubsection*{EnthalpieBerechnen()}
 
-\input{Chapters/Versuchsaufbau/Modbus}
+%\subsubsection*{SchwerpunktEis()}
 
+%\subsubsection*{Regelung()}
 
-
-
-\subsection{Programme}
-\label{subsec:Programme}
-
-\subsubsection*{EnthalpieBerechnen()}
-
-\subsubsection*{SchwerpunktEis()}
-
-\subsubsection*{Regelung()}
-
-
-Beide Sensoren hatte eine fest eingestellte Stopbit-Größe. Der Drucktransmitter hat einen Stopbit, das Expansionsventil zwei.
-
+\newpage
 \input{Chapters/Versuchsaufbau/GUI}
 

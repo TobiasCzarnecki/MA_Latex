@@ -91,9 +91,16 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Referenzen und Zitate
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \usepackage{varioref}
-\usepackage[square]{natbib}
-\usepackage{bibunits}
+%\usepackage[square]{natbib}
+%\usepackage{bibunits}
+% Naturwissenschaftliche Bibliographien
+\usepackage[square,sort,comma,numbers]{natbib} 
+% Stil der Zitate und der Bibliographie
+\bibliographystyle{unsrtdin}
+%\bibliographystyle{gerplain}
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -152,6 +159,12 @@
 \pagenumbering{roman} % römische Seitenzahlen
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%\newpage
+%\refstepcounter{Hilfszaehler}
+%\renewcommand\abstractname{Danksagung}
+%\begin{abstract}
+%\input{Chapters/Danksagung}
+%\end{abstract}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Englischer und Deutscher Abstract
@@ -209,11 +222,11 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Vorwort, falls notwendig, sonst komplett auskommentieren
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage
-\refstepcounter{Hilfszaehler}
-\addcontentsline{toc}{chapter}{Vorwort}
-\input{Chapters/Vorwort.tex}
-\rhead{Vorwort}
+%\newpage
+%\refstepcounter{Hilfszaehler}
+%\addcontentsline{toc}{chapter}{Vorwort}
+%\input{Chapters/Vorwort.tex}
+%\rhead{Vorwort}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
@@ -243,9 +256,11 @@
 
 \input{Chapters/Inbetriebnahme/Inbetriebnahme.tex}
 
+\input{Chapters/Zusammenfassung.tex}
+
 \input{Chapters/Ausblick.tex}
 
-\input{Chapters/Zusammenfassung.tex}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

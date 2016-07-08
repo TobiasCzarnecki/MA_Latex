@@ -1,52 +1,35 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: Hauptdokument.aux
+The style file: unsrtdin.bst
 A level-1 auxiliary file: Chapters/Abkuerzungen.aux
-The style file: natdin.bst
-A level-1 auxiliary file: bu.aux
+Illegal, another \bibstyle command---line 345 of file Hauptdokument.aux
+ : \bibstyle
+ :          {natdin}
+I'm skipping whatever remains of this command
 Database file #1: Literatur.bib
 Warning--entry type for "Beckhoff2016" isn't style-file defined
 --line 47 of file Literatur.bib
 Warning--entry type for "Beckhoff2016-2" isn't style-file defined
 --line 54 of file Literatur.bib
 Warning--entry type for "M.Stoeckner2012" isn't style-file defined
---line 240 of file Literatur.bib
+--line 263 of file Literatur.bib
 Warning--entry type for "Neumann2007" isn't style-file defined
---line 266 of file Literatur.bib
+--line 289 of file Literatur.bib
 Warning--entry type for "Nuerenberg2015" isn't style-file defined
---line 283 of file Literatur.bib
-Warning--entry type for "OPALRTT2014" isn't style-file defined
---line 291 of file Literatur.bib
-Warning--entry type for "Sahinagic2004" isn't style-file defined
---line 349 of file Literatur.bib
-Warning--I didn't find a database entry for "Baehr2014"
-Warning--I didn't find a database entry for "Nuerenberg15"
-Warning--to sort, need author or key in Beckhoff2016
-Warning--to sort, need author or key in Beckhoff2016-2
-Warning--to sort, need author, organization, or key in KMGH2013
-Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
-while executing---line 2138 of file natdin.bst
-Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
-while executing---line 2138 of file natdin.bst
-Warning--to sort, need author or key in OPALRTT2014
-Warning--to sort, need author, organization, or key in Beckhoff2015
-Warning--to sort, need author, organization, or key in OSCAT2016
-Warning--empty edition in KMGH2013
-Warning--empty address in KMGH2013
-Warning--empty address in Beckhoff2015
-Warning--empty address in OSCAT2016
-Warning--empty number in Ehrbar2002
-Warning--empty note in Ehrbar2002
-Warning--empty booktitle in Freitag2015
-Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
-while executing---line 2227 of file natdin.bst
-Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
-while executing---line 2227 of file natdin.bst
-Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
-while executing---line 2227 of file natdin.bst
-Too many commas in name 1 of "Hayashi, Y. ; Aoki, K. ; Yuhara, H." for entry Hayashi1977
-while executing---line 2227 of file natdin.bst
+--line 306 of file Literatur.bib
+Warning--empty number in Baehr2013
+Warning--empty note in Baehr2013
 Warning--empty number in Kosowski2009
 Warning--empty note in Kosowski2009
+Warning--empty edition in KMGH2013
+Warning--empty address in KMGH2013
+Warning--empty number in Ehrbar2002
+Warning--empty note in Ehrbar2002
+Warning--empty address in MicroNovaAG2011
 Warning--empty title in KERN2006
 Warning--empty address in KERN2006
-Warning--empty address in MicroNovaAG2011
-(There were 6 error messages)
+Warning--empty edition in KELLER2015
+Warning--empty address in KELLER2015
+Warning--empty edition in CAREL2015
+Warning--empty address in CAREL2015
+Warning--empty address in OSCAT2016
+(There was 1 error message)

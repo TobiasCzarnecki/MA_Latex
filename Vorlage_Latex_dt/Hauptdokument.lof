@@ -1,80 +1,73 @@
 \select@language {ngerman}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Aufteilung der sich in Deutschland in Betrieb befindenden K\IeC {\"a}ltemaschinen je nach Einsatzgebiet und Energieverbrauch im Jahre 2009. \citep {M.Stoeckner2012}}}{1}{figure.1.1}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Aufteilung der sich in Deutschland in Betrieb befindenden K\IeC {\"a}ltemaschinen je nach Einsatzgebiet und Energieverbrauch im Jahre 2009. \citep {M.Stoeckner2012} \citep {Preuss2011}}}{1}{figure.1.1}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Projektumgebung f\IeC {\"u}r den EBC Abtaupr\IeC {\"u}fstand \citep {Freitag2015}}}{3}{figure.2.1}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Aufgabenpakete im Projektzyklus.\citep {Freitag2015} Rot umrahmte Arbeitspakte werden in dieser Masterarbeit behandelt und ausgef\IeC {\"u}hrt.}}{5}{figure.2.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces log p,h-Diagramm von eines reinen Fluids \citep {Baehr2013}}}{7}{figure.3.1}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Kreisprozess im log p,h-Diagramm \citep {Baehr2013}}}{8}{figure.3.2}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces $h^*$, $X$- Diagramm f\IeC {\"u}r feuchte Luft bei einem Gesamtdruck $p= $ 100 kPa \citep {Baehr2013}}}{10}{figure.3.3}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Kristallwachstum auf einer ebenen Oberfl\IeC {\"a}che \citep {Schydlo2010}}}{13}{figure.3.4}
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Schematischer Reifdichte- und Reifdickeverl\IeC {\"a}ufe beim Vereisungsvorgang eines Tropfen Wassers \citep {Schydlo2010}}}{15}{figure.3.5}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Reifdichte}}}{15}{figure.3.5}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Reifdicke}}}{15}{figure.3.5}
-\contentsline {figure}{\numberline {3.6}{\ignorespaces W\IeC {\"a}rmeleitf\IeC {\"a}higkeit des Reifs aufgetragen \IeC {\"u}ber die mittlere Reifdichte \citep {Schydlo2010}}}{16}{figure.3.6}
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Einfacher K\IeC {\"a}ltekreislauf \citep {Baehr2013}}}{17}{figure.3.7}
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Blattfeder und Feder-Kennlinien \citep {Wittel2011}}}{19}{figure.3.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Rechteckblattfeder (Ansicht und Draufsicht)}}}{19}{figure.3.8}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Kraft-Weg-Kennlinien}}}{19}{figure.3.8}
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Federrate und -wirkungsgrad}}{20}{figure.3.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Federrate $R$ \citep {Ettemeyer2007}}}}{20}{figure.3.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Federungsarbeit mit Reibungs-Hysterese\citep {Wittel2011}}}}{20}{figure.3.9}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Kreisprozess im log p,h-Diagramm \citep {Baehr2013}}}{6}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Einfacher K\IeC {\"a}ltekreislauf \citep {Baehr2013}}}{8}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Blattfeder und Feder-Kennlinien \citep {Wittel2011}}}{10}{figure.3.3}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Rechteckblattfeder (Ansicht und Draufsicht)}}}{10}{figure.3.3}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Kraft-Weg-Kennlinien}}}{10}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Zwei-Kabel-Topologie eines Modbus RTU-Feldbusses \citep {MODBUS.ORG2002} }}{11}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Aufbau und Timing einer Modbus RTU-Nachricht \citep {MODBUS.ORG2002}}}{13}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Modbus-Nachrichten Beispiel: Druckabfrage vom Kanal $P1$. Links der Modbusbefehl (\textit {request}) vom Master und rechts die Antwort (\textit {response})}}{14}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces TwinCAT 3 \citep {Beckhoff2016}}}{15}{figure.3.7}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Hei\IeC {\ss }gas-Abtauung \citep {Kosowski2009}}}{23}{figure.4.1}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Flie\IeC {\ss }bild. Links: K\IeC {\"u}hlbetrieb, Rechts: Abtaubetrieb}}}{23}{figure.4.1}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zustandspunkte im log p,h Diagramm}}}{23}{figure.4.1}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Links: K\IeC {\"u}hlbetrieb. Rechts: Hei\IeC {\ss }gas-Abtauung \citep {Kosowski2009}}}{24}{figure.4.2}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Hei\IeC {\ss }gas-Abtauung \citep {Kosowski2009}}}{18}{figure.4.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Flie\IeC {\ss }bild. Links: K\IeC {\"u}hlbetrieb, Rechts: Abtaubetrieb}}}{18}{figure.4.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Zustandspunkte im log p,h Diagramm}}}{18}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Links: K\IeC {\"u}hlbetrieb. Rechts: Hei\IeC {\ss }gas-Abtauung \citep {Kosowski2009}}}{18}{figure.4.2}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Gesamtaufbau mit Klimakammer, Luftk\IeC {\"u}hler, Verfl\IeC {\"u}ssigungssatz und W\IeC {\"a}gesystem}}{26}{figure.5.1}
-\contentsline {figure}{\numberline {5.2}{\ignorespaces K\IeC {\"a}lteanlage-Flie\IeC {\ss }bild}}{28}{figure.5.2}
-\contentsline {figure}{\numberline {5.3}{\ignorespaces M\IeC {\"o}gliche Magnetventil-Schaltungen}}{30}{figure.5.3}
-\contentsline {figure}{\numberline {5.4}{\ignorespaces W\IeC {\"a}rmestr\IeC {\"o}me in der Klimakammer \citep {Nuerenberg2015}}}{32}{figure.5.4}
-\contentsline {figure}{\numberline {5.5}{\ignorespaces CAD-Modell des W\IeC {\"a}gesystems mit Blattfeder.}}{33}{figure.5.5}
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Federkonstruktion nach dem Prinzip des einseitig eingespannten Balkens}}{35}{figure.5.6}
-\contentsline {figure}{\numberline {5.7}{\ignorespaces SPS-CPU und E-Busklemme der Fa. Beckhoff}}{40}{figure.5.7}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ethernet-Steuerungs-CPU CX9020}}}{40}{figure.5.7}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {EL3202: 2-Kanal-Eingangsklemmen f\IeC {\"u}r PT100-Temperatursensoren}}}{40}{figure.5.7}
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Verkabelung von CX 9020 und Busklemmen}}{42}{figure.5.8}
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Waage mit Spannungspotentiale f\IeC {\"u}r eine RS232-Kommunikation}}{43}{figure.5.9}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Waage mit separatem Display vom Typ \textit {PCD 10K0.1} der Fa. \textsc {Kern und Sohn Gmbh} \citep {KERN2006}}}}{43}{figure.5.9}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {RS232-Spannungspotentiale von einem nominellen Sender und der EL 6002-Busklemme \citep {Beckhoff2015}}}}{43}{figure.5.9}
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Verkabelung f\IeC {\"u}r die RS232-Kommunikation zwischen der Busklemme EL 6002 und einer Waage }}{44}{figure.5.10}
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Zwei-Kabel-Topologie eines MODBUS RTU- Feldbusses \citep {MODBUS.ORG2002} }}{45}{figure.5.11}
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Zwei Modbus-Feldbusse mit angeschlossenen Sensoren, Busklemmen und Spannungsspeisung}}{47}{figure.5.12}
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Prozessschritte beim \textit {User Centered Design} \citep {Nuerenberg2015}}}{48}{figure.5.13}
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Statusmaschine}}{50}{figure.5.14}
-\contentsline {figure}{\numberline {5.15}{\ignorespaces TwinCAT 3 \citep {Beckhoff2016}}}{57}{figure.5.15}
-\contentsline {figure}{\numberline {5.16}{\ignorespaces EL 6002: Kommunikation zwischen der PLC-Anwendungen und dem SerialLineControl \citep {Beckhoff2016-2}}}{61}{figure.5.16}
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Regelstrecke mit PID-Regler und Regelgr\IeC {\"o}\IeC {\ss }en}}{62}{figure.5.17}
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Mehrgr\IeC {\"o}\IeC {\ss }ensystem: Regelstrecke mit PID-Regler und Regelgr\IeC {\"o}\IeC {\ss }en}}{64}{figure.5.18}
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Verschiedene Bit-Sequenzen im RTU-Modus \citep {MODBUS.ORG2002}}}{65}{figure.5.19}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bit-Sequenz in RTU-Mode}}}{65}{figure.5.19}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bit-Sequenz in RTU-Modbus ohne Parit\IeC {\"a}tsbit mit zus\IeC {\"a}tzlichem Stopbit}}}{65}{figure.5.19}
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Aufbau und Timing einer Modbus RTU Nachricht \citep {MODBUS.ORG2002}}}{66}{figure.5.20}
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Modbus-Nachrichten Beispiel: Druckabfrage vom Kanal $P1$. Links der Modbusbefehl (\textit {request}) vom Master und rechts die Antwort (\textit {response})}}{67}{figure.5.21}
-\contentsline {figure}{\numberline {5.22}{\ignorespaces RI-Flie\IeC {\ss }bild in der GUI}}{68}{figure.5.22}
-\contentsline {figure}{\numberline {5.23}{\ignorespaces RI-Flie\IeC {\ss }bild-Reiter in der GUI}}{69}{figure.5.23}
-\contentsline {figure}{\numberline {5.24}{\ignorespaces log p,h-Diagmramm-Reiter in der GUI}}{71}{figure.5.24}
-\contentsline {figure}{\numberline {5.25}{\ignorespaces W\IeC {\"a}gesystem-Reiter in der GUI}}{72}{figure.5.25}
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Karteireiter \textit {Anleitung Kalibrierung}}}{73}{figure.5.26}
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Scope-Reiter in der GUI}}{74}{figure.5.27}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Gesamtaufbau mit Klimakammer, Luftk\IeC {\"u}hler, Verfl\IeC {\"u}ssigungssatz und W\IeC {\"a}gesystem}}{22}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces RI-Flie\IeC {\ss }bild der K\IeC {\"a}lteanlage}}{23}{figure.5.2}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces M\IeC {\"o}gliche Magnetventil-Schaltungen}}{24}{figure.5.3}
+\contentsline {figure}{\numberline {5.4}{\ignorespaces CAD-Modell des W\IeC {\"a}gesystems mit Blattfeder.}}{27}{figure.5.4}
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Federkonstruktion nach dem Prinzip des einseitig eingespannten Balkens}}{28}{figure.5.5}
+\contentsline {figure}{\numberline {5.6}{\ignorespaces SPS-CPU und E-Busklemme der Fa. Beckhoff}}{34}{figure.5.6}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ethernet-Steuerungs-CPU CX9020}}}{34}{figure.5.6}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {EL3202: 2-Kanal-Eingangsklemmen f\IeC {\"u}r PT100-Temperatursensoren}}}{34}{figure.5.6}
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Verkabelung von CX9020 und Busklemmen}}{35}{figure.5.7}
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Verkabelung f\IeC {\"u}r die RS232-Kommunikation zwischen der Busklemme EL 6002 und einer Waage }}{36}{figure.5.8}
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Zwei Modbus-Feldbusse mit angeschlossenen Sensoren, Busklemmen und Spannungsspeisung}}{37}{figure.5.9}
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Prozessschritte beim \textit {User Centered Design} \citep {Nuerenberg2015}}}{39}{figure.5.10}
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Statusmaschine}}{42}{figure.5.11}
+\contentsline {figure}{\numberline {5.12}{\ignorespaces EL 6002: Kommunikation zwischen der PLC-Anwendungen und dem SerialLineControl \citep {Beckhoff2016-2}}}{51}{figure.5.12}
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Regelstrecke mit PID-Regler und Regelgr\IeC {\"o}\IeC {\ss }en}}{52}{figure.5.13}
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Mehrgr\IeC {\"o}\IeC {\ss }ensystem: Regelstrecke mit PID-Regler und Regelgr\IeC {\"o}\IeC {\ss }en}}{53}{figure.5.14}
+\contentsline {figure}{\numberline {5.15}{\ignorespaces RI-Flie\IeC {\ss }bild in der GUI}}{56}{figure.5.15}
+\contentsline {figure}{\numberline {5.16}{\ignorespaces RI-Flie\IeC {\ss }bild-Reiter in der GUI}}{57}{figure.5.16}
+\contentsline {figure}{\numberline {5.17}{\ignorespaces log p,h-Diagramm-Reiter in der GUI}}{58}{figure.5.17}
+\contentsline {figure}{\numberline {5.18}{\ignorespaces W\IeC {\"a}gesystem-Reiter in der GUI}}{59}{figure.5.18}
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Karteireiter \textit {Anleitung Kalibrierung}}}{60}{figure.5.19}
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Scope-Reiter in der GUI}}{61}{figure.5.20}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Inbetriebnahmeprozess mit Fehlersuche und -behebung}}{75}{figure.6.1}
-\contentsline {figure}{\numberline {6.2}{\ignorespaces K\IeC {\"a}ltemittelbewegungen im Anlagenstilland (gelb markierte Ventile). K\IeC {\"a}ltemittelbewegung im K\IeC {\"u}hlbetrieb in Richtung Abtauverdampfer (gr\IeC {\"u}n markierte Ventile).In blau hinterlegte Magnetventile sind m\IeC {\"o}gliche L\IeC {\"o}sungensvorschl\IeC {\"a}ge zur Problembehebung.}}{79}{figure.6.2}
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Hohe K\IeC {\"a}ltemittel-\IeC {\"U}berhitzung nach Verdampfer und hoher Druckverlust zwischen Expansionsventil und Verfl\IeC {\"u}ssiger dargestellt im log p,h-Diagramm}}{80}{figure.6.3}
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Zustandspunkte der K\IeC {\"a}ltemaschine nach Fehlerbehebung dargestellt im log p,h-Diagramm}}{81}{figure.6.4}
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Versuchsreihe I: Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler (VD) w\IeC {\"a}hrend Vereisungszeit}}{83}{figure.6.5}
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Versuchsreihe II: Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler (VD) w\IeC {\"a}hrend Vereisungszeit}}{84}{figure.6.6}
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Versuchsreihe III: Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler (VD) w\IeC {\"a}hrend Vereisungszeit}}{85}{figure.6.7}
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Versuchsreihe I: Abtauen mittels \textit {Hei\IeC {\ss }gas-Oben}}}{87}{figure.6.8}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler. Oberfl\IeC {\"a}chen-Temperatursensoren(\textit {surface}) sind angebracht am Einspritzrohr}}}{87}{figure.6.8}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Verl\IeC {\"a}ufe von der Abtropfmasse und Verdampfermasse, \IeC {\"O}ffnung des Expansionsventils aufgetragen \IeC {\"u}ber die Zeit}}}{87}{figure.6.8}
-\contentsline {figure}{\numberline {6.9}{\ignorespaces II: Abtauen mittels \textit {Hei\IeC {\ss }gas-Oben}}}{88}{figure.6.9}
-\contentsline {figure}{\numberline {6.10}{\ignorespaces III: \textit {Elektrisch} Abtauen mit 6,2 kW Heizleistung}}{89}{figure.6.10}
-\contentsline {figure}{\numberline {6.11}{\ignorespaces }}{90}{figure.6.11}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces K\IeC {\"a}ltemittelbewegungen im Anlagenstilland (gelb markierte Ventile). K\IeC {\"a}ltemittelbewegung im K\IeC {\"u}hlbetrieb in Richtung Abtauverdampfer (gr\IeC {\"u}n markierte Ventile). In blau hinterlegte Magnetventile sind m\IeC {\"o}gliche L\IeC {\"o}sungensvorschl\IeC {\"a}ge zur Problembehebung.}}{65}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Hohe K\IeC {\"a}ltemittel-\IeC {\"U}berhitzung nach Verdampfer und hoher Druckverlust zwischen Expansionsventil und Verfl\IeC {\"u}ssiger dargestellt im log p,h-Diagramm}}{66}{figure.6.2}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Zustandspunkte der K\IeC {\"a}ltemaschine nach Fehlerbehebung im log p, h-Diagramm}}{67}{figure.6.3}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Versuchsreihe I: Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler (VD) w\IeC {\"a}hrend Vereisungszeit}}{69}{figure.6.4}
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Versuchsreihe II: Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler (VD) w\IeC {\"a}hrend Vereisungszeit}}{70}{figure.6.5}
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Versuchsreihe III: Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler (VD) w\IeC {\"a}hrend Vereisungszeit}}{71}{figure.6.6}
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Versuchsreihe I: Abtauen mittels \textit {Hei\IeC {\ss }gas-Oben}}}{73}{figure.6.7}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler. Oberfl\IeC {\"a}chen-Temperatursensoren(\textit {surface}) sind angebracht am Einspritzrohr}}}{73}{figure.6.7}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Verl\IeC {\"a}ufe von der Abtropfmasse und Verdampfermasse, \IeC {\"O}ffnung des Expansionsventils aufgetragen \IeC {\"u}ber die Zeit}}}{73}{figure.6.7}
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Versuchsreihe II: Abtauen mittels \textit {Hei\IeC {\ss }gas-Oben}}}{74}{figure.6.8}
+\contentsline {figure}{\numberline {6.9}{\ignorespaces Versuchsreihe III: \textit {Elektrisch} abtauen mit 6,275 kW Heizleistung}}{76}{figure.6.9}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Temperaturverl\IeC {\"a}ufe am Luftk\IeC {\"u}hler. Oberfl\IeC {\"a}chen-Temperatursensoren(\textit {surface}) sind angebracht am Einspritzrohr}}}{76}{figure.6.9}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Verl\IeC {\"a}ufe von der Abtropfmasse und Verdampfermasse, \IeC {\"O}ffnung des Expansionsventils aufgetragen \IeC {\"u}ber die Zeit}}}{76}{figure.6.9}
+\contentsline {figure}{\numberline {6.10}{\ignorespaces Regelparameter-Vergleich f\IeC {\"u}r das Expansionsventil}}{77}{figure.6.10}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Initialisieren nach \citep {Nuerenberg2015}}}{103}{figure.A.1}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Verschiedene Bit-Sequenzen im RTU-Modus \citep {MODBUS.ORG2002}}}{88}{figure.A.1}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Bit-Sequenz in RTU-Mode}}}{88}{figure.A.1}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Bit-Sequenz in RTU-Modbus ohne Parit\IeC {\"a}tsbit mit zus\IeC {\"a}tzlichem Stopbit}}}{88}{figure.A.1}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {B.1}{\ignorespaces (a): Risikomanagementanalyse nach ISO 31000}}{91}{figure.B.1}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces (b): Risikomanagementanalyse nach ISO 31000}}{92}{figure.B.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {C.1}{\ignorespaces Hei\IeC {\ss }gas-Abtauung \IeC {\"u}ber Saugleitung}}{94}{figure.C.1}
+\contentsline {figure}{\numberline {C.2}{\ignorespaces Hei\IeC {\ss }gas-Abtauung \IeC {\"u}ber Fl\IeC {\"u}ssigkeitleitung}}{95}{figure.C.2}
+\contentsline {figure}{\numberline {C.3}{\ignorespaces Elektrische Abtauung}}{96}{figure.C.3}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces Initialisieren nach \citep {Nuerenberg2015}}}{97}{figure.D.1}
 \addvspace {10\p@ }

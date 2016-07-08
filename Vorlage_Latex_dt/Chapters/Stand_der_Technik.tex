@@ -3,26 +3,24 @@
 
 
 
-Dieses Kapitel gibt einen Überblick über den aktuellen Stand der Wissenschaft und Technik im Bezug auf :
-\begin{itemize}
-\item Untersuchungen zur Eisbildung auf Luftkühlern
-\item Abtaumethoden und -messungen von Luftkühlern.
-\end{itemize}
+Dieses Kapitel gibt einen Überblick über den aktuellen Stand der Wissenschaft und Technik im Bezug auf Abtaumethoden und -messungen von Luftkühlern.
 
-%\newpage
+
+
 \section{Abtaumethoden}
 \label{sec: Abtaumethoden}
 
 Um einen vereisten Luftkühler abzutauen, gibt es mehrere Methoden. Die Methoden unterscheiden sich in Kosten und Anlagenkomplexität. Mehrkosten für die Installation sowie weitere Betriebskosten sind bei der Entscheidung stets ein nicht zu vernachlässigender Punkt.
-Die in der Praxis am weitest verbreiteten Methoden sind  die \textit{Heißgas-Abtauung}, \textit{Prozessumkehrung}, \textit{elektrische Abtauung} und \textit{Umluft-Abtauung}.
+Die in der Praxis am weitesten verbreiteten Methoden sind die \textit{Heißgas-Abtauung}, \textit{Prozessumkehrung}, \textit{elektrische Abtauung} und \textit{Umluft-Abtauung}.
 
 
 \subsection*{Heißgas-Abtauung}
 
-Die Heißgasabtaung wird durchgeführt, indem das Heißgas aus dem Kompressor anstatt in den Verflüssiger direkt in den vereisten Verdampfer geleitet wird. Für diese Methode wird eine Bypass-Leitung von dem Austritt vom Kompressor bis zum Eingang des Expansionsventil gelegt. Mittels zweier Drei-Wegeventilen kann diese Leitung geöffnet bzw. geschlossen werden. In der Abtauphase ist der Verflüssiger vom Kreislauf ausgeschlossen, damit kein flüssiges Kältemittel in den Verdampfer fließt. \citep{Baehr2013}
+Die Heißgasabtaung wird durchgeführt, indem das Heißgas aus dem Kompressor anstatt in den Verflüssiger direkt in den vereisten Verdampfer geleitet wird. Für diese Methode wird eine Bypass-Leitung von dem Austritt vom Kompressor bis zum Eingang des Expansionsventil gelegt. Mittels zweier Drei-Wegeventile kann diese Leitung geöffnet bzw. geschlossen werden. In der Abtauphase ist der Verflüssiger vom Kreislauf ausgeschlossen, damit kein flüssiges Kältemittel in den Verdampfer fließt. \citep{Baehr2013}
 Der Prozess läuft in 3 Schritten ab:
 
 \begin{itemize}
+\addtolength{\itemindent}{0.4cm}
 \item[1$\longrightarrow$ 2] Kältemittel-Verdichtung durch den Kompressor unter Aufnahme elektrischer Energie
 
 \item[2 $\longrightarrow$ 3] Isenthalpe Entspannung durch das Expansionsventil
@@ -90,96 +88,73 @@ Diese Abtaumethode wird in der Arbeit nicht näher untersucht. Deswegen wird an 
 
 Die Tabelle \ref{tab:Vor- und Nachteile} gibt einen Überblick über die Vor- und Nachteile der jeweiligen Abtaumethode. 
 
+
 \begin{table}%[htb]
 \centering
 \caption{Vor- und Nachteile der verschiedenen Abtaumethoden   	\citep{Breidenbach2014}, \citep{Refrigeration2000}, \citep{Yin2012}, \citep{Huang20091697}
 } \vspace{6pt}
-
 \label{fig:PCM_Slurry1}
 %\begin{tabular}{p{3.9cm}p{8cm}p{8cm}lll} 
-\begin{tabular}{p{3.8cm}p{5.6cm}p{5.6cm}lll}
+\begin{tabular}{|p{3.7cm}|p{5.6cm}|p{5.6cm}|ll|l}
 \hline
 \textbf{Abtaumethode} &\textbf{Vorteile} & \textbf{Nachteile}\\
 \hline
 \hline
 
-\textbf{Heißgas-Abtauung} 
+\multirow{8}*{\textbf{Heißgas-Abtauung}}
 &
-$\bullet$ Guter Wärmeübergang zwischen Heißgas,Rohre und Eis
-\newline								  			
-$\bullet$ Unkomplizierte Wartung
-\newline			  
-$\bullet$ Kurze Abtaudauer		
-\newline			
-$\bullet$ Schnelles Wiederanfahren möglich	
+Guter Wärmeübergang zwischen Heißgas,Rohre und Eis & Höherer Planungs- und Installationsaufwand  \\
+ \cline{2-3}  			
+&Unkomplizierte Wartung & Zusätzliche Kühlung des Kompressors in Abtauphase ist erforderlich \\
+ \cline{2-3} 
+&Kurze Abtaudauer	& Höhere Druckverluste durch zusätzliche Komponenten \\	
+ \cline{2-3} 
+&Schnelles Wiederanfahren möglich	& kritische Kältemittel-Menge bestimmt durch Abtauleistung \\ 
 
-&$\bullet$ Höherer Planungs- und Installationsaufwand  
-\newline
-$\bullet$ Zusätzliche Kühlung des Kompressors in Abtauphase ist erforderlich 
-\newline 
-$\bullet$ Höhere Druckverluste durch zusätzliche Komponenten 
-\newline
-$\bullet$ kritische Kältemittel-Menge bestimmt durch Abtauleistung \\  
+\hline
+\hline
+\multirow{8}*{\textbf{Prozessumkehrung}}
+&Guter Wärmeübergang zwischen Heißgas,Rohre und Eis  &Abtropfwanne ist nicht beheizt \\													
+ \cline{2-3} 							
+&Unkomplizierte Wartung&Höherer Planungs- und Installationsaufwand\\
+ \cline{2-3} 	
+&Kurze Abtaudauer&Nicht nachrüstbar\\	
+ \cline{2-3} 			 
+&Geeignet für Verbund-Systeme&Höhere Druckverluste durch zusätzliche Komponenten	\\	
+ \cline{2-3} 
+&&Kritische Kältemittel-Menge bestimmt durch Abtauleistung\\
    
 \hline
-\textbf{Prozessumkehrung}
-&$\bullet$ Guter Wärmeübergang zwischen Heißgas,Rohre und Eis  													
-\newline								
-$\bullet$ Unkomplizierte Wartung
-\newline	
-$\bullet$ Kurze Abtaudauer		
-\newline			 
-$\bullet$ geeignet für Verbund-Systeme		
-&$\bullet$ Abtropfwanne ist nicht beheizt   
-\newline
-$\bullet$ Höherer Planungs- und Installationsaufwand
-\newline
-$\bullet$ Nicht nachrüstbar
-\newline
-$\bullet$ Höhere Druckverluste durch zusätzliche Komponenten								
-\newline
-$\bullet$ Kritische Kältemittel-Menge bestimmt durch Abtauleistung\\
+\hline
+\multirow{8}*{\textbf{Elektrische Abtauung}}
+& Günstig & Schlechter Wärmeübergang \\
+ \cline{2-3}
+&\textit{Stand-Alone}-System ist nachrüstbar	 & Verursacht Kältemittelbewegung in den Sammler\\	
+ \cline{2-3}
+&Hohe Regelgenauigkeit	& Brandgefahr im Falle von Kabelbruch  \\
+ \cline{2-3}
+&Abtropfwanne ist beheizbar &	Zeitliche Verzögerung beim Abtauprozess \\			 \cline{2-3}	
+&&Hohe thermische Belastung der Komponenten    \\
+ \cline{2-3}
+&&Druckverlust luftseitig \\
+
+\hline
+\hline
+\multirow{8}*{\textbf{Umluft-Abtauung }}
+&
+Keine zusätzlichen Komponenten nötig	&
+Bei überdimensionierten Kompressoren sehr hohe Abtaudauer möglich\\		 
+ \cline{2-3}
+&Günstig		&Funktioniert nur mit Umgebungstemperaturen über $ 2\,^{\circ}\mathrm{C} $\\								
+ \cline{2-3}
+&Keine zusätzlicher Wärmeeintrag ins System	  &\\
+ \cline{2-3}
+&Keine Abtauung der Abtauwanne möglich	&\\
+
 
 
 \hline
-\textbf{Elektrische Abtauung }
-&$\bullet$ Günstig 
-\newline 
-$\bullet$ \textit{Stand-Alone}-System ist nachrüstbar		
-\newline
-$\bullet$ Hohe Regelgenauigkeit	
-\newline
-$\bullet$ Abtropfwanne ist beheizbar 					
-&
-$\bullet$ Schlechter Wärmeübergang 
-\newline					
-$\bullet$ Verursacht Kältemittelbewegung in den Sammler
-\newline 
-$\bullet$ Brandgefahr im Falle von Kabelbruch  
-\newline
-$\bullet$ Zeitliche Verzögerung beim Abtauprozess 
-\newline
-$\bullet$ Hohe thermische Belastung der Komponenten    
-\\
-
- 
 \hline
-\textbf{Umluft-Abtauung }
-&
-$\bullet$	Keine zusätzlichen Komponenten nötig			 
-\newline
-$\bullet$	Günstig										
-\newline
-$\bullet$	Keine zusätzlicher Wärmeeintrag ins System	  
-\newline
-$\bullet$	Keine Abtauung der Abtauwanne möglich	
-&
-$\bullet$ Bei überdimensionierten Kompressoren sehr hohe Abtaudauer möglich
-\newline
-$\bullet$ Funktioniert nur mit Umgebungstemperaturen über $ 2\,^{\circ}\mathrm{C} $
-\\
-\hline
-
 \end{tabular}
 \label{tab:Vor- und Nachteile}
 \end{table}

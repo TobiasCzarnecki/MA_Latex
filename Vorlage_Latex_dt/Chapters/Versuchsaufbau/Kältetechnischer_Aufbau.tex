@@ -6,15 +6,46 @@ In diesem Abschnitt werden die Teilsysteme des kältetechnischen Aufbaus vorgest
 \subsubsection{Kälteaanlage}
 \label{subsec:Kälteanlage}
 
+\begin{figure}[htb]
+\centering		\includegraphics[page=1,width=0.90\textwidth]{Pictures/Versuchsaufbau/GesAufbau.pdf}
+\caption{Gesamtaufbau mit Klimakammer, Luftkühler, Verflüssigungssatz und Wägesystem}
+\label{fig:GesAufbau}
+\end{figure}
 
 
 Die Auslegungsdaten der Kälteanlage sind in Tabelle \ref{tab:Parameter KK} dargestellt. Abbildung \ref{fig:KA-Fliessbild}  zeigt das Fließschema der Kälteanlage. 
 
 
+\begin{figure}[htb]
+%\centering	
+\includegraphics[ page=4, width=1.150\textwidth]{Pictures/RI.pdf}
+\caption{RI-Fließbild der Kälteanlage}
+\label{fig:KA-Fliessbild}
+\end{figure}
+
+
+
+
+
+Die Hauptkomponenten der Kälteanlage sind der Kompressor, der Verflüssiger, der Verdampfer und der Abtauverdampfer. Der Verflüssiger kondensiert im  Kühlbetrieb das überhitzte Kältemittel vollständig und der Abtauverdampfer verdampft das Kältemittel im Abtaubetrieb durch Prozessumkehrung, bevor es zurück in den Kompressor gesaugt wird. Der Verdampfer ist gleichzeitig der Prüfling, den es zu untersuchen gilt. Der Verdampfer ist durch die vorgesehenen Absperrventile austauschbar. Diese Vorrichtung ermöglicht unterschiedliche Bautypen von Luftkühlern zu testen. 
+
+Danach gelangt das Kältemittel in den Ölabscheider, der einen großen Teil des Öls vom Kältemittel trennt und zurück zur Schmierung des Verdichters führt. Vor und nach dem Kompressor sind sowohl zur Energie-Bilanzierung als auch zwecks Anlagenschutz Temperatur- und Drucksensoren installiert. Dieser Vorgang ist im Abtau- und Kühlbetrieb identisch. 
+
+Das Kältemittel, das aus dem internen Wärmeübertrager Richtung Kompressor gesaugt wird, passiert zunächst den Tropfenabscheider.  Der Tropfenabscheider stellt sicher, dass kein noch flüssiges Kältemittel in den Kompressor eindringt. Dies hätte verheerende Folgen für den Kompressor und wird genauer in Abschnitt \ref{sec:Informationstechnischer Aufbau} des Anlagenschutzes beschrieben. 
+
+In der Klimakammer findet der Verdampfungsprozess statt. Neben dem Verdampfer ist hier das Expansionsventil installiert. Das Kältemittel wird im Kühlfall durch die Flüssigkeitsleitung eingespritzt und verlässt den Verdampfer über die Saugleitung. Im Abtaubetrieb durch Prozessumkehrung kann das Heißgas entweder durch die Venturidüse in den Verdampfer  oder durch die Saugleitung gelangen\footnote{In dem weiteren Verlauf der Arbeit wird von Heißgaseintritt über die Venturidüse von \textit{Oben} gesprochen, da der Wärmeübertrager aus vier Rohrlamellen-Wärmeübertragern besteht und die Einspritzung stets im obersten, rechten  Rohr geschieht. Von \textit{Unten} wird hingegen benutzt um die Variante mit Eingang des Heißgases über die Saugleitung zu beschreiben, da die Saugleitung stets das unterste Rohr ist.}. Die Abbildung \ref{fig:Magnetventil} sind die Varianten mit den Magnetventilstellungen abgebildet. 
+
+
+\begin{figure}%[htb]
+\centering		
+\hspace{2cm}\includegraphics[width=1.15\textwidth]{Pictures/Schaltschema.pdf}
+\caption{Mögliche Magnetventil-Schaltungen}
+\label{fig:Magnetventil}
+\end{figure}
 
 \begin{table}[htb]
 \centering
-\caption{Leistungsdaten Kälteanlage}\vspace{6pt}
+\caption{Auslegungsdaten des Verflüssigungssatzes laut Hersteller}\vspace{6pt}
 \label{tab:Parameter KK}
 \begin{tabular}{ll}
 \hline 
@@ -34,6 +65,7 @@ Verflüssigungsdruck(abs) & 10,23 bar\\
 Sauggastemperatur & 2 °C\\
 \hline
 Verdichtungstemperatur &72,4 °C\\
+\hline
 Kälteleistung & 11,2 kW \\ 
 \hline 
 Verflüssigungsleistung & 15,3 kW\\
@@ -42,38 +74,18 @@ Leistungsaufnahme & 4,07 kW \\
 \hline
 Kälteleistungszahl & 2,74\\
 \hline 
-Massenstrom & 0,077 kg/s \\ 
+Kältemittel-Massenstrom & 0,077 kg/s \\ 
 \hline 
 max. Leistung der Lufterwämer & 2x 20 kW \\ 
 \hline 
-max. Befeuchtungsleistung & 12 g/h \\ 
-\hline 
 max. Kühlleistung & 10 kW \\ 
 \hline 
-min. Temperatur & 16,3 °C \\ 
-\hline 
 Steuer- und Regelungstechnik & TWINCAT 3/ VB.NET \\ 
-\hline 
-Hart echtzeitfähig & Ja \\ 
 \hline 
 \hline 
 \end{tabular} 
 \end{table}
 
-Die Hauptkomponenten der Kälteanlage sind der Kompressor, der Verflüssiger, der Verdampfer und der Abtauverdampfer. Der Verflüssiger kondensiert im  Kühlbetrieb das überhitzte Kältemittel vollständig und der Abtauverdampfer verdampft das Kältemittel im Abtaubetrieb durch Prozessumkehrung, bevor es zurück in den Kompressor gesaugt wird. Der Verdampfer ist gleichzeitig der Prüfling, den es zu untersuchen gilt. Der Verdampfer ist durch die vorgesehenen Absperrventile austauschbar. Diese Vorrichtung ermöglicht unterschiedliche Bautypen von Verdampfern zu testen. 
-
-Zwischen den Zustandspunkten 1 und 2 erfolgt die Verdichtung und Überhitzung des Kältemittels. Danach gelangt das Kältemittel in den Ölabscheider, der einen großen Teil des Öls vom Kältemittel trennt und zurück zur Schmierung des Verdichters führt. Vor und nach dem Kompressor sind sowohl zur Energie-Bilanzierung als auch zwecks Anlagenschutz Temperatur- und Drucksensoren installiert. Dieser Vorgang ist im Abtau- und Kühlbetrieb identisch. 
-
-Das Kältemittel, das aus dem internen Wärmeübertrager Richtung Kompressor gesaugt wird, passiert zunächst den Tropfenabscheider.  Der Tropfenabscheider stellt sicher, dass kein noch flüssiges Kältemittel in den Kompressor eindringt. Dies hätte verheerende Folgen für den Kompressor und wird genauer in Abschnitt \ref{subsec: Anlagenschutz} des Anlagenschutzes beschrieben. 
-
-In der Klimakammer findet der Verdampfungsprozess statt. Neben dem Verdampfer ist hier das Expansionsventil und die Versorgungsmimik installiert. Die Versorgungsmimik erlaubt drei verschiedene Durchströmungswege durch den Verdampfer. Die Abbildung \ref{fig:Magnetventil} sind die Varianten mit den Magnetventilstellungen abgebildet. 
-
-\begin{figure}[htb]
-%\centering	
-\includegraphics[ page=4, width=1.150\textwidth]{Pictures/RI.pdf}
-\caption{Kälteanlage-Fließbild}
-\label{fig:KA-Fliessbild}
-\end{figure}
 
 \subsubsection{Kühlbetrieb, Zustandspunkte: $1 \rightarrow 2 \rightarrow 2'\rightarrow 3' \rightarrow 3''\rightarrow  3''' \rightarrow 3 \rightarrow 4 \rightarrow 1' $}
 
@@ -84,7 +96,6 @@ Im \textbf{Kühlbetrieb} wird das Kältemittel durch das Expansionsventil entspa
 
 Im Abtaubetrieb durch Prozessumkehrung fließt das Kältemittel, vom Verdampfer kommend, auch erst in den Sammler, um danach durch den internen Wärmeübertrager zum Massenstromsensor zu gelangen. Danach wird es über das Expansionsventil in den Abtau-Verdampfer eingespritzt. Rückschlagventile sind jeweils vor und nach einem Wärmeübertrager installiert. Rückschlagventile erlauben dem Kältemittel, nur in eine Richtung zu fließen. Dies ermöglicht, dass im Abtaubetrieb das Kältemittel durch den Abtauverdampfer geführt wird und dort verdampft. 
 
-Im Abtaubetrieb durch Prozessumkehrung kann das Heißgas entweder durch die Venturidüse in den Verdampfer  oder durch die Saugleitung gelangen\footnote{In dem weiteren Verlauf der Arbeit wird von Heißgaseintritt über die Venturidüse von \textit{Oben} gesprochen, da der Wärmeübertrager aus vier Rohrlamellen-Wärmeübertragern besteht und die Einspritzung stets im obersten, rechten  Rohr geschieht. Von \textit{Unten} wird hingegen benutzt um die Variante mit Eingang des Heißgases über die Saugleitung zu beschreiben, da die Saugleitung stets das unterste Rohr ist.}.  
 
 
 
@@ -95,17 +106,10 @@ Im Abtaubetrieb durch Prozessumkehrung kann das Heißgas entweder durch die Vent
 
 
 
-\begin{figure}%[htb]
-\centering		
-\hspace{2cm}\includegraphics[page={3},width=1.15\textwidth]{Pictures/Schaltschema.pdf}
-\caption{Mögliche Magnetventil-Schaltungen}
-\label{fig:Magnetventil}
-\end{figure}
-
 \subsubsection*{Messtechnik}
 \label{subsubsec:Messtechnik}
 
-Die Kälteanlage ist mit drei Sensorenarten: Temperatur-, Druck- und Massenstromsensoren ausgerüstet. Diese Sensoren dienen zur Bilanzierung der Wärmeübertrager und des Kompressors, spielen aber auch eine wichtige Rolle beim Anlagenschutz. In Tabellen \ref{tab:Messtechnik KA} sind die Sensordaten aufgeführt. 
+Die Kälteanlage ist mit Temperatur-, Drucksensoren und einem Massenstromsensor ausgerüstet. Diese Sensoren dienen zur Bilanzierung der Wärmeübertrager und des Kompressors, spielen aber auch eine wichtige Rolle beim Anlagenschutz. In Tabellen \ref{tab:Messtechnik KA} sind die Sensordaten aufgeführt. 
 
 
 
@@ -118,79 +122,24 @@ Die Kälteanlage ist mit drei Sensorenarten: Temperatur-, Druck- und Massenstrom
  & \textbf{Drucksensor} & \textbf{Temperatursensor} & \textbf{Massenstromsensor} \\ 
 \hline 
 \hline 
-Typ & PA 33 X & • & OPTIMASS 6400 C \\ 
+Typ & PA 33 X & Pt100 & OPTIMASS 6400 C \\ 
 \hline 
-Hersteller & KELLER AG & • &  KROHNE Messtechnik GmbH \\ 
+Hersteller & KELLER AG & CALOPLEX &  KROHNE Messtechnik GmbH \\ 
 \hline 
-Messbereich & 0...30 bar ~ (0...10 bar) & • & 0...400 kg/h \\ 
+Messbereich & 0$\dots$30 bar ~ \newline (0$\dots$10 bar) & -100$\dots$100 °C & 0$\dots$400 kg/h \\ 
 \hline 
-Messfehler[$\%$] & 0,01 (10...40 °C)\newline 0,1 (-10...80 °C) & 0,1  & 0,6 \\ 
+Messfehler & 0,01 $\%$ (10$\dots$40 °C)\newline 0,1 $\%$ (-10$\dots$80 °C) & 0,15 °C $\dots$ 0,35 °C  & 0,6 $\%$ \\ 
 \hline 
-Kommunikationsart & RS-485 & 4...20 mA & RS-485 \\ 
+Kommunikationsart & RS485 & 4$\dots$20 mA & RS485 \\ 
 \hline 
-Abfragefrequenz & 400 Hz & • & • \\ 
+Abfragefrequenz & 400 Hz & Busklemmen abhängig & Baudrate abhängig \\ 
 \hline 
-Hilfsenergie [V] & 8...28 & - & 230  \\ 
+Hilfsenergie in V & 8$\dots$28 & - & 230  \\ 
 \hline
-Anzahl & 8  & 11 & 1 \\ 
+Anzahl & 8  & 12 & 1 \\ 
 \hline 
 %Datenblatt(URL) & http://www.keller-druck.com/picts/pdf/german/33xg.pdf & • & https://www.instrumart.com/assets/Krohne-optimass6000-datasheet.pdf \\ 
 \hline 
 \end{tabular} 
 \label{tab:Tabelle}
 \end{table}
-
-\newpage
-\subsubsection{Klimakammer}
-\label{subsec:Klimakammer}
-\begin{figure}[htb]
-\centering		\includegraphics[width=0.850\textwidth]{Pictures/HIL2.png}
-\caption{Wärmeströme in der Klimakammer \citep{Nuerenberg2015}}
-\label{fig:KK}
-\end{figure}
-
-
-Die Klimakammer erlaubt es, den Verdampfer und somit den Vereisungs- und Abtauprozess unter verschiedenen Abtaubedingungen zu untersuchen. Die Klimakammer ist als klassisches \textit{Hardware in the Loop}-System entworfen und wird so betrieben.  Die Kenndaten der Klimakammer stehen in Tabelle \ref{tab:Parameter KK}. Die Abbildung \ref{fig:KK} zeigt die Wärmeströme innerhalb der Klimakammer. Die Klimakammer ist in der Lage, eine stationäre Umgebungsbedingungen abzubilden. Es ist aber auch möglich, instationäre Situationen wie zum Beispiel Typtage oder -wochen nachzustellen. 
-In der Klimakammer ist die Verdampfereinheit mit der Kältemittelversorgungsmimik lokalisiert. Des Weiteren sind das Wägesystem und die eingesetzten Waagen in der Klimakammer platziert. 
-
-
-
-Die Klimakammer ist konzipiert für  Untersuchungen von Wärmepumpen und Kältemaschinen. Der Einsatz der Klimakammer in Kombination mit einer klimatisierbaren Versuchshalle hebt die Reproduzierbarkeit von Messungen. Die Bedingungen für Versuche können unabhängig von der Jahreszeit oder dem Tagesklima konstant gehalten werden. So lassen sich Versuche mit verschiedensten Umgebungsbedingungen ganz jährlich durchführen.  Die einzustellenden Parameter sind die Temperatur und die relative Luftfeuchtigkeit($RH$). Die Klimakammer wurde 2015 in Betrieb genommen und wird wie die Kälteanlage auch über eine SPS der Fa. Beckhoff geregelt und gesteuert. In dem Klimakammer-Projekt wurde von \textsc{\citeauthor{Nuerenberg2015}} beispielsweise die $Statusmaschine$ eingeführt, auf der auch das Konzept der SPS der Kälteanlage beruht (siehe Abschnitt \ref{sec:Informationstechnischer Aufbau}). 
-
-Die Klimakammer verfügt über Software-Schnittstellen  mit Simulationssoftware (zB. \textsc{Dymola}) und Datenbanken (zB. \textsc{MySQL}). Die Kombination aus Simulator mit echter Hardware wird als \textit{Hardware in the Loop} bezeichnet. Diese Methode dient zum Testen und Absichern von eingebetteten Systemen, die noch in der Entwicklung sind oder sich in der Inbetriebnahme befinden. Die Vorteile dieser Methode liegt in der Verkürzung der Inbetriebnahmephase, Verringerung der Entwicklungskosten und im risikofreien Testen der Anlage in Grenzsituationen. \citep{OPALRTT2014}
-
-
-\begin{table}[htb]
-\centering
-\caption{Systemparameter der Klimakammer \citep{Nuerenberg2015}}\vspace{6pt}
-\label{tab:Parameter KK}
-\begin{tabular}{ll}
-\hline 
-\textbf{Systemparameter} & \textbf{Klimakammer} \\ 
-\hline 
-\hline
-Volumen & 32,96 m$^3$ \\ 
-\hline 
-Oberfläche & 74,4 m$^2$ \\ 
-\hline 
-Wandstärke & 0,15 m \\ 
-\hline 
-max. Volumenstrom & 4000 m$^3$/h \\ 
-\hline 
-max. Leistung der Lufterwämer & 2x 20 kW \\ 
-\hline 
-max. Befeuchtungsleistung & 12 g/h \\ 
-\hline 
-max. Kühlleistung & 10 kW \\ 
-\hline 
-min. Temperatur & 16,3 °C \\ 
-\hline 
-Steuer- und Regelungstechnik & TWINCAT 3/ VB.NET \\ 
-\hline 
-Hart echtzeitfähig & Ja \\ 
-\hline 
-\hline
-\end{tabular} 
-\label{tab:Systemparameter-KK}
-\end{table} 
-
